@@ -33,7 +33,40 @@ export const cities: Record<string, CityInfo> = {
   "seattle": {
     name: "Seattle",
     state: "Washington",
-    articles: [],
+    articles: [
+      {
+        title: "25 Great Things To Do In Seattle If You're Visiting For The First Time",
+        url: "https://paperplanesandcaramelwaffles.com/things-to-do-in-seattle-first-time-visitors/",
+        source: "Paper Planes and Caramel Waffles",
+        description: "Comprehensive first-timer's guide to Seattle covering iconic landmarks, hidden gems, and must-see attractions.",
+      },
+      {
+        title: "23 Free and Cheap Things To Do in Seattle, Washington",
+        url: "https://gobackpacking.com/free-things-to-do-seattle/",
+        source: "Go Backpacking",
+        description: "Budget-friendly guide to exploring Seattle without breaking the bank, featuring free attractions and affordable activities.",
+      },
+      {
+        title: "Locals Guide to Seattle",
+        url: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+        source: "Seeking The Now",
+        description: "Insider's guide to Seattle featuring local favorites, hidden neighborhoods, authentic restaurants, and off-the-beaten-path experiences.",
+      },
+    ],
+    creators: [
+      {
+        name: "Secret Seattle",
+        url: "https://secretseattle.co/",
+        description: "Discover hidden gems, quirky restaurants, secret bars, and the best exhibitions, shows, and nightlife in Seattle.",
+        platform: "Website",
+      },
+      {
+        name: "The 500 Hidden Secrets of Seattle",
+        url: "https://www.the500hiddensecrets.com/united-states/seattle",
+        description: "Curated travel guide featuring 500 hidden spots hand-picked by local authors, covering dining, culture, shopping, and outdoor activities.",
+        platform: "Book/Website",
+      },
+    ],
   },
   "london": {
     name: "London",

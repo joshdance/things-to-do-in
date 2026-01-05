@@ -1,4 +1,4 @@
-import { Activity } from "@/types/activity";
+import { Activity, Tag } from "@/types/activity";
 
 interface ActivityCardProps {
   activity: Activity;
@@ -12,6 +12,19 @@ const categoryLabels: Record<string, string> = {
   "entertainment": "Entertainment",
   "shopping": "Shopping",
   "sports": "Sports",
+};
+
+const tagIcons: Record<Tag, string> = {
+  "kid-friendly": "👶",
+  "stroller-friendly": "🍼",
+  "wheelchair-accessible": "♿",
+  "dog-friendly": "🐶",
+  "free": "💰",
+  "budget": "💵",
+  "rainy-day": "🌧️",
+  "quick-stop": "⏱️",
+  "half-day": "🕐",
+  "full-day": "📅",
 };
 
 export function ActivityCard({ activity }: ActivityCardProps) {
@@ -33,14 +46,33 @@ export function ActivityCard({ activity }: ActivityCardProps) {
           </span>
         </div>
 
+        {activity.tags && activity.tags.length > 0 && (
+          <div className="mb-3 flex flex-wrap gap-1">
+            {activity.tags.map((tag) => (
+              <span
+                key={tag}
+                className="inline-flex items-center text-xs bg-gray-50 text-gray-700 px-2 py-1 rounded border border-gray-200"
+              >
+                <span className="mr-1">{tagIcons[tag]}</span>
+                {tag.split("-").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}
+              </span>
+            ))}
+          </div>
+        )}
+
         <p className="text-gray-600 text-sm mb-4">{activity.description}</p>
 
-        <div className="text-sm text-gray-500 mb-3">
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(activity.address)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-gray-500 hover:text-blue-600 mb-3 block transition-colors"
+        >
           <svg className="inline w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
           </svg>
           {activity.address}
-        </div>
+        </a>
 
         {activity.recommendedBy && activity.recommendedBy.length > 0 && (
           <div className="mb-3 text-xs">

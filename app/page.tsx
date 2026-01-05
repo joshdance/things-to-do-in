@@ -1,23 +1,57 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { getActivitiesByCity } from "@/data/activities";
 import { cities } from "@/data/cities";
 import { ActivityCard } from "@/components/ActivityCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
+import { TagFilter } from "@/components/TagFilter";
 import { ArticlesSection } from "@/components/ArticlesSection";
 import { CreatorsSection } from "@/components/CreatorsSection";
-import { City } from "@/types/activity";
+import { City, Tag } from "@/types/activity";
 
 export default function Home() {
-  const [selectedCity, setSelectedCity] = useState<City>("oklahoma-city");
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const cityParam = searchParams.get("city") as City | null;
+
+  const [selectedCity, setSelectedCity] = useState<City>(
+    cityParam && cityParam in cities ? cityParam : "oklahoma-city"
+  );
   const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedTags, setSelectedTags] = useState<Tag[]>([]);
   const cityActivities = getActivitiesByCity(selectedCity);
 
-  const filteredActivities =
-    selectedCategory === "all"
-      ? cityActivities
-      : cityActivities.filter((activity) => activity.category === selectedCategory);
+  // Update URL when city changes
+  useEffect(() => {
+    if (cityParam !== selectedCity) {
+      router.push(`/?city=${selectedCity}`, { scroll: false });
+    }
+  }, [selectedCity, cityParam, router]);
+
+  const handleCityChange = (newCity: City) => {
+    setSelectedCity(newCity);
+    setSelectedCategory("all");
+    setSelectedTags([]);
+  };
+
+  const handleTagToggle = (tag: Tag) => {
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
+    );
+  };
+
+  const filteredActivities = cityActivities.filter((activity) => {
+    const categoryMatch =
+      selectedCategory === "all" || activity.category === selectedCategory;
+
+    const tagMatch =
+      selectedTags.length === 0 ||
+      selectedTags.every((tag) => activity.tags?.includes(tag));
+
+    return categoryMatch && tagMatch;
+  });
 
   const currentCity = cities[selectedCity];
 
@@ -30,10 +64,7 @@ export default function Home() {
               Things to Do in{" "}
               <select
                 value={selectedCity}
-                onChange={(e) => {
-                  setSelectedCity(e.target.value as City);
-                  setSelectedCategory("all");
-                }}
+                onChange={(e) => handleCityChange(e.target.value as City)}
                 className="bg-white text-blue-600 rounded-lg px-4 py-2 text-4xl md:text-5xl font-bold cursor-pointer hover:bg-blue-50 transition-colors"
               >
                 {Object.entries(cities).map(([key, city]) => (
@@ -57,6 +88,10 @@ export default function Home() {
             selectedCategory={selectedCategory}
             onCategoryChange={setSelectedCategory}
           />
+        </div>
+
+        <div className="mb-8">
+          <TagFilter selectedTags={selectedTags} onTagToggle={handleTagToggle} />
         </div>
 
         <div className="mb-4">

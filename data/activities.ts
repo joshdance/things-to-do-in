@@ -545,6 +545,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "85 Pike St, Seattle, WA 98101",
     priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "61",
@@ -581,6 +588,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "211 W Highland Dr, Seattle, WA 98119",
     priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "65",
@@ -653,6 +667,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "1702 Alki Ave SW, Seattle, WA 98116",
     priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "73",
@@ -761,6 +782,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "8498 Seaview Pl NW, Seattle, WA 98117",
     priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "85",
@@ -770,6 +798,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "1402 E Galer St, Seattle, WA 98112",
     priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "86",
@@ -788,6 +823,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "Lake Union, Seattle, WA",
     priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "88",
@@ -797,6 +839,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "2743 Westlake Ave N, Seattle, WA 98109",
     priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "89",
@@ -824,6 +873,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "Fremont, Seattle, WA",
     priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "92",
@@ -842,6 +898,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "Ballard, Seattle, WA",
     priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "94",
@@ -851,6 +914,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "1050 N 34th St, Seattle, WA 98103",
     priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "95",
@@ -869,6 +939,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "3801 Discovery Park Blvd, Seattle, WA 98199",
     priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "97",
@@ -914,6 +991,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "Capitol Hill, Seattle, WA",
     priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "102",
@@ -968,6 +1052,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "Seattle Waterfront, Seattle, WA",
     priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "108",
@@ -1013,6 +1104,13 @@ export const activities: Activity[] = [
     city: "seattle",
     address: "500 2nd Ave, Seattle, WA 98104",
     priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
   },
   {
     id: "113",
@@ -1031,6 +1129,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Tower of London, London EC3N 4AB, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "stroller-friendly", "wheelchair-accessible", "rainy-day", "half-day"],
   },
   {
     id: "115",
@@ -1040,6 +1139,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Great Russell St, London WC1B 3DG, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "wheelchair-accessible", "free", "rainy-day", "half-day"],
   },
   {
     id: "116",
@@ -1058,6 +1158,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Hyde Park, London W2 2UH, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "dog-friendly", "free", "half-day"],
   },
   {
     id: "118",
@@ -1067,6 +1168,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "West End, London, UK",
     priceRange: "$$$",
+    tags: ["half-day"],
   },
   {
     id: "119",
@@ -1076,6 +1178,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Buckingham Palace Rd, London SW1W 1QH, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1092,6 +1195,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Riverside Building, County Hall, London SE1 7PB, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "wheelchair-accessible", "quick-stop"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1108,6 +1212,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Marylebone Rd, London NW1 5LR, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1124,6 +1229,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "County Hall, Westminster Bridge Rd, London SE1 7PB, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1145,6 +1251,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Multiple departure points, London, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1161,6 +1268,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "55 York Rd, London SE1 7NJ, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1177,6 +1285,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Multiple departure points, London, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1193,6 +1302,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Studio Tour Dr, Leavesden, Watford WD25 7LR, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1209,6 +1319,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Tower Bridge Rd, London SE1 2UP, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1225,6 +1336,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "London SW1A 1AA, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1241,6 +1353,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "3 Swiss Ct, London W1D 6AP, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1257,6 +1370,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "1 Swiss Ct, London W1D 6AP, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "quick-stop"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1273,6 +1387,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "87-135 Brompton Rd, London SW1X 7XL, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1289,6 +1404,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "188-196 Regent St., London W1B 5BT, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1310,6 +1426,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Belvedere Rd, London SE1 7PB, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "free", "quick-stop"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1326,6 +1443,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "London SW1A 2BJ, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "dog-friendly", "free", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1342,6 +1460,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Lyceum Theatre, 21 Wellington St, London WC2E 7RQ, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1358,6 +1477,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Cromwell Rd, London SW7 5BD, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1379,6 +1499,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Buckingham Palace, London SW1A 1AA, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "free", "quick-stop"],
     recommendedBy: [
       {
         source: "fullsuitcase",
@@ -1395,6 +1516,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Hampton Court Way, Molesey, East Molesey KT8 9AU, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1411,6 +1533,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Multiple departure points, London, UK",
     priceRange: "$$$",
+    tags: ["kid-friendly", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1427,6 +1550,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "383-387 High St, London E15 4QZ, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1443,6 +1567,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Covent Garden Piazza, London WC2E 7BB, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1459,6 +1584,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "No. 1 Warehouse, West India Quay, London E14 4AL, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1475,6 +1601,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Regent's Park, London NW1 4RY, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1491,6 +1618,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Romney Rd, London SE10 9NF, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1507,6 +1635,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Randolph Ave, London W9 1PD, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1523,6 +1652,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Kensington Gardens, London W2 2UH, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1539,6 +1669,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Royal Botanic Gardens, Kew, Richmond TW9 3AE, UK",
     priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "full-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1555,6 +1686,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Exhibition Rd, South Kensington, London SW7 2DD, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
       {
         source: "thekittchen",
@@ -1587,6 +1719,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "Swain's Ln, London N6 6PJ, UK",
     priceRange: "$$",
+    tags: ["half-day"],
     recommendedBy: [
       {
         source: "thetravelscribes",
@@ -1603,6 +1736,7 @@ export const activities: Activity[] = [
     city: "london",
     address: "26 Greek St, London W1D 5DE, UK",
     priceRange: "$",
+    tags: ["kid-friendly", "free", "rainy-day", "quick-stop"],
     recommendedBy: [
       {
         source: "thetravelscribes",
@@ -1896,6 +2030,406 @@ export const activities: Activity[] = [
         source: "thetravelscribes",
         articleTitle: "Hidden Gems in London | 21 non touristy things to do in London",
         articleUrl: "https://thetravelscribes.com/non-touristy-things-to-do-in-london-hidden-gems/",
+      },
+    ],
+  },
+  {
+    id: "170",
+    name: "The Walrus and the Carpenter",
+    description: "Acclaimed oyster-focused restaurant in Ballard serving fresh Pacific Northwest oysters and seasonal small plates. Known for impeccable seafood and intimate atmosphere.",
+    category: "food-drink",
+    city: "seattle",
+    address: "4743 Ballard Ave NW, Seattle, WA 98107",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "171",
+    name: "Ray's Café & Boathouse",
+    description: "Waterfront dining with two levels: upstairs casual café and fine dining in the boathouse. Spectacular seafood and mountain views over Puget Sound.",
+    category: "food-drink",
+    city: "seattle",
+    address: "6049 Seaview Ave NW, Seattle, WA 98107",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "172",
+    name: "Reuben's Brews",
+    description: "Award-winning craft brewery in Ballard with family-friendly atmosphere. Extensive beer selection and rotating taps featuring IPAs, lagers, and seasonal brews.",
+    category: "food-drink",
+    city: "seattle",
+    address: "5010 14th Ave NW, Seattle, WA 98107",
+    priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "173",
+    name: "Percy's",
+    description: "Craft cocktail bar in Ballard featuring creative drinks and sophisticated atmosphere. Intimate neighborhood spot for expertly mixed cocktails.",
+    category: "food-drink",
+    city: "seattle",
+    address: "5233 Ballard Ave NW, Seattle, WA 98107",
+    priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "174",
+    name: "Salty's on Alki Beach",
+    description: "Upscale waterfront seafood restaurant with panoramic Seattle skyline views. Famous weekend brunch buffet featuring fresh seafood, oyster bar, and made-to-order dishes.",
+    category: "food-drink",
+    city: "seattle",
+    address: "1936 Harbor Ave SW, Seattle, WA 98126",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "175",
+    name: "Revel",
+    description: "Modern Korean-American restaurant in Fremont serving creative fusion dishes and dumplings. Popular neighborhood spot with innovative cuisine.",
+    category: "food-drink",
+    city: "seattle",
+    address: "513 N 36th St, Seattle, WA 98103",
+    priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "176",
+    name: "Oddfellows Café",
+    description: "Bright coffee shop and restaurant in Capitol Hill with fresh seasonal menu. Located adjacent to Elliott Bay Book Company, perfect for coffee and casual dining.",
+    category: "food-drink",
+    city: "seattle",
+    address: "1525 10th Ave, Seattle, WA 98122",
+    priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "177",
+    name: "Needle and Thread Speakeasy",
+    description: "Hidden cocktail bar in Capitol Hill accessed through Tavern Law. Prohibition-style drinks custom-made to individual preferences in intimate setting.",
+    category: "food-drink",
+    city: "seattle",
+    address: "1809 Minor Ave, Seattle, WA 98101",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "178",
+    name: "Knee High Stocking Co",
+    description: "Vintage-inspired speakeasy in Capitol Hill with handcrafted cocktails and nostalgic atmosphere. Creative drinks in charming hidden bar setting.",
+    category: "food-drink",
+    city: "seattle",
+    address: "1356 E Olive Way, Seattle, WA 98122",
+    priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "179",
+    name: "Mbar",
+    description: "Rooftop cocktail bar in South Lake Union with 360-degree views of downtown Seattle and Space Needle. Stylish lounge atmosphere with panoramic city vistas.",
+    category: "food-drink",
+    city: "seattle",
+    address: "515 Westlake Ave N, Seattle, WA 98109",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "180",
+    name: "The Nest",
+    description: "Rooftop bar at Thompson Seattle in Belltown with cozy vibe and panoramic waterfront views. Craft cocktails and stunning sunset views over Puget Sound.",
+    category: "food-drink",
+    city: "seattle",
+    address: "110 Stewart St, Seattle, WA 98101",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "181",
+    name: "Elliott Bay Book Company",
+    description: "Beloved independent bookstore in Capitol Hill with vast selection of new and used books across all genres. Seattle institution with cozy reading nooks and café.",
+    category: "shopping",
+    city: "seattle",
+    address: "1521 10th Ave, Seattle, WA 98122",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "182",
+    name: "Ballard Locks",
+    description: "Historic Hiram M. Chittenden Locks where boats pass between Puget Sound and Lake Union. Watch salmon swim upstream and boats navigate the locks. Free public attraction.",
+    category: "attractions",
+    city: "seattle",
+    address: "3015 NW 54th St, Seattle, WA 98107",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "183",
+    name: "Ballard Farmers Market",
+    description: "Sunday market in Ballard featuring fresh local seafood, seasonal produce, artisan products, and food vendors. Vibrant community gathering with Pacific Northwest specialties.",
+    category: "shopping",
+    city: "seattle",
+    address: "5300 Ballard Ave NW, Seattle, WA 98107",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "184",
+    name: "West Seattle Farmers Market",
+    description: "Sunday market in West Seattle featuring local produce, food trucks, and artisan goods. Community favorite for fresh ingredients and prepared foods.",
+    category: "shopping",
+    city: "seattle",
+    address: "California Ave SW & SW Alaska St, Seattle, WA 98116",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "185",
+    name: "Fremont Sunday Market",
+    description: "Weekly market blending fresh goods with quirky handmade arts and crafts. Eclectic mix of vendors in Seattle's artistic Fremont neighborhood.",
+    category: "shopping",
+    city: "seattle",
+    address: "3401 Evanston Ave N, Seattle, WA 98103",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "186",
+    name: "Von Sauna",
+    description: "Wood-fired floating sauna experience on Lake Union. Unique wellness activity combining traditional Finnish sauna culture with Seattle's waterfront setting.",
+    category: "entertainment",
+    city: "seattle",
+    address: "Lake Union, Seattle, WA",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "187",
+    name: "Seaplane Tours",
+    description: "Aerial tours via seaplane offering bird's-eye views of Seattle skyline, Puget Sound, and nearby islands. Scenic flights operated by Kenmore Air and other companies.",
+    category: "attractions",
+    city: "seattle",
+    address: "Seattle Waterfront, Seattle, WA",
+    priceRange: "$$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "188",
+    name: "Bainbridge Island Ferry",
+    description: "Scenic 35-minute ferry ride from downtown Seattle to Bainbridge Island with stunning views of city skyline and Olympic Mountains. Popular day trip destination.",
+    category: "attractions",
+    city: "seattle",
+    address: "801 Alaskan Way, Seattle, WA 98104",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "189",
+    name: "Vashon Island Ferry",
+    description: "Quick 20-minute ferry ride from Seattle to charming Vashon Island. Access to island's beaches, parks, and artistic community.",
+    category: "attractions",
+    city: "seattle",
+    address: "Seattle Waterfront, Seattle, WA",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "190",
+    name: "Bloedel Reserve",
+    description: "150-acre forest garden on Bainbridge Island with Japanese Garden, reflection pool, and scenic walking trails through diverse landscapes. Peaceful natural sanctuary.",
+    category: "outdoor",
+    city: "seattle",
+    address: "7571 NE Dolphin Dr, Bainbridge Island, WA 98110",
+    priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "191",
+    name: "Fay Bainbridge Park",
+    description: "Beach park on Bainbridge Island with scenic walking trails, camping facilities, and Puget Sound views. Great for picnicking and beachcombing.",
+    category: "outdoor",
+    city: "seattle",
+    address: "15446 Sunrise Dr NE, Bainbridge Island, WA 98110",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "192",
+    name: "Winslow",
+    description: "Charming downtown area on Bainbridge Island with boutique shops, art galleries, and waterfront cafés. Perfect for strolling after the ferry ride.",
+    category: "shopping",
+    city: "seattle",
+    address: "Winslow Way, Bainbridge Island, WA 98110",
+    priceRange: "$$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "193",
+    name: "Point Robinson Lighthouse",
+    description: "Historic lighthouse on Vashon Island's Maury Island with beach access and views of Puget Sound. Scenic spot for photography and coastal walks.",
+    category: "attractions",
+    city: "seattle",
+    address: "3705 SW Point Robinson Rd, Vashon, WA 98070",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
+      },
+    ],
+  },
+  {
+    id: "194",
+    name: "Maury Island Marine Park",
+    description: "Waterfront park on Vashon Island featuring hiking trails, beaches, and natural beauty. Peaceful escape with Puget Sound shoreline access.",
+    category: "outdoor",
+    city: "seattle",
+    address: "59th Ave SW, Vashon, WA 98070",
+    priceRange: "$",
+    recommendedBy: [
+      {
+        source: "seekingthenow",
+        articleTitle: "Locals Guide to Seattle",
+        articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
       },
     ],
   },

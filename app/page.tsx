@@ -5,6 +5,8 @@ import { getActivitiesByCity } from "@/data/activities";
 import { cities } from "@/data/cities";
 import { ActivityCard } from "@/components/ActivityCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
+import { ArticlesSection } from "@/components/ArticlesSection";
+import { CreatorsSection } from "@/components/CreatorsSection";
 import { City } from "@/types/activity";
 
 export default function Home() {
@@ -74,6 +76,16 @@ export default function Home() {
             <p className="text-gray-500 text-lg">No activities found in this category.</p>
           </div>
         )}
+
+        <ArticlesSection
+          articles={currentCity.articles || []}
+          cityName={currentCity.name}
+        />
+
+        <CreatorsSection
+          creators={currentCity.creators || []}
+          cityName={currentCity.name}
+        />
       </main>
 
       <footer className="bg-gray-800 text-white py-6 px-4 mt-12">

@@ -7,7 +7,13 @@ export type Category =
   | "shopping"
   | "sports";
 
-export type City = "oklahoma-city" | "salt-lake-city" | "seattle";
+export type City = "oklahoma-city" | "salt-lake-city" | "seattle" | "london";
+
+export interface ArticleSource {
+  source: string; // e.g., "fullsuitcase"
+  articleTitle?: string;
+  articleUrl?: string;
+}
 
 export interface Activity {
   id: string;
@@ -19,4 +25,5 @@ export interface Activity {
   website?: string;
   imageUrl?: string;
   priceRange?: "$" | "$$" | "$$$" | "$$$$";
+  recommendedBy?: ArticleSource[]; // Articles that recommend this activity
 }

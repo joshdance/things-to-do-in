@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { getActivitiesByCity } from "@/data/activities";
 import { cities } from "@/data/cities";
@@ -9,9 +9,10 @@ import { CategoryFilter } from "@/components/CategoryFilter";
 import { TagFilter } from "@/components/TagFilter";
 import { ArticlesSection } from "@/components/ArticlesSection";
 import { CreatorsSection } from "@/components/CreatorsSection";
+import { ListSidebar } from "@/components/ListSidebar";
 import { City, Tag } from "@/types/activity";
 
-export default function Home() {
+function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const cityParam = searchParams.get("city") as City | null;
@@ -21,6 +22,9 @@ export default function Home() {
   );
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedTags, setSelectedTags] = useState<Tag[]>([]);
+  const [favorites, setFavorites] = useState<string[]>([]);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [justAddedId, setJustAddedId] = useState<string | null>(null);
   const cityActivities = getActivitiesByCity(selectedCity);
 
   // Update URL when city changes
@@ -42,6 +46,24 @@ export default function Home() {
     );
   };
 
+  const handleToggleFavorite = (activityId: string) => {
+    setFavorites((prev) => {
+      if (prev.includes(activityId)) {
+        // Remove from favorites
+        return prev.filter((id) => id !== activityId);
+      } else {
+        // Add to favorites and trigger glow animation
+        setJustAddedId(activityId);
+        setTimeout(() => setJustAddedId(null), 1000);
+        return [...prev, activityId];
+      }
+    });
+  };
+
+  const handleRemoveFavorite = (activityId: string) => {
+    setFavorites((prev) => prev.filter((id) => id !== activityId));
+  };
+
   const filteredActivities = cityActivities.filter((activity) => {
     const categoryMatch =
       selectedCategory === "all" || activity.category === selectedCategory;
@@ -55,8 +77,19 @@ export default function Home() {
 
   const currentCity = cities[selectedCity];
 
+  const favoriteActivities = cityActivities.filter((activity) =>
+    favorites.includes(activity.id)
+  );
+
   return (
     <div className="min-h-screen">
+      <ListSidebar
+        isOpen={isSidebarOpen}
+        onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
+        favorites={favoriteActivities}
+        onRemoveFavorite={handleRemoveFavorite}
+        justAddedId={justAddedId}
+      />
       <header className="bg-blue-600 text-white py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-2">
@@ -102,7 +135,12 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredActivities.map((activity) => (
-            <ActivityCard key={activity.id} activity={activity} />
+            <ActivityCard
+              key={activity.id}
+              activity={activity}
+              isFavorite={favorites.includes(activity.id)}
+              onToggleFavorite={handleToggleFavorite}
+            />
           ))}
         </div>
 
@@ -129,5 +167,13 @@ export default function Home() {
         </div>
       </footer>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gray-50" />}>
+      <HomeContent />
+    </Suspense>
   );
 }

@@ -2,6 +2,8 @@ import { Activity, Tag } from "@/types/activity";
 
 interface ActivityCardProps {
   activity: Activity;
+  isFavorite: boolean;
+  onToggleFavorite: (activityId: string) => void;
 }
 
 const categoryLabels: Record<string, string> = {
@@ -27,11 +29,32 @@ const tagIcons: Record<Tag, string> = {
   "full-day": "📅",
 };
 
-export function ActivityCard({ activity }: ActivityCardProps) {
+export function ActivityCard({ activity, isFavorite, onToggleFavorite }: ActivityCardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden">
+    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden relative">
+      <button
+        onClick={() => onToggleFavorite(activity.id)}
+        className="absolute top-4 right-4 z-10 p-2 rounded-full hover:bg-gray-100 transition-colors"
+        aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
+      >
+        <svg
+          className={`w-6 h-6 transition-colors ${
+            isFavorite ? "fill-red-500 text-red-500" : "fill-none text-gray-400 hover:text-red-500"
+          }`}
+          stroke="currentColor"
+          strokeWidth="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+          />
+        </svg>
+      </button>
       <div className="p-6">
-        <div className="flex items-start justify-between mb-2">
+        <div className="flex items-start justify-between mb-2 pr-8">
           <h3 className="text-xl font-semibold text-gray-900">{activity.name}</h3>
           {activity.priceRange && (
             <span className="text-sm font-medium text-gray-600 bg-gray-100 px-2 py-1 rounded">
@@ -97,7 +120,7 @@ export function ActivityCard({ activity }: ActivityCardProps) {
                       ) : (
                         rec.source
                       )}
-                      {index < activity.recommendedBy.length - 1 && ", "}
+                      {index < (activity.recommendedBy?.length ?? 0) - 1 && ", "}
                     </span>
                   ))}
                 </span>

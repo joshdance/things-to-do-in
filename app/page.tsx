@@ -11,28 +11,51 @@ import { ArticlesSection } from "@/components/ArticlesSection";
 import { CreatorsSection } from "@/components/CreatorsSection";
 import { ListSidebar } from "@/components/ListSidebar";
 import { City, Tag } from "@/types/activity";
+import { useFavorites } from "@/contexts/FavoritesContext";
 
 function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const cityParam = searchParams.get("city") as City | null;
+  const categoryParam = searchParams.get("category");
+  const tagsParam = searchParams.get("tags");
+
+  const {
+    favorites,
+    isSidebarOpen,
+    justAddedId,
+    toggleFavorite,
+    removeFavorite,
+    toggleSidebar,
+  } = useFavorites();
 
   const [selectedCity, setSelectedCity] = useState<City>(
     cityParam && cityParam in cities ? cityParam : "oklahoma-city"
   );
-  const [selectedCategory, setSelectedCategory] = useState("all");
-  const [selectedTags, setSelectedTags] = useState<Tag[]>([]);
-  const [favorites, setFavorites] = useState<string[]>([]);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [justAddedId, setJustAddedId] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState(categoryParam || "all");
+  const [selectedTags, setSelectedTags] = useState<Tag[]>(
+    tagsParam ? (tagsParam.split(",") as Tag[]) : []
+  );
   const cityActivities = getActivitiesByCity(selectedCity);
 
-  // Update URL when city changes
+  // Update URL when filters change
   useEffect(() => {
-    if (cityParam !== selectedCity) {
-      router.push(`/?city=${selectedCity}`, { scroll: false });
+    const params = new URLSearchParams();
+    params.set("city", selectedCity);
+    if (selectedCategory !== "all") {
+      params.set("category", selectedCategory);
     }
-  }, [selectedCity, cityParam, router]);
+    if (selectedTags.length > 0) {
+      params.set("tags", selectedTags.join(","));
+    }
+
+    const newUrl = `/?${params.toString()}`;
+    const currentUrl = `/?${searchParams.toString()}`;
+
+    if (newUrl !== currentUrl) {
+      router.push(newUrl, { scroll: false });
+    }
+  }, [selectedCity, selectedCategory, selectedTags, router, searchParams]);
 
   const handleCityChange = (newCity: City) => {
     setSelectedCity(newCity);
@@ -44,24 +67,6 @@ function HomeContent() {
     setSelectedTags((prev) =>
       prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
     );
-  };
-
-  const handleToggleFavorite = (activityId: string) => {
-    setFavorites((prev) => {
-      if (prev.includes(activityId)) {
-        // Remove from favorites
-        return prev.filter((id) => id !== activityId);
-      } else {
-        // Add to favorites and trigger glow animation
-        setJustAddedId(activityId);
-        setTimeout(() => setJustAddedId(null), 1000);
-        return [...prev, activityId];
-      }
-    });
-  };
-
-  const handleRemoveFavorite = (activityId: string) => {
-    setFavorites((prev) => prev.filter((id) => id !== activityId));
   };
 
   const filteredActivities = cityActivities.filter((activity) => {
@@ -85,9 +90,9 @@ function HomeContent() {
     <div className="min-h-screen">
       <ListSidebar
         isOpen={isSidebarOpen}
-        onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
+        onToggle={toggleSidebar}
         favorites={favoriteActivities}
-        onRemoveFavorite={handleRemoveFavorite}
+        onRemoveFavorite={removeFavorite}
         justAddedId={justAddedId}
       />
       <header className="bg-blue-600 text-white py-12 px-4">
@@ -139,7 +144,7 @@ function HomeContent() {
               key={activity.id}
               activity={activity}
               isFavorite={favorites.includes(activity.id)}
-              onToggleFavorite={handleToggleFavorite}
+              onToggleFavorite={toggleFavorite}
             />
           ))}
         </div>

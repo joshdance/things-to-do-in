@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { FavoritesProvider } from "@/contexts/FavoritesContext";
 
 export const metadata: Metadata = {
   title: "Things to Do - Discover Activities in Your City",
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased bg-gray-50">
-        {children}
+        <FavoritesProvider>
+          {children}
+        </FavoritesProvider>
       </body>
     </html>
   );

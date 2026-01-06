@@ -9,6 +9,7 @@ export const activities: Activity[] = [
   {
     id: "1",
     name: "Oklahoma City National Memorial & Museum",
+    slug: "oklahoma-city-national-memorial-museum",
     description: "Expansive park dedicated to honoring the victims, survivors, and rescue teams impacted by the tragic 1995 bombing. Features memorials, sculptures, and museum displays chronicling the devastating terrorist attack.",
     category: "attractions",
     city: "oklahoma-city",
@@ -18,6 +19,7 @@ export const activities: Activity[] = [
   {
     id: "2",
     name: "National Cowboy & Western Heritage Museum",
+    slug: "national-cowboy-western-heritage-museum",
     description: "Museum devoted to the American West with artworks and exhibits honoring American Indians and cowboys. Features Western art gallery, Native American art gallery, historical galleries, replica town, and interactive children's museum.",
     category: "arts-culture",
     city: "oklahoma-city",
@@ -27,6 +29,7 @@ export const activities: Activity[] = [
   {
     id: "3",
     name: "Bricktown",
+    slug: "bricktown",
     description: "Updated warehouse area turned entertainment district with bowling, boat rides, mini-golf, shopping, dining, baseball games, and live music. Water taxis offer guided tours along the canal.",
     category: "entertainment",
     city: "oklahoma-city",
@@ -36,6 +39,7 @@ export const activities: Activity[] = [
   {
     id: "4",
     name: "Myriad Botanical Gardens",
+    slug: "myriad-botanical-gardens",
     description: "15-acre park in the center of Oklahoma City with lovely gardens, grassy areas, playground, dog park, and a 13,000 square foot conservatory.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -45,6 +49,7 @@ export const activities: Activity[] = [
   {
     id: "5",
     name: "Museum of Osteology",
+    slug: "museum-of-osteology",
     description: "7,000-square-foot exhibition space featuring nearly 300 complete skeletons from tiny hummingbirds to giant humpback whales. Includes Explorer's Corner with hands-on touchable animal skulls.",
     category: "attractions",
     city: "oklahoma-city",
@@ -54,6 +59,7 @@ export const activities: Activity[] = [
   {
     id: "6",
     name: "Paycom Center",
+    slug: "paycom-center",
     description: "Arena opened in 2002, home venue for the NBA's Oklahoma City Thunder since 2008. Hosts exciting performances, festivals, basketball games, and concerts.",
     category: "sports",
     city: "oklahoma-city",
@@ -63,6 +69,7 @@ export const activities: Activity[] = [
   {
     id: "7",
     name: "Science Museum Oklahoma",
+    slug: "science-museum-oklahoma",
     description: "Over eight acres of hands-on science experiences with planetarium, interactive exhibits, and gardens. Features Kirkpatrick Planetarium, Science Live experiments, and CurioCity where reality meets fantasy.",
     category: "attractions",
     city: "oklahoma-city",
@@ -72,6 +79,7 @@ export const activities: Activity[] = [
   {
     id: "8",
     name: "Henry Overholser Mansion",
+    slug: "henry-overholser-mansion",
     description: "Historic mansion with guided tours of dining room, butler's pantry, kitchen, bedrooms, and bathrooms. Features new signs, old photos showing historical room layouts, and preserved historical architecture.",
     category: "attractions",
     city: "oklahoma-city",
@@ -81,6 +89,7 @@ export const activities: Activity[] = [
   {
     id: "9",
     name: "Martin Park Nature Center",
+    slug: "martin-park-nature-center",
     description: "Natural area near W. Memorial Road with mature forests, open grasslands, and a small creek-fed lake. Offers 2.5 miles of connected walking trails with no admission fee.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -90,6 +99,7 @@ export const activities: Activity[] = [
   {
     id: "10",
     name: "Hefner Lake & Park",
+    slug: "hefner-lake-park",
     description: "Perfect for exercise, playing ball, and bird watching. Popular stop for waterbirds during migrations along America's central flyway. Fantastic for sailing with weekend races from April to October.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -99,6 +109,7 @@ export const activities: Activity[] = [
   {
     id: "11",
     name: "Wheeler Ferris Wheel at Wheeler District",
+    slug: "wheeler-ferris-wheel-at-wheeler-district",
     description: "Ferris wheel above the Oklahoma River providing amazing views of downtown OKC. Waterfront area features river paths, hammocks, and games. Especially wonderful for seeing the city skyline lit up at night.",
     category: "entertainment",
     city: "oklahoma-city",
@@ -108,6 +119,7 @@ export const activities: Activity[] = [
   {
     id: "12",
     name: "Oklahoma State Capitol",
+    slug: "oklahoma-state-capitol",
     description: "Historic 1917 Greco-Roman government building with beautiful artworks and small museum. Houses extensive art collection across six floors of rotundas, corridors, and galleries - Oklahoma's largest public art museum.",
     category: "attractions",
     city: "oklahoma-city",
@@ -117,6 +129,7 @@ export const activities: Activity[] = [
   {
     id: "13",
     name: "Oklahoma Veterans Memorial",
+    slug: "oklahoma-veterans-memorial",
     description: "Tribute in State Capitol Park honoring state war veterans who made the ultimate sacrifice. Features 'The Big Guy' statue and four walls with bas-relief bronze panels representing WWI, WWII, Korean War, and Vietnam War.",
     category: "attractions",
     city: "oklahoma-city",
@@ -126,6 +139,7 @@ export const activities: Activity[] = [
   {
     id: "14",
     name: "American Banjo Museum",
+    slug: "american-banjo-museum",
     description: "21,000 square foot facility dedicated to banjo history and culture. Features over 400 instruments, recordings, films, videos, sheet music, teaching materials, and banjo-related keepsakes.",
     category: "arts-culture",
     city: "oklahoma-city",
@@ -135,6 +149,7 @@ export const activities: Activity[] = [
   {
     id: "15",
     name: "Will Rogers Park",
+    slug: "will-rogers-park",
     description: "30-acre green space offering peaceful retreat year-round. Features formal rose garden, scenic walkways, arboretum, education center, and garden exhibition building where gardeners showcase their skills.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -144,6 +159,7 @@ export const activities: Activity[] = [
   {
     id: "16",
     name: "Skydance Bridge",
+    slug: "skydance-bridge",
     description: "380-foot pedestrian bridge towering 197 feet high, inspired by Oklahoma's state bird, the scissor-tailed flycatcher. Made of 412 tons of steel with LED lights that change colors for special occasions nightly.",
     category: "attractions",
     city: "oklahoma-city",
@@ -153,6 +169,7 @@ export const activities: Activity[] = [
   {
     id: "17",
     name: "Oklahoma Railway Museum",
+    slug: "oklahoma-railway-museum",
     description: "Railway history museum with freight cars, passenger cars, and genuine steam engine on display. Offers train rides on first and third Saturdays from April to August.",
     category: "attractions",
     city: "oklahoma-city",
@@ -162,6 +179,7 @@ export const activities: Activity[] = [
   {
     id: "18",
     name: "Orr Family Farm",
+    slug: "orr-family-farm",
     description: "Fall destination with huge corn maze filled with hidden games and codes. Features hayrides to maze and pumpkin patch with unique pumpkins. Includes campfire area for toasting marshmallows.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -171,6 +189,7 @@ export const activities: Activity[] = [
   {
     id: "19",
     name: "National Stockyard Exchange",
+    slug: "national-stockyard-exchange",
     description: "World's largest stocker/feeder cattle market operating since October 1910. Hosts cattle auctions every Monday and Tuesday, annual Stockyards Stampede, saddle shop, souvenir shop, and bath soap store.",
     category: "attractions",
     city: "oklahoma-city",
@@ -180,6 +199,7 @@ export const activities: Activity[] = [
   {
     id: "20",
     name: "OKC Outlets",
+    slug: "okc-outlets",
     description: "Oklahoma's only outlet center with over 80 brands including Polo Ralph Lauren, Michael Kors, and Nike Factory Store. Food court offers pizza, pretzels, burgers, and subs.",
     category: "shopping",
     city: "oklahoma-city",
@@ -189,6 +209,7 @@ export const activities: Activity[] = [
   {
     id: "21",
     name: "Kids City Indoor Playground",
+    slug: "kids-city-indoor-playground",
     description: "Indoor playground featuring slides, ball pit, and dedicated zones for toddlers and babies. Perfect for active play regardless of weather.",
     category: "entertainment",
     city: "oklahoma-city",
@@ -198,6 +219,7 @@ export const activities: Activity[] = [
   {
     id: "22",
     name: "Breakaway Indoor Playground",
+    slug: "breakaway-indoor-playground",
     description: "Large indoor playground with free wifi and coffee for parents. Clean facility where even grownups can play alongside their little ones.",
     category: "entertainment",
     city: "oklahoma-city",
@@ -207,6 +229,7 @@ export const activities: Activity[] = [
   {
     id: "23",
     name: "Mon Ami Indoor Playground",
+    slug: "mon-ami-indoor-playground",
     description: "Montessori-inspired indoor playground for children up to 5 years old. Open play with reservations recommended for this educational play space.",
     category: "entertainment",
     city: "oklahoma-city",
@@ -216,6 +239,7 @@ export const activities: Activity[] = [
   {
     id: "24",
     name: "Unpluggits",
+    slug: "unpluggits",
     description: "Creative space combining painting, sketching and sculpting activities with indoor playground featuring two-story play structure, sunken pirate ship, and toddler tree house.",
     category: "arts-culture",
     city: "oklahoma-city",
@@ -225,6 +249,7 @@ export const activities: Activity[] = [
   {
     id: "25",
     name: "OKANA Indoor Waterpark",
+    slug: "okana-indoor-waterpark",
     description: "Indoor waterpark featuring Splash Falls with kid-sized slides, splash zones, and Low Tide area with gentle slide and mini lazy river perfect for toddlers.",
     category: "entertainment",
     city: "oklahoma-city",
@@ -234,6 +259,7 @@ export const activities: Activity[] = [
   {
     id: "26",
     name: "Myriad Gardens Children's Garden & Splash Park",
+    slug: "myriad-gardens-children-s-garden-splash-park",
     description: "Free children's garden with unique climbing structures, forts, slides, and summer splash park. Mo's Carousel available for rides. Perfect for toddlers to explore and cool off.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -243,6 +269,7 @@ export const activities: Activity[] = [
   {
     id: "27",
     name: "Oklahoma Firefighters Museum",
+    slug: "oklahoma-firefighters-museum",
     description: "Museum with restored firetrucks indoors and outdoors. Features play station with coloring books, fire truck toys, and outdoor playground. Free for kids under 3.",
     category: "attractions",
     city: "oklahoma-city",
@@ -252,6 +279,7 @@ export const activities: Activity[] = [
   {
     id: "28",
     name: "Lions Children's Playground at Lake Hefner",
+    slug: "lions-children-s-playground-at-lake-hefner",
     description: "Accessible playground great for strollers and wheelchairs. Located along Lake Hefner for family walks and outdoor exploration.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -261,6 +289,7 @@ export const activities: Activity[] = [
   {
     id: "29",
     name: "Wild Horse Park",
+    slug: "wild-horse-park",
     description: "Frontier-themed park with inclusive playground ensuring everyone can enjoy. Great for engaging young imaginations with accessible play equipment.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -270,6 +299,7 @@ export const activities: Activity[] = [
   {
     id: "30",
     name: "Little River Park",
+    slug: "little-river-park",
     description: "Park with nature walking trail, two ponds, two pirate-themed play areas, and large splash pad. Perfect summer destination for toddlers.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -279,6 +309,7 @@ export const activities: Activity[] = [
   {
     id: "31",
     name: "Hafer Park",
+    slug: "hafer-park",
     description: "Park with great toddler-focused playground equipment and open green spaces for running and exploring. Family-friendly atmosphere.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -288,6 +319,7 @@ export const activities: Activity[] = [
   {
     id: "32",
     name: "Ted Anderson Park Splash Pad",
+    slug: "ted-anderson-park-splash-pad",
     description: "Newly renovated park with brand-new splash pad and playground equipment. Great for summer water play with toddlers.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -297,6 +329,7 @@ export const activities: Activity[] = [
   {
     id: "33",
     name: "Oklahoma City Zoo Children's Area",
+    slug: "oklahoma-city-zoo-children-s-area",
     description: "Zoo area where little ones can pet sheep and goats, feed lorikeets, and play in running stream and splash pad. Animal encounters designed for young children.",
     category: "attractions",
     city: "oklahoma-city",
@@ -306,6 +339,7 @@ export const activities: Activity[] = [
   {
     id: "34",
     name: "Metropolitan Library System Story Time",
+    slug: "metropolitan-library-system-story-time",
     description: "Free story time programs at various library locations featuring books, songs, and activities. Includes free play areas, toys, and seasonal classes for toddlers.",
     category: "arts-culture",
     city: "oklahoma-city",
@@ -315,6 +349,7 @@ export const activities: Activity[] = [
   {
     id: "35",
     name: "Wheeler District Playground",
+    slug: "wheeler-district-playground",
     description: "Family-friendly district with playground, yard games, and walkable area. Toddler-safe spaces for running and exploring along the river.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -324,6 +359,7 @@ export const activities: Activity[] = [
   {
     id: "36",
     name: "Scissortail Park Children's Playground",
+    slug: "scissortail-park-children-s-playground",
     description: "Modern park playground with climbing structures, rock wall, sandpits, and water features. Multiple play zones designed for different age groups including toddlers.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -333,6 +369,7 @@ export const activities: Activity[] = [
   {
     id: "37",
     name: "Bricktown Ballpark Playground",
+    slug: "bricktown-ballpark-playground",
     description: "Baseball park with lawn area perfect for toddlers to run around and playground near first base line. Family-friendly game day atmosphere.",
     category: "sports",
     city: "oklahoma-city",
@@ -342,6 +379,7 @@ export const activities: Activity[] = [
   {
     id: "38",
     name: "Science Museum Oklahoma CurioCity",
+    slug: "science-museum-oklahoma-curiocity",
     description: "20,000-square-foot village with eight whimsical neighborhoods designed specifically for young children. Hands-on exploration and imaginative play. Free admission for children two and under.",
     category: "attractions",
     city: "oklahoma-city",
@@ -351,6 +389,7 @@ export const activities: Activity[] = [
   {
     id: "39",
     name: "Oklahoma City Museum of Art Family Space",
+    slug: "oklahoma-city-museum-of-art-family-space",
     description: "Large family space within the museum featuring art activities, toys, hands-on activities, and books specifically for younger kids. Creative exploration in welcoming environment.",
     category: "arts-culture",
     city: "oklahoma-city",
@@ -360,6 +399,7 @@ export const activities: Activity[] = [
   {
     id: "40",
     name: "Mustang Park & Splash Pad",
+    slug: "mustang-park-splash-pad",
     description: "Community park with toddler-friendly playground and splash pad. Great open spaces for picnics and family gatherings in summer months.",
     category: "outdoor",
     city: "oklahoma-city",
@@ -369,6 +409,7 @@ export const activities: Activity[] = [
   {
     id: "41",
     name: "Eva's Bakery",
+    slug: "eva-s-bakery",
     description: "Precious French bakery serving best coffee and pastries in town. Known for classic Croque Madame, authentic European cappuccino, and cinnamon rolls. French bistro-style al fresco dining.",
     category: "food-drink",
     city: "salt-lake-city",
@@ -378,6 +419,7 @@ export const activities: Activity[] = [
   {
     id: "42",
     name: "Great Salt Lake Scenic Flight",
+    slug: "great-salt-lake-scenic-flight",
     description: "Small plane flight experiencing beauty of Great Salt Lake, local wildlife, Wasatch Mountains, and Salt Lake City from above. Pilots fly lower for up-close views.",
     category: "attractions",
     city: "salt-lake-city",
@@ -387,6 +429,7 @@ export const activities: Activity[] = [
   {
     id: "43",
     name: "Downtown Street Art Murals",
+    slug: "downtown-street-art-murals",
     description: "Self-guided treasure hunt exploring funky murals throughout the city. Features 'Come in & Remember What a Book Smells Like', 'Belief in the Making', 'Legends of Rock', and 'Utah Jazz' murals.",
     category: "arts-culture",
     city: "salt-lake-city",
@@ -396,6 +439,7 @@ export const activities: Activity[] = [
   {
     id: "44",
     name: "Natural History Museum of Utah",
+    slug: "natural-history-museum-of-utah",
     description: "Museum with epic city views and mountains surrounding Salt Lake City. Modern architecture showcase with running and walking trails around property.",
     category: "attractions",
     city: "salt-lake-city",
@@ -405,6 +449,7 @@ export const activities: Activity[] = [
   {
     id: "45",
     name: "Temple Square",
+    slug: "temple-square",
     description: "Most visited attraction in Utah marking the center of the city. Important historical site built by early pioneers. Beautiful Christmas lights during holidays.",
     category: "attractions",
     city: "salt-lake-city",
@@ -414,6 +459,7 @@ export const activities: Activity[] = [
   {
     id: "46",
     name: "Bonneville Salt Flats",
+    slug: "bonneville-salt-flats",
     description: "Ethereal landscape perfect for photography, especially at sunset. Two-hour drive from SLC. Popular spot for portrait photos and unique outdoor experience.",
     category: "outdoor",
     city: "salt-lake-city",
@@ -423,6 +469,7 @@ export const activities: Activity[] = [
   {
     id: "47",
     name: "Sugar House",
+    slug: "sugar-house",
     description: "Hip neighborhood with great restaurants, coffee shops, breweries, galleries, and nightlife. Walkable area retaining historic charm with Sugar House Park featuring mountain views.",
     category: "entertainment",
     city: "salt-lake-city",
@@ -432,6 +479,7 @@ export const activities: Activity[] = [
   {
     id: "48",
     name: "Salt Lake City Public Library",
+    slug: "salt-lake-city-public-library",
     description: "One of the most beautiful buildings in the city with spectacular architecture. Features gorgeous courtyard and sparkles beautifully during golden hour.",
     category: "arts-culture",
     city: "salt-lake-city",
@@ -441,6 +489,7 @@ export const activities: Activity[] = [
   {
     id: "49",
     name: "Red Iguana",
+    slug: "red-iguana",
     description: "Legendary Mexican restaurant serving locals and tourists since 1985. Famous for mole, incredible margaritas, carnitas, and fajitas. Multiple award-winning establishment.",
     category: "food-drink",
     city: "salt-lake-city",
@@ -450,6 +499,7 @@ export const activities: Activity[] = [
   {
     id: "50",
     name: "Utah State Capitol",
+    slug: "utah-state-capitol",
     description: "Historic government building with tours available. Great views of Wasatch Mountains to the east from Capitol steps. Learn about Utah history and culture.",
     category: "attractions",
     city: "salt-lake-city",
@@ -459,6 +509,7 @@ export const activities: Activity[] = [
   {
     id: "51",
     name: "Settebello Pizzeria Napoletana",
+    slug: "settebello-pizzeria-napoletana",
     description: "Best Neapolitan-style pizza in town. Verace Pizza Napoletana certified with authentic brick ovens. Settebello pizza features crushed tomatoes, pancetta, sausage, mushroom, pine nuts, and basil.",
     category: "food-drink",
     city: "salt-lake-city",
@@ -468,6 +519,7 @@ export const activities: Activity[] = [
   {
     id: "52",
     name: "Ken Sanders Rare Books",
+    slug: "ken-sanders-rare-books",
     description: "Antiquarian bookshop with maze of bookshelves stacked to the brim. Features free book wall out front. Hidden gem for book lovers.",
     category: "shopping",
     city: "salt-lake-city",
@@ -477,6 +529,7 @@ export const activities: Activity[] = [
   {
     id: "53",
     name: "Sweet Lake Biscuits and Limeade",
+    slug: "sweet-lake-biscuits-and-limeade",
     description: "Perfect first stop after landing with 10/10 biscuits and refreshing limeade. Sweet and tart combination hits the spot.",
     category: "food-drink",
     city: "salt-lake-city",
@@ -486,6 +539,7 @@ export const activities: Activity[] = [
   {
     id: "54",
     name: "Ensign Peak",
+    slug: "ensign-peak",
     description: "Great hike in SLC offering spectacular views of the city and surrounding mountains. Popular outdoor activity.",
     category: "outdoor",
     city: "salt-lake-city",
@@ -495,6 +549,7 @@ export const activities: Activity[] = [
   {
     id: "55",
     name: "Red Butte Garden",
+    slug: "red-butte-garden",
     description: "Botanical garden and amphitheater with versatile activities. Beautiful outdoor space for exploring nature and attending concerts.",
     category: "outdoor",
     city: "salt-lake-city",
@@ -504,6 +559,7 @@ export const activities: Activity[] = [
   {
     id: "56",
     name: "Living Room Lookout Trail",
+    slug: "living-room-lookout-trail",
     description: "2.4-mile out and back trail offering exercise and chances to see local Utah wildlife. Great city views from the top.",
     category: "outdoor",
     city: "salt-lake-city",
@@ -513,6 +569,7 @@ export const activities: Activity[] = [
   {
     id: "57",
     name: "Sugar House Park",
+    slug: "sugar-house-park",
     description: "Over 110 acres of lush greenery and rolling hills. Stunning local hangout with incredible mountain views.",
     category: "outdoor",
     city: "salt-lake-city",
@@ -522,6 +579,7 @@ export const activities: Activity[] = [
   {
     id: "58",
     name: "Ruth's Diner",
+    slug: "ruth-s-diner",
     description: "Beloved Salt Lake City restaurant in business for over 91 years. Second oldest restaurant in all of Utah with classic American fare.",
     category: "food-drink",
     city: "salt-lake-city",
@@ -531,6 +589,7 @@ export const activities: Activity[] = [
   {
     id: "59",
     name: "Seattle Coffee Culture",
+    slug: "seattle-coffee-culture",
     description: "Birthplace of Starbucks with abundance of wonderful coffee shops serving strong brews. Local gems include Milstead & Co., Caffé Vita, Seven Coffee Roasters, and Victrola Coffee Roasters.",
     category: "food-drink",
     city: "seattle",
@@ -540,6 +599,7 @@ export const activities: Activity[] = [
   {
     id: "60",
     name: "Pike Place Market",
+    slug: "pike-place-market",
     description: "Oldest continuously-operating market in the United States. Famous fishmongers toss fresh catch, plus rows of fresh produce, locally-made cheese, and artisan goods. Don't miss Beecher's Cheese and Pike Place Chowder.",
     category: "shopping",
     city: "seattle",
@@ -556,6 +616,7 @@ export const activities: Activity[] = [
   {
     id: "61",
     name: "Post Alley Gum Wall",
+    slug: "post-alley-gum-wall",
     description: "Quirky wall covered in thousands of pieces of chewed gum. Popular photo spot near Pike Place Market.",
     category: "attractions",
     city: "seattle",
@@ -565,6 +626,7 @@ export const activities: Activity[] = [
   {
     id: "62",
     name: "Mount Rainier Hot Air Balloon Ride",
+    slug: "mount-rainier-hot-air-balloon-ride",
     description: "Float in hot air balloon at sunrise directly in front of Mount Rainier. Launch just prior to sunrise over rivers, lakes, and forests for unforgettable views.",
     category: "attractions",
     city: "seattle",
@@ -574,6 +636,7 @@ export const activities: Activity[] = [
   {
     id: "63",
     name: "Fremont Troll",
+    slug: "fremont-troll",
     description: "Giant troll sculpture living beneath George Washington Memorial Bridge in Fremont neighborhood. Quirky art installation and popular photo spot.",
     category: "attractions",
     city: "seattle",
@@ -583,6 +646,7 @@ export const activities: Activity[] = [
   {
     id: "64",
     name: "Kerry Park",
+    slug: "kerry-park",
     description: "Best free panoramic view of Seattle skyline and Mount Rainier. Tiny park perfect for photos and picnics with iconic Space Needle view.",
     category: "outdoor",
     city: "seattle",
@@ -599,6 +663,7 @@ export const activities: Activity[] = [
   {
     id: "65",
     name: "Gasworks Park",
+    slug: "gasworks-park",
     description: "Former gas plant turned park on north shore of Lake Union. Old plant structures with graffiti, great for kite flying, picnics, and unique city views.",
     category: "outdoor",
     city: "seattle",
@@ -608,6 +673,7 @@ export const activities: Activity[] = [
   {
     id: "66",
     name: "The Pink Door",
+    slug: "the-pink-door",
     description: "Intimate Italian-American restaurant with spectacular Seattle views and famous Saturday cabaret & burlesque shows featuring aerial artists. Reservations recommended.",
     category: "entertainment",
     city: "seattle",
@@ -617,6 +683,7 @@ export const activities: Activity[] = [
   {
     id: "67",
     name: "Space Needle",
+    slug: "space-needle",
     description: "Iconic 520-foot observation tower with panoramic views of Seattle and Mount Rainier from observation deck. Most recognizable feature of Seattle skyline.",
     category: "attractions",
     city: "seattle",
@@ -626,6 +693,7 @@ export const activities: Activity[] = [
   {
     id: "68",
     name: "Chihuly Garden and Glass",
+    slug: "chihuly-garden-and-glass",
     description: "Long-term exhibit featuring colorful, whimsical glasswork by celebrated artist Dale Chihuly. Spectacular art displays in garden and indoor galleries.",
     category: "arts-culture",
     city: "seattle",
@@ -635,6 +703,7 @@ export const activities: Activity[] = [
   {
     id: "69",
     name: "Museum of Pop Culture (MoPOP)",
+    slug: "museum-of-pop-culture-mopop",
     description: "Purple and silver wavy building housing music and movie history. Rock 'n' roll sound lab, Game of Thrones manuscripts, and hundreds of famous movie props.",
     category: "arts-culture",
     city: "seattle",
@@ -644,6 +713,7 @@ export const activities: Activity[] = [
   {
     id: "70",
     name: "Original Starbucks",
+    slug: "original-starbucks",
     description: "Very first Starbucks location with vintage mermaid logo. Historic coffee shop often with lines wrapping around the block on weekends.",
     category: "food-drink",
     city: "seattle",
@@ -653,6 +723,7 @@ export const activities: Activity[] = [
   {
     id: "71",
     name: "Starbucks Reserve Roastery",
+    slug: "starbucks-reserve-roastery",
     description: "Fancy coffee experience with gorgeous copper roasting basins and specialty small-batch coffee. Try the cold brew float in beautiful facility.",
     category: "food-drink",
     city: "seattle",
@@ -662,6 +733,7 @@ export const activities: Activity[] = [
   {
     id: "72",
     name: "Alki Beach",
+    slug: "alki-beach",
     description: "Beautiful beach with sweeping bay views, public grills, picnic tables, and hipster-meets-Jersey-Shore vibe. Evening bonfires and sunset views available.",
     category: "outdoor",
     city: "seattle",
@@ -678,6 +750,7 @@ export const activities: Activity[] = [
   {
     id: "73",
     name: "Molly Moon's Ice Cream",
+    slug: "molly-moon-s-ice-cream",
     description: "Local chain with kick-ass flavors like honey lavender and Yeti. Consciously-run company sourcing 90% local ingredients, using compostable materials, paying living wages.",
     category: "food-drink",
     city: "seattle",
@@ -687,6 +760,7 @@ export const activities: Activity[] = [
   {
     id: "74",
     name: "Frankie & Jo's",
+    slug: "frankie-jo-s",
     description: "Vegan and gluten-free ice cream made from cashew and coconut milk. Must-try flavor: California Cabin with smoked vanilla, pine, and black pepper cardamom cookie chunks.",
     category: "food-drink",
     city: "seattle",
@@ -696,6 +770,7 @@ export const activities: Activity[] = [
   {
     id: "75",
     name: "Elliott's Oyster House",
+    slug: "elliott-s-oyster-house",
     description: "Fresh seafood restaurant with oysters and catch of the day. Prime waterfront location for ocean-fresh dining.",
     category: "food-drink",
     city: "seattle",
@@ -705,6 +780,7 @@ export const activities: Activity[] = [
   {
     id: "76",
     name: "Sky View Observatory",
+    slug: "sky-view-observatory",
     description: "Tallest viewpoint of Seattle on 73rd floor of Columbia Tower. See Space Needle from above with speakeasy bar serving cocktails at 35 stories high.",
     category: "attractions",
     city: "seattle",
@@ -714,6 +790,7 @@ export const activities: Activity[] = [
   {
     id: "77",
     name: "Boeing Factory Tour",
+    slug: "boeing-factory-tour",
     description: "Tour of massive Boeing Factory in Everett. See planes being built section by section with hands-on displays including walk-through International Space Station section.",
     category: "attractions",
     city: "seattle",
@@ -723,6 +800,7 @@ export const activities: Activity[] = [
   {
     id: "78",
     name: "Olympic Sculpture Park",
+    slug: "olympic-sculpture-park",
     description: "Free outdoor sculpture park with modern art set against Olympic Mountains and Puget Sound backdrop. One of three Seattle Art Museum facilities.",
     category: "arts-culture",
     city: "seattle",
@@ -732,6 +810,7 @@ export const activities: Activity[] = [
   {
     id: "79",
     name: "Seattle Aquarium",
+    slug: "seattle-aquarium",
     description: "Marine life from Puget Sound and ocean. Popular family attraction on the waterfront. Included in Seattle CityPASS.",
     category: "attractions",
     city: "seattle",
@@ -741,6 +820,7 @@ export const activities: Activity[] = [
   {
     id: "80",
     name: "Snoqualmie Falls",
+    slug: "snoqualmie-falls",
     description: "268-foot cascading waterfall, one of Washington's best. Super accessible with paved paths just steps from parking lot. Quick visit with impressive views.",
     category: "outdoor",
     city: "seattle",
@@ -750,6 +830,7 @@ export const activities: Activity[] = [
   {
     id: "81",
     name: "Twin Falls Hike",
+    slug: "twin-falls-hike",
     description: "2.5-mile moderate hike through dense forest hugging riverside. Beautiful escape from city, can be combined with Snoqualmie Falls visit.",
     category: "outdoor",
     city: "seattle",
@@ -759,6 +840,7 @@ export const activities: Activity[] = [
   {
     id: "82",
     name: "Seattle Pinball Museum",
+    slug: "seattle-pinball-museum",
     description: "Interactive museum with 50+ vintage pinball machines. Unlimited play for entry fee. Best interactive museum in Seattle.",
     category: "entertainment",
     city: "seattle",
@@ -768,6 +850,7 @@ export const activities: Activity[] = [
   {
     id: "83",
     name: "Green Lake",
+    slug: "green-lake",
     description: "2.8-mile trail around lake popular with runners, bikers, and dogs. Perfect for nice day walks with many cute cafes nearby.",
     category: "outdoor",
     city: "seattle",
@@ -777,6 +860,7 @@ export const activities: Activity[] = [
   {
     id: "84",
     name: "Golden Gardens Park Tide Pools",
+    slug: "golden-gardens-park-tide-pools",
     description: "Explore tide pools within Seattle city limits. Nice beach for relaxing and approved bonfire pits for evening fires in Ballard neighborhood.",
     category: "outdoor",
     city: "seattle",
@@ -793,6 +877,7 @@ export const activities: Activity[] = [
   {
     id: "85",
     name: "Volunteer Park Conservatory",
+    slug: "volunteer-park-conservatory",
     description: "Lovely indoor escape for rainy days with plants from around the world. Perfect place to wander for an hour. Bruce Lee's grave nearby in Volunteer Park.",
     category: "outdoor",
     city: "seattle",
@@ -809,6 +894,7 @@ export const activities: Activity[] = [
   {
     id: "86",
     name: "Beacon Food Forest",
+    slug: "beacon-food-forest",
     description: "Community-run edible forest in Beacon Hill. Volunteers and community learn to grow and share food. Everyone welcome.",
     category: "outdoor",
     city: "seattle",
@@ -818,6 +904,7 @@ export const activities: Activity[] = [
   {
     id: "87",
     name: "Lake Union Kayaking",
+    slug: "lake-union-kayaking",
     description: "Rent kayak or SUP to enjoy being on water with stunning Mount Rainier views on clear days. Affordable way to experience Seattle's waterways.",
     category: "outdoor",
     city: "seattle",
@@ -834,6 +921,7 @@ export const activities: Activity[] = [
   {
     id: "88",
     name: "Hot Tub Boat",
+    slug: "hot-tub-boat",
     description: "Rent hot tub boat on Lake Union. Soak in warm water while taking in city views. Fits maximum of 6 people for 2-hour rental.",
     category: "entertainment",
     city: "seattle",
@@ -850,6 +938,7 @@ export const activities: Activity[] = [
   {
     id: "89",
     name: "Theo Chocolate Factory Tour",
+    slug: "theo-chocolate-factory-tour",
     description: "Bean-to-bar chocolate factory tour showing origins of cacao to finished product. Hour-long interactive experience with chocolate tasting. Seattle-based company since 2006.",
     category: "attractions",
     city: "seattle",
@@ -859,6 +948,7 @@ export const activities: Activity[] = [
   {
     id: "90",
     name: "Lady Yum Macaroons",
+    slug: "lady-yum-macaroons",
     description: "Over-the-top pretty macaroons with creative flavors like Circus Animal, Espresso Fudge, Raspberry Chardonnay, and Honey Lavender. Instagram-worthy desserts.",
     category: "food-drink",
     city: "seattle",
@@ -868,6 +958,7 @@ export const activities: Activity[] = [
   {
     id: "91",
     name: "Fremont Neighborhood",
+    slug: "fremont-neighborhood",
     description: "Quirky neighborhood with cute shops, cafes, breweries, and unique attractions. Self-proclaimed 'center of the universe' with houseboats, Fremont Troll, and Sunday Street Market.",
     category: "entertainment",
     city: "seattle",
@@ -884,6 +975,7 @@ export const activities: Activity[] = [
   {
     id: "92",
     name: "Rattlesnake Ledge Hike",
+    slug: "rattlesnake-ledge-hike",
     description: "5-mile round trip hike with 1,500 foot elevation gain offering spectacular lake views. Most popular day hike near Seattle, 40 minutes from downtown. Upper viewpoints less crowded.",
     category: "outdoor",
     city: "seattle",
@@ -893,6 +985,7 @@ export const activities: Activity[] = [
   {
     id: "93",
     name: "Ballard Neighborhood",
+    slug: "ballard-neighborhood",
     description: "Local neighborhood with excellent affordable eats, dive bars, adorable coffee shops. Home to Victrola Coffee, Reuben's Brews, Asadero Ballard, and Hattie's Hat Restaurant.",
     category: "entertainment",
     city: "seattle",
@@ -909,6 +1002,7 @@ export const activities: Activity[] = [
   {
     id: "94",
     name: "Fremont Brewing",
+    slug: "fremont-brewing",
     description: "Cozy brewery with fireplace, nice outdoor area, free pretzels and local apples. Huge selection of tasty brews. Try nitro porter and double IPA.",
     category: "food-drink",
     city: "seattle",
@@ -925,6 +1019,7 @@ export const activities: Activity[] = [
   {
     id: "95",
     name: "Georgetown Brewing Co",
+    slug: "georgetown-brewing-co",
     description: "Brewery featuring Bodhizafa, one of the all-time favorite IPAs. Must-try for IPA fans.",
     category: "food-drink",
     city: "seattle",
@@ -934,6 +1029,7 @@ export const activities: Activity[] = [
   {
     id: "96",
     name: "Discovery Park Lighthouse",
+    slug: "discovery-park-lighthouse",
     description: "Largest park in Seattle with nearly 12 miles of walking trails. West Point Lighthouse excellent for sunset. Great birdwatching and spotting harbor seals and sea lions.",
     category: "outdoor",
     city: "seattle",
@@ -950,6 +1046,7 @@ export const activities: Activity[] = [
   {
     id: "97",
     name: "SODO Track Street Art",
+    slug: "sodo-track-street-art",
     description: "2-mile urban art gallery with 50+ murals created by 60 artists from 20 countries. View from Metro bus or walk/bike the SODO trail for closer look.",
     category: "arts-culture",
     city: "seattle",
@@ -959,6 +1056,7 @@ export const activities: Activity[] = [
   {
     id: "98",
     name: "Tacos Chukis",
+    slug: "tacos-chukis",
     description: "Authentic Mexican fare at multiple locations. Local favorite for tacos and Mexican street food.",
     category: "food-drink",
     city: "seattle",
@@ -968,6 +1066,7 @@ export const activities: Activity[] = [
   {
     id: "99",
     name: "Ba Bar",
+    slug: "ba-bar",
     description: "Upscale Vietnamese restaurant with buzzy atmosphere. Great pho and Vietnamese specialties.",
     category: "food-drink",
     city: "seattle",
@@ -977,6 +1076,7 @@ export const activities: Activity[] = [
   {
     id: "100",
     name: "Paseo",
+    slug: "paseo",
     description: "Caribbean sandwiches in Fremont neighborhood. Local favorite for flavorful Caribbean fare.",
     category: "food-drink",
     city: "seattle",
@@ -986,6 +1086,7 @@ export const activities: Activity[] = [
   {
     id: "101",
     name: "Capitol Hill Nightlife",
+    slug: "capitol-hill-nightlife",
     description: "Seattle's coolest neighborhood and LGBTQ epicenter. Trendy brunch spots, boutiques during day. Buzzy restaurants and diverse bar scene at night.",
     category: "entertainment",
     city: "seattle",
@@ -1002,6 +1103,7 @@ export const activities: Activity[] = [
   {
     id: "102",
     name: "The Showbox",
+    slug: "the-showbox",
     description: "Premier live music venue with big name performers. Two locations: 1st Ave and SoDo. Check schedule for upcoming shows.",
     category: "entertainment",
     city: "seattle",
@@ -1011,6 +1113,7 @@ export const activities: Activity[] = [
   {
     id: "103",
     name: "McMenamins North Shore Lagoon",
+    slug: "mcmenamins-north-shore-lagoon",
     description: "Quirky tiki bar in former school with gourmet pub grub, rum cocktails, and large pool. Family friendly soaking pool. No reservations needed.",
     category: "entertainment",
     city: "seattle",
@@ -1020,6 +1123,7 @@ export const activities: Activity[] = [
   {
     id: "104",
     name: "Seattle Underground Tour",
+    slug: "seattle-underground-tour",
     description: "75-minute walking tour through underground tunnels beneath Seattle. Learn history of 1889 great fire and rebuilding of city one story above old streets.",
     category: "attractions",
     city: "seattle",
@@ -1029,6 +1133,7 @@ export const activities: Activity[] = [
   {
     id: "105",
     name: "Pioneer Square Art Walk",
+    slug: "pioneer-square-art-walk",
     description: "First Thursday of every month. Explore small exhibitions and working artist studios. Free event with free parking information available.",
     category: "arts-culture",
     city: "seattle",
@@ -1038,6 +1143,7 @@ export const activities: Activity[] = [
   {
     id: "106",
     name: "Rhein Haus Beer Hall",
+    slug: "rhein-haus-beer-hall",
     description: "German-style beer hall with bocce ball court, fire pit, house-made sausages and pretzels. Long beer list. Fun and low-key night out.",
     category: "food-drink",
     city: "seattle",
@@ -1047,6 +1153,7 @@ export const activities: Activity[] = [
   {
     id: "107",
     name: "Whale Watching",
+    slug: "whale-watching",
     description: "Day tours leaving from Seattle to see orcas and other sea creatures in Puget Sound near San Juan Islands. Bucket list experience.",
     category: "attractions",
     city: "seattle",
@@ -1063,6 +1170,7 @@ export const activities: Activity[] = [
   {
     id: "108",
     name: "Argosy Harbor Cruise",
+    slug: "argosy-harbor-cruise",
     description: "Variety of cruise options from cocktail sailing to 1-hour harbor tours highlighting city's landmarks. See Seattle from the water in Puget Sound.",
     category: "attractions",
     city: "seattle",
@@ -1072,6 +1180,7 @@ export const activities: Activity[] = [
   {
     id: "109",
     name: "Woodinville Wine Country",
+    slug: "woodinville-wine-country",
     description: "25-minute drive northeast of Seattle with 100+ wineries and tasting rooms, 14 breweries, cideries, distilleries, and 30 restaurants. Perfect day trip.",
     category: "food-drink",
     city: "seattle",
@@ -1081,6 +1190,7 @@ export const activities: Activity[] = [
   {
     id: "110",
     name: "Stevens Pass Ski Resort",
+    slug: "stevens-pass-ski-resort",
     description: "90 minutes from Seattle. Feels world away from city. Great terrain and scenic skiing in winter months.",
     category: "sports",
     city: "seattle",
@@ -1090,6 +1200,7 @@ export const activities: Activity[] = [
   {
     id: "111",
     name: "Seattle Public Library",
+    slug: "seattle-public-library",
     description: "Beautiful modern architecture with gorgeous design and surrounding courtyard. Great place to work or grab coffee during golden hour when light sparkles off glass.",
     category: "arts-culture",
     city: "seattle",
@@ -1099,6 +1210,7 @@ export const activities: Activity[] = [
   {
     id: "112",
     name: "Smith Tower Observatory",
+    slug: "smith-tower-observatory",
     description: "35-story views with speakeasy bar. Happy hour Wednesday-Friday 3-6pm with $10 cocktail special. Best view-with-drinks option in Seattle.",
     category: "attractions",
     city: "seattle",
@@ -1115,6 +1227,7 @@ export const activities: Activity[] = [
   {
     id: "113",
     name: "Seattle Great Wheel",
+    slug: "seattle-great-wheel",
     description: "Ferris wheel on Pier 57 granting unique views of city. Fun waterfront attraction and photo opportunity.",
     category: "attractions",
     city: "seattle",
@@ -1124,6 +1237,7 @@ export const activities: Activity[] = [
   {
     id: "114",
     name: "Tower of London",
+    slug: "tower-of-london",
     description: "Historic castle on the River Thames, home to the Crown Jewels. Nearly 1,000 years of history as royal palace, prison, and fortress. Meet the famous Beefeater guards and explore medieval towers.",
     category: "attractions",
     city: "london",
@@ -1134,6 +1248,7 @@ export const activities: Activity[] = [
   {
     id: "115",
     name: "British Museum",
+    slug: "british-museum",
     description: "World-renowned museum featuring vast collection spanning 2 million years of human history. Houses the Rosetta Stone, Egyptian mummies, and Parthenon sculptures. Free admission to permanent collections.",
     category: "arts-culture",
     city: "london",
@@ -1144,6 +1259,7 @@ export const activities: Activity[] = [
   {
     id: "116",
     name: "Borough Market",
+    slug: "borough-market",
     description: "Historic food market dating back over 1,000 years. Gourmet street food, artisan products, fresh produce, and specialty items. Perfect spot for sampling British and international cuisine.",
     category: "food-drink",
     city: "london",
@@ -1153,6 +1269,7 @@ export const activities: Activity[] = [
   {
     id: "117",
     name: "Hyde Park",
+    slug: "hyde-park",
     description: "One of London's largest royal parks with 350 acres of green space. Features the Serpentine Lake, Diana Memorial Fountain, and Speaker's Corner. Perfect for picnics, boat rides, and leisurely walks.",
     category: "outdoor",
     city: "london",
@@ -1163,6 +1280,7 @@ export const activities: Activity[] = [
   {
     id: "118",
     name: "West End Theatre District",
+    slug: "west-end-theatre-district",
     description: "World-famous theatre district featuring spectacular musicals and plays. See shows like The Phantom of the Opera, Les Misérables, and Hamilton in historic venues. London's equivalent to Broadway.",
     category: "entertainment",
     city: "london",
@@ -1173,6 +1291,7 @@ export const activities: Activity[] = [
   {
     id: "119",
     name: "The Royal Mews",
+    slug: "the-royal-mews",
     description: "Working stables of Buckingham Palace housing the royal collection of historic coaches and carriages. See the Gold State Coach used for coronations, royal horses, and learn about ceremonial duties. Family-friendly attraction with interactive displays.",
     category: "attractions",
     city: "london",
@@ -1190,6 +1309,7 @@ export const activities: Activity[] = [
   {
     id: "120",
     name: "London Eye",
+    slug: "london-eye",
     description: "Europe's tallest Ferris wheel offering breathtaking 360-degree views of London. Especially beautiful at sunset with views spanning up to 25 miles. Includes 4D movie experience.",
     category: "attractions",
     city: "london",
@@ -1207,6 +1327,7 @@ export const activities: Activity[] = [
   {
     id: "121",
     name: "Madame Tussauds London",
+    slug: "madame-tussauds-london",
     description: "World-famous wax museum featuring lifelike figures of celebrities, historical figures, and royals. Interactive experiences include 4D Marvel movie and Star Wars experience. Book fast-track tickets to skip queues.",
     category: "attractions",
     city: "london",
@@ -1224,6 +1345,7 @@ export const activities: Activity[] = [
   {
     id: "122",
     name: "SEA LIFE London Aquarium",
+    slug: "sea-life-london-aquarium",
     description: "Impressive aquarium in County Hall featuring shark tanks, interactive games, and hands-on jellyfish-making experiences. Perfect 1-1.5 hour family visit near the London Eye.",
     category: "attractions",
     city: "london",
@@ -1246,6 +1368,7 @@ export const activities: Activity[] = [
   {
     id: "123",
     name: "London Bus Tours - Tootbus Kids Tour",
+    slug: "london-bus-tours-tootbus-kids-tour",
     description: "Family-focused open-top double-decker bus tour with engaging commentary designed specifically for children. See all major London highlights from the iconic red buses.",
     category: "entertainment",
     city: "london",
@@ -1263,6 +1386,7 @@ export const activities: Activity[] = [
   {
     id: "124",
     name: "London Duck Tours",
+    slug: "london-duck-tours",
     description: "Unique sightseeing tour in distinctive yellow amphibious WWII vehicle. Drive past major landmarks then splash into the Thames for a river tour. Interactive quacking game adds to the fun.",
     category: "entertainment",
     city: "london",
@@ -1280,6 +1404,7 @@ export const activities: Activity[] = [
   {
     id: "125",
     name: "Afternoon Tea Bus Tour",
+    slug: "afternoon-tea-bus-tour",
     description: "Two-hour afternoon tea experience aboard a vintage double-decker bus. Combine sightseeing with traditional British afternoon tea including sandwiches, scones, and pastries.",
     category: "food-drink",
     city: "london",
@@ -1297,6 +1422,7 @@ export const activities: Activity[] = [
   {
     id: "126",
     name: "Warner Bros. Studio Tour - The Making of Harry Potter",
+    slug: "warner-bros-studio-tour-the-making-of-harry-potter",
     description: "Magical behind-the-scenes tour of Harry Potter film sets, props, and costumes. Explore Diagon Alley, Hogwarts Great Hall, and Platform 9¾. Bus transfers available from central London.",
     category: "attractions",
     city: "london",
@@ -1314,6 +1440,7 @@ export const activities: Activity[] = [
   {
     id: "127",
     name: "Tower Bridge",
+    slug: "tower-bridge",
     description: "Iconic Victorian Gothic bridge and London landmark. Walk across the high-level walkways with glass floor panels for thrilling views. Learn about the bridge's history in the engine rooms.",
     category: "attractions",
     city: "london",
@@ -1331,6 +1458,7 @@ export const activities: Activity[] = [
   {
     id: "128",
     name: "Buckingham Palace State Rooms",
+    slug: "buckingham-palace-state-rooms",
     description: "Official residence of the British monarch. State Rooms open to visitors late July through September. Witness the grandeur of royal chambers, throne room, and priceless art collection.",
     category: "attractions",
     city: "london",
@@ -1348,6 +1476,7 @@ export const activities: Activity[] = [
   {
     id: "129",
     name: "LEGO Store Leicester Square",
+    slug: "lego-store-leicester-square",
     description: "Multi-level LEGO flagship store featuring impressive LEGO models, exclusive sets, and build-your-own minifigure stations. Kids can participate in Star Wars battles and creative building activities.",
     category: "shopping",
     city: "london",
@@ -1365,6 +1494,7 @@ export const activities: Activity[] = [
   {
     id: "130",
     name: "M&M's World London",
+    slug: "m-m-s-world-london",
     description: "Four-story chocolate lovers' paradise featuring the world's biggest candy wall. Choose from hundreds of M&M's colors, personalized items, and exclusive London merchandise.",
     category: "shopping",
     city: "london",
@@ -1382,6 +1512,7 @@ export const activities: Activity[] = [
   {
     id: "131",
     name: "Harrods",
+    slug: "harrods",
     description: "World-famous luxury department store with spectacular toy department spanning multiple floors. Don't miss the Egyptian escalator, ornate food halls with exotic fish and fruits, and elegant elevators.",
     category: "shopping",
     city: "london",
@@ -1399,6 +1530,7 @@ export const activities: Activity[] = [
   {
     id: "132",
     name: "Hamleys Toy Store",
+    slug: "hamleys-toy-store",
     description: "World's oldest and largest toy store spanning seven floors. Exclusive Playmobil and LEGO Royal Guard figurines. Live toy demonstrations, magic shows, and interactive play areas throughout.",
     category: "shopping",
     city: "london",
@@ -1421,6 +1553,7 @@ export const activities: Activity[] = [
   {
     id: "133",
     name: "Jubilee Gardens Playground",
+    slug: "jubilee-gardens-playground",
     description: "Modern playground at the foot of the London Eye featuring spider web climbing structures and creative play equipment. Perfect spot for kids to burn energy between attractions.",
     category: "outdoor",
     city: "london",
@@ -1438,6 +1571,7 @@ export const activities: Activity[] = [
   {
     id: "134",
     name: "St James's Park",
+    slug: "st-james-s-park",
     description: "Beautiful royal park close to Buckingham Palace. Watch ducks, swans, and pelicans around the lake. Peaceful green space perfect for picnics with views of palace and Horse Guards.",
     category: "outdoor",
     city: "london",
@@ -1455,6 +1589,7 @@ export const activities: Activity[] = [
   {
     id: "135",
     name: "The Lion King Musical",
+    slug: "the-lion-king-musical",
     description: "Award-winning West End musical bringing Disney's beloved story to life with stunning costumes, puppetry, and music. Family-friendly spectacular suitable for all ages.",
     category: "arts-culture",
     city: "london",
@@ -1472,6 +1607,7 @@ export const activities: Activity[] = [
   {
     id: "136",
     name: "Natural History Museum",
+    slug: "natural-history-museum",
     description: "World-class museum featuring dinosaur skeletons, blue whale model, and interactive exhibits about natural world. Free admission. Perfect for curious young minds.",
     category: "arts-culture",
     city: "london",
@@ -1494,6 +1630,7 @@ export const activities: Activity[] = [
   {
     id: "137",
     name: "Changing of the Guard",
+    slug: "changing-of-the-guard",
     description: "Iconic ceremony at Buckingham Palace featuring royal guards in traditional red uniforms and bearskin hats. Kids love trying to make the stoic guards smile. Free to watch.",
     category: "entertainment",
     city: "london",
@@ -1511,6 +1648,7 @@ export const activities: Activity[] = [
   {
     id: "138",
     name: "Hampton Court Palace - The Magic Garden",
+    slug: "hampton-court-palace-the-magic-garden",
     description: "Historic royal palace featuring The Magic Garden children's play area with sandbox, splash pad, and beautiful gardens. Explore Henry VIII's apartments, enjoy horse-drawn carriage rides, and visit the on-site café. Under 5s enter free.",
     category: "attractions",
     city: "london",
@@ -1528,6 +1666,7 @@ export const activities: Activity[] = [
   {
     id: "139",
     name: "Brigit's Bakery Peppa Pig Afternoon Tea Bus Tour",
+    slug: "brigit-s-bakery-peppa-pig-afternoon-tea-bus-tour",
     description: "Unique double-decker bus tour combining afternoon tea with sightseeing. Features Peppa Pig show clips, tea sandwiches, scones with clotted cream, and views of Tower of London, London Eye, and Tower Bridge. Perfect for ages 3-5.",
     category: "entertainment",
     city: "london",
@@ -1545,6 +1684,7 @@ export const activities: Activity[] = [
   {
     id: "140",
     name: "Discover Children's Story Centre",
+    slug: "discover-children-s-story-centre",
     description: "Indoor/outdoor imaginative play space with musical forest, spaceship, cloud areas, and craft section. Features outdoor story garden, storytelling sessions, and immersive exhibits. On-site café and adjacent to Westfield mall. Ages 3-5 optimal.",
     category: "arts-culture",
     city: "london",
@@ -1562,6 +1702,7 @@ export const activities: Activity[] = [
   {
     id: "141",
     name: "London Transport Museum",
+    slug: "london-transport-museum",
     description: "Interactive museum showcasing London's transportation history. Features kid-friendly games, a bus you can sit in and pretend to drive, plus play area with toy bus and ferry. Children 17 and under free. Less crowded than other major museums.",
     category: "arts-culture",
     city: "london",
@@ -1579,6 +1720,7 @@ export const activities: Activity[] = [
   {
     id: "142",
     name: "Museum of London Docklands - Mudlarks Gallery",
+    slug: "museum-of-london-docklands-mudlarks-gallery",
     description: "Thames River and shipbuilding history museum featuring Mudlarks play area with soft-play space, costumes, ship-loading activities, and boat-themed water play. Free museum admission with small fee for Mudlarks sessions. Bring change of clothes.",
     category: "arts-culture",
     city: "london",
@@ -1596,6 +1738,7 @@ export const activities: Activity[] = [
   {
     id: "143",
     name: "London Zoo",
+    slug: "london-zoo",
     description: "Large zoo within Regent's Park featuring penguin beach, tiger habitat, and diverse animal exhibits. Stroller-friendly with multiple dining options. Under 2s enter free.",
     category: "attractions",
     city: "london",
@@ -1613,6 +1756,7 @@ export const activities: Activity[] = [
   {
     id: "144",
     name: "National Maritime Museum - AHOY Gallery",
+    slug: "national-maritime-museum-ahoy-gallery",
     description: "Free maritime museum in Greenwich with AHOY soft play area for children under 7. Features nautical-themed spaces with toy cannons, pirate ship, and fish market. Costumes available throughout. Perfect for ages 2-5. Small fee for AHOY area.",
     category: "arts-culture",
     city: "london",
@@ -1630,6 +1774,7 @@ export const activities: Activity[] = [
   {
     id: "145",
     name: "Paddington Recreation Playground",
+    slug: "paddington-recreation-playground",
     description: "Multi-section playground with ship structure, climbing areas, slides, swings, and child-sized townhomes for different age groups. Great for active toddler play in Maida Vale neighborhood.",
     category: "outdoor",
     city: "london",
@@ -1647,6 +1792,7 @@ export const activities: Activity[] = [
   {
     id: "146",
     name: "Diana Princess of Wales Memorial Playground",
+    slug: "diana-princess-of-wales-memorial-playground",
     description: "Peter Pan-inspired playground centered around large wooden pirate ship with tall crow's nest. Features water and sand areas, bathrooms, café, and picnic area. Capacity limits may cause queues on busy days. Bring change of clothes and towel.",
     category: "outdoor",
     city: "london",
@@ -1664,6 +1810,7 @@ export const activities: Activity[] = [
   {
     id: "147",
     name: "Kew Gardens - The Children's Garden",
+    slug: "kew-gardens-the-children-s-garden",
     description: "Botanical gardens with dedicated Children's Garden featuring wooden climbing structures, sunken trampolines, mini treetop areas, and open field for picnicking. Explore earth's elements through play. Pre-booking recommended.",
     category: "outdoor",
     city: "london",
@@ -1681,6 +1828,7 @@ export const activities: Activity[] = [
   {
     id: "148",
     name: "Science Museum - The Garden",
+    slug: "science-museum-the-garden",
     description: "Free world-class science museum featuring The Garden play area for young children with building, climbing, and exploration activities. Space exhibit with astronaut displays. On-site café. Can be crowded with school groups.",
     category: "arts-culture",
     city: "london",
@@ -1698,6 +1846,7 @@ export const activities: Activity[] = [
   {
     id: "149",
     name: "Gods Own Junkyard",
+    slug: "gods-own-junkyard",
     description: "A neon sign gallery in Walthamstow featuring colorful, handcrafted neon light creations by artist Chris Bracey. Open weekends only. A vibrant wonderland of vintage neon signs and art installations.",
     category: "arts-culture",
     city: "london",
@@ -1714,6 +1863,7 @@ export const activities: Activity[] = [
   {
     id: "150",
     name: "Highgate Cemetery",
+    slug: "highgate-cemetery",
     description: "A Victorian Gothic cemetery from 1839 with famous residents including Karl Marx and Douglas Adams. Split into East and West sections, featuring atmospheric Gothic architecture and historic graves among nature.",
     category: "attractions",
     city: "london",
@@ -1731,6 +1881,7 @@ export const activities: Activity[] = [
   {
     id: "151",
     name: "House of MinaLima",
+    slug: "house-of-minalima",
     description: "Free Harry Potter gallery in Soho showcasing graphic design work for the film franchise, including the Marauders Map and other iconic items. A must-visit for Potter fans featuring original props and artwork.",
     category: "arts-culture",
     city: "london",
@@ -1748,6 +1899,7 @@ export const activities: Activity[] = [
   {
     id: "152",
     name: "Brick Lane Markets",
+    slug: "brick-lane-markets",
     description: "East End market complex with five different markets: Sunday UpMarket, Vintage Market, Backyard Market, Brick Lane Tearooms, and Boiler House. Offering diverse food, clothing, crafts, and street art.",
     category: "shopping",
     city: "london",
@@ -1764,6 +1916,7 @@ export const activities: Activity[] = [
   {
     id: "153",
     name: "Kayak Tour of the Thames",
+    slug: "kayak-tour-of-the-thames",
     description: "17km paddling adventure covering 3 hours, passing Tower Bridge, St. Paul's Cathedral, Houses of Parliament, and other landmarks. Unique perspective of London from the water.",
     category: "outdoor",
     city: "london",
@@ -1780,6 +1933,7 @@ export const activities: Activity[] = [
   {
     id: "154",
     name: "Little Venice",
+    slug: "little-venice",
     description: "Residential canal area near Paddington with waterways, green spaces, cafes, and restaurants. Walkable to Camden Market, offering peaceful canal boat tours and waterside dining.",
     category: "outdoor",
     city: "london",
@@ -1796,6 +1950,7 @@ export const activities: Activity[] = [
   {
     id: "155",
     name: "Leadenhall Market",
+    slug: "leadenhall-market",
     description: "Historic Victorian covered market from the 14th century with ruby red and green roof. Featured in Harry Potter films as Diagon Alley location. Beautiful architecture with shops and restaurants.",
     category: "shopping",
     city: "london",
@@ -1812,6 +1967,7 @@ export const activities: Activity[] = [
   {
     id: "156",
     name: "Manze's Pie Shop",
+    slug: "manze-s-pie-shop",
     description: "London's oldest pie and mash establishment in Bermondsey serving traditional eel pies with parsley sauce. Authentic East End experience with historic working-class London cuisine.",
     category: "food-drink",
     city: "london",
@@ -1828,6 +1984,7 @@ export const activities: Activity[] = [
   {
     id: "157",
     name: "All Hallows by the Tower Church",
+    slug: "all-hallows-by-the-tower-church",
     description: "Oldest London church built in 675 AD, survived the Great Fire and WWII bombing. Features Saxon arch and underground crypt with Roman artifacts and medieval history.",
     category: "attractions",
     city: "london",
@@ -1844,6 +2001,7 @@ export const activities: Activity[] = [
   {
     id: "158",
     name: "The Operating Theatre and Herb Garret",
+    slug: "the-operating-theatre-and-herb-garret",
     description: "Europe's oldest surviving operating theater from the 19th century near London Bridge. Includes apothecary herb storage area. Fascinating glimpse into Victorian medical history.",
     category: "attractions",
     city: "london",
@@ -1860,6 +2018,7 @@ export const activities: Activity[] = [
   {
     id: "159",
     name: "Richmond Park",
+    slug: "richmond-park",
     description: "Europe's largest fenced city park (955 hectares) in south London featuring roaming deer herds and natural woodland landscapes. Perfect for wildlife watching and peaceful walks.",
     category: "outdoor",
     city: "london",
@@ -1876,6 +2035,7 @@ export const activities: Activity[] = [
   {
     id: "160",
     name: "Walworth Neighborhood",
+    slug: "walworth-neighborhood",
     description: "Historic neighborhood between Elephant and Castle containing Victorian artisan studios, Charlie Chaplin's birthplace, and Sir John Soane's first church design. Rich local history off the tourist trail.",
     category: "entertainment",
     city: "london",
@@ -1892,6 +2052,7 @@ export const activities: Activity[] = [
   {
     id: "161",
     name: "The Hardy Tree",
+    slug: "the-hardy-tree",
     description: "Ash tree circled by relocated gravestones at St. Pancras Old Church, named after novelist Thomas Hardy who dismantled the graves. Unique Victorian curiosity combining nature and history.",
     category: "attractions",
     city: "london",
@@ -1908,6 +2069,7 @@ export const activities: Activity[] = [
   {
     id: "162",
     name: "Paddle Steamer Waverley",
+    slug: "paddle-steamer-waverley",
     description: "Last sea-going paddle steamer offering Thames cruises from Tower Pier, passing Canary Wharf and reaching Gravesend in Kent. Historic vessel providing nostalgic river journeys.",
     category: "entertainment",
     city: "london",
@@ -1924,6 +2086,7 @@ export const activities: Activity[] = [
   {
     id: "163",
     name: "Tiny Paintings on Millennium Bridge",
+    slug: "tiny-paintings-on-millennium-bridge",
     description: "Hundreds of miniature paintings created by artist Ben Wilson using chewing gum and paint on the bridge surface. Unique urban art installation hidden in plain sight.",
     category: "arts-culture",
     city: "london",
@@ -1940,6 +2103,7 @@ export const activities: Activity[] = [
   {
     id: "164",
     name: "St Dunstan's in the East",
+    slug: "st-dunstan-s-in-the-east",
     description: "Gothic church ruins from circa 1100 with ivy-covered arches, survived WWII bombing. Now peaceful urban sanctuary garden combining medieval architecture with nature.",
     category: "outdoor",
     city: "london",
@@ -1956,6 +2120,7 @@ export const activities: Activity[] = [
   {
     id: "165",
     name: "The Banqueting House",
+    slug: "the-banqueting-house",
     description: "Only surviving 1622 structure from Palace of Whitehall near Parliament. Features Rubens ceiling and historical significance as site of King Charles I's execution.",
     category: "attractions",
     city: "london",
@@ -1972,6 +2137,7 @@ export const activities: Activity[] = [
   {
     id: "166",
     name: "Barbican Conservatory",
+    slug: "barbican-conservatory",
     description: "Free tropical rainforest conservatory inside brutalist Barbican Centre, open weekends with limited hours. Features exotic plants, fish, and optional afternoon tea in lush greenhouse setting.",
     category: "outdoor",
     city: "london",
@@ -1988,6 +2154,7 @@ export const activities: Activity[] = [
   {
     id: "167",
     name: "Hampstead Heath Pergola and Hill Garden",
+    slug: "hampstead-heath-pergola-and-hill-garden",
     description: "Edwardian pergola and gardens from early 1900s in northwest Hampstead. Originally built for Lord Leverhulme's gatherings, featuring romantic covered walkways and raised gardens.",
     category: "outdoor",
     city: "london",
@@ -2004,6 +2171,7 @@ export const activities: Activity[] = [
   {
     id: "168",
     name: "Queen's House Greenwich",
+    slug: "queen-s-house-greenwich",
     description: "Former Tudor king's home in Greenwich Park featuring maritime history exhibits, paintings, and views of the Thames. Beautiful Palladian architecture in historic riverside setting.",
     category: "attractions",
     city: "london",
@@ -2020,6 +2188,7 @@ export const activities: Activity[] = [
   {
     id: "169",
     name: "The Green Chain Walk",
+    slug: "the-green-chain-walk",
     description: "50-mile connected walking route through southeast London suburbs (11 sections) featuring Eltham Palace, Crystal Palace dinosaurs, and Horniman Museum. Explores London's green spaces.",
     category: "outdoor",
     city: "london",
@@ -2036,6 +2205,7 @@ export const activities: Activity[] = [
   {
     id: "170",
     name: "The Walrus and the Carpenter",
+    slug: "the-walrus-and-the-carpenter",
     description: "Acclaimed oyster-focused restaurant in Ballard serving fresh Pacific Northwest oysters and seasonal small plates. Known for impeccable seafood and intimate atmosphere.",
     category: "food-drink",
     city: "seattle",
@@ -2052,6 +2222,7 @@ export const activities: Activity[] = [
   {
     id: "171",
     name: "Ray's Café & Boathouse",
+    slug: "ray-s-caf-boathouse",
     description: "Waterfront dining with two levels: upstairs casual café and fine dining in the boathouse. Spectacular seafood and mountain views over Puget Sound.",
     category: "food-drink",
     city: "seattle",
@@ -2068,6 +2239,7 @@ export const activities: Activity[] = [
   {
     id: "172",
     name: "Reuben's Brews",
+    slug: "reuben-s-brews",
     description: "Award-winning craft brewery in Ballard with family-friendly atmosphere. Extensive beer selection and rotating taps featuring IPAs, lagers, and seasonal brews.",
     category: "food-drink",
     city: "seattle",
@@ -2084,6 +2256,7 @@ export const activities: Activity[] = [
   {
     id: "173",
     name: "Percy's",
+    slug: "percy-s",
     description: "Craft cocktail bar in Ballard featuring creative drinks and sophisticated atmosphere. Intimate neighborhood spot for expertly mixed cocktails.",
     category: "food-drink",
     city: "seattle",
@@ -2100,6 +2273,7 @@ export const activities: Activity[] = [
   {
     id: "174",
     name: "Salty's on Alki Beach",
+    slug: "salty-s-on-alki-beach",
     description: "Upscale waterfront seafood restaurant with panoramic Seattle skyline views. Famous weekend brunch buffet featuring fresh seafood, oyster bar, and made-to-order dishes.",
     category: "food-drink",
     city: "seattle",
@@ -2116,6 +2290,7 @@ export const activities: Activity[] = [
   {
     id: "175",
     name: "Revel",
+    slug: "revel",
     description: "Modern Korean-American restaurant in Fremont serving creative fusion dishes and dumplings. Popular neighborhood spot with innovative cuisine.",
     category: "food-drink",
     city: "seattle",
@@ -2132,6 +2307,7 @@ export const activities: Activity[] = [
   {
     id: "176",
     name: "Oddfellows Café",
+    slug: "oddfellows-caf",
     description: "Bright coffee shop and restaurant in Capitol Hill with fresh seasonal menu. Located adjacent to Elliott Bay Book Company, perfect for coffee and casual dining.",
     category: "food-drink",
     city: "seattle",
@@ -2148,6 +2324,7 @@ export const activities: Activity[] = [
   {
     id: "177",
     name: "Needle and Thread Speakeasy",
+    slug: "needle-and-thread-speakeasy",
     description: "Hidden cocktail bar in Capitol Hill accessed through Tavern Law. Prohibition-style drinks custom-made to individual preferences in intimate setting.",
     category: "food-drink",
     city: "seattle",
@@ -2164,6 +2341,7 @@ export const activities: Activity[] = [
   {
     id: "178",
     name: "Knee High Stocking Co",
+    slug: "knee-high-stocking-co",
     description: "Vintage-inspired speakeasy in Capitol Hill with handcrafted cocktails and nostalgic atmosphere. Creative drinks in charming hidden bar setting.",
     category: "food-drink",
     city: "seattle",
@@ -2180,6 +2358,7 @@ export const activities: Activity[] = [
   {
     id: "179",
     name: "Mbar",
+    slug: "mbar",
     description: "Rooftop cocktail bar in South Lake Union with 360-degree views of downtown Seattle and Space Needle. Stylish lounge atmosphere with panoramic city vistas.",
     category: "food-drink",
     city: "seattle",
@@ -2196,6 +2375,7 @@ export const activities: Activity[] = [
   {
     id: "180",
     name: "The Nest",
+    slug: "the-nest",
     description: "Rooftop bar at Thompson Seattle in Belltown with cozy vibe and panoramic waterfront views. Craft cocktails and stunning sunset views over Puget Sound.",
     category: "food-drink",
     city: "seattle",
@@ -2212,6 +2392,7 @@ export const activities: Activity[] = [
   {
     id: "181",
     name: "Elliott Bay Book Company",
+    slug: "elliott-bay-book-company",
     description: "Beloved independent bookstore in Capitol Hill with vast selection of new and used books across all genres. Seattle institution with cozy reading nooks and café.",
     category: "shopping",
     city: "seattle",
@@ -2228,6 +2409,7 @@ export const activities: Activity[] = [
   {
     id: "182",
     name: "Ballard Locks",
+    slug: "ballard-locks",
     description: "Historic Hiram M. Chittenden Locks where boats pass between Puget Sound and Lake Union. Watch salmon swim upstream and boats navigate the locks. Free public attraction.",
     category: "attractions",
     city: "seattle",
@@ -2244,6 +2426,7 @@ export const activities: Activity[] = [
   {
     id: "183",
     name: "Ballard Farmers Market",
+    slug: "ballard-farmers-market",
     description: "Sunday market in Ballard featuring fresh local seafood, seasonal produce, artisan products, and food vendors. Vibrant community gathering with Pacific Northwest specialties.",
     category: "shopping",
     city: "seattle",
@@ -2260,6 +2443,7 @@ export const activities: Activity[] = [
   {
     id: "184",
     name: "West Seattle Farmers Market",
+    slug: "west-seattle-farmers-market",
     description: "Sunday market in West Seattle featuring local produce, food trucks, and artisan goods. Community favorite for fresh ingredients and prepared foods.",
     category: "shopping",
     city: "seattle",
@@ -2276,6 +2460,7 @@ export const activities: Activity[] = [
   {
     id: "185",
     name: "Fremont Sunday Market",
+    slug: "fremont-sunday-market",
     description: "Weekly market blending fresh goods with quirky handmade arts and crafts. Eclectic mix of vendors in Seattle's artistic Fremont neighborhood.",
     category: "shopping",
     city: "seattle",
@@ -2292,6 +2477,7 @@ export const activities: Activity[] = [
   {
     id: "186",
     name: "Von Sauna",
+    slug: "von-sauna",
     description: "Wood-fired floating sauna experience on Lake Union. Unique wellness activity combining traditional Finnish sauna culture with Seattle's waterfront setting.",
     category: "entertainment",
     city: "seattle",
@@ -2308,6 +2494,7 @@ export const activities: Activity[] = [
   {
     id: "187",
     name: "Seaplane Tours",
+    slug: "seaplane-tours",
     description: "Aerial tours via seaplane offering bird's-eye views of Seattle skyline, Puget Sound, and nearby islands. Scenic flights operated by Kenmore Air and other companies.",
     category: "attractions",
     city: "seattle",
@@ -2324,6 +2511,7 @@ export const activities: Activity[] = [
   {
     id: "188",
     name: "Bainbridge Island Ferry",
+    slug: "bainbridge-island-ferry",
     description: "Scenic 35-minute ferry ride from downtown Seattle to Bainbridge Island with stunning views of city skyline and Olympic Mountains. Popular day trip destination.",
     category: "attractions",
     city: "seattle",
@@ -2340,6 +2528,7 @@ export const activities: Activity[] = [
   {
     id: "189",
     name: "Vashon Island Ferry",
+    slug: "vashon-island-ferry",
     description: "Quick 20-minute ferry ride from Seattle to charming Vashon Island. Access to island's beaches, parks, and artistic community.",
     category: "attractions",
     city: "seattle",
@@ -2356,6 +2545,7 @@ export const activities: Activity[] = [
   {
     id: "190",
     name: "Bloedel Reserve",
+    slug: "bloedel-reserve",
     description: "150-acre forest garden on Bainbridge Island with Japanese Garden, reflection pool, and scenic walking trails through diverse landscapes. Peaceful natural sanctuary.",
     category: "outdoor",
     city: "seattle",
@@ -2372,6 +2562,7 @@ export const activities: Activity[] = [
   {
     id: "191",
     name: "Fay Bainbridge Park",
+    slug: "fay-bainbridge-park",
     description: "Beach park on Bainbridge Island with scenic walking trails, camping facilities, and Puget Sound views. Great for picnicking and beachcombing.",
     category: "outdoor",
     city: "seattle",
@@ -2388,6 +2579,7 @@ export const activities: Activity[] = [
   {
     id: "192",
     name: "Winslow",
+    slug: "winslow",
     description: "Charming downtown area on Bainbridge Island with boutique shops, art galleries, and waterfront cafés. Perfect for strolling after the ferry ride.",
     category: "shopping",
     city: "seattle",
@@ -2404,6 +2596,7 @@ export const activities: Activity[] = [
   {
     id: "193",
     name: "Point Robinson Lighthouse",
+    slug: "point-robinson-lighthouse",
     description: "Historic lighthouse on Vashon Island's Maury Island with beach access and views of Puget Sound. Scenic spot for photography and coastal walks.",
     category: "attractions",
     city: "seattle",
@@ -2420,6 +2613,7 @@ export const activities: Activity[] = [
   {
     id: "194",
     name: "Maury Island Marine Park",
+    slug: "maury-island-marine-park",
     description: "Waterfront park on Vashon Island featuring hiking trails, beaches, and natural beauty. Peaceful escape with Puget Sound shoreline access.",
     category: "outdoor",
     city: "seattle",
@@ -2457,6 +2651,25 @@ export function getActivitiesByCityAndCategory(city: string, category: string): 
 // This mimics what would be a database query
 export function getActivityById(id: string): Activity | undefined {
   return activities.find((activity) => activity.id === id);
+}
+
+// Helper function to get activity by city and slug
+// This mimics what would be a database query
+export function getActivityBySlug(city: string, slug: string): Activity | undefined {
+  return activities.find((activity) => activity.city === city && activity.slug === slug);
+}
+
+// Helper function to get similar activities (same category or tags)
+// This mimics what would be a database query
+export function getSimilarActivities(activity: Activity, limit: number = 3): Activity[] {
+  return activities
+    .filter((a) =>
+      a.id !== activity.id &&
+      a.city === activity.city &&
+      (a.category === activity.category ||
+       (activity.tags && a.tags?.some(tag => activity.tags?.includes(tag))))
+    )
+    .slice(0, limit);
 }
 
 // Helper function to get all activities

@@ -1,3 +1,7 @@
+"use client";
+
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { Activity, Tag } from "@/types/activity";
 
 interface ActivityCardProps {
@@ -30,10 +34,16 @@ const tagIcons: Record<Tag, string> = {
 };
 
 export function ActivityCard({ activity, isFavorite, onToggleFavorite }: ActivityCardProps) {
+  const searchParams = useSearchParams();
+  const detailsUrl = `/${activity.city}/${activity.slug}?${searchParams.toString()}`;
+
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden relative">
       <button
-        onClick={() => onToggleFavorite(activity.id)}
+        onClick={(e) => {
+          e.preventDefault();
+          onToggleFavorite(activity.id);
+        }}
         className="absolute top-4 right-4 z-10 p-2 rounded-full hover:bg-gray-100 transition-colors"
         aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
       >
@@ -55,7 +65,9 @@ export function ActivityCard({ activity, isFavorite, onToggleFavorite }: Activit
       </button>
       <div className="p-6">
         <div className="flex items-start justify-between mb-2 pr-8">
-          <h3 className="text-xl font-semibold text-gray-900">{activity.name}</h3>
+          <Link href={detailsUrl} className="hover:text-blue-600 transition-colors">
+            <h3 className="text-xl font-semibold text-gray-900">{activity.name}</h3>
+          </Link>
           {activity.priceRange && (
             <span className="text-sm font-medium text-gray-600 bg-gray-100 px-2 py-1 rounded">
               {activity.priceRange}

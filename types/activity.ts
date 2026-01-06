@@ -30,6 +30,7 @@ export interface ArticleSource {
 export interface Activity {
   id: string;
   name: string;
+  slug: string;
   description: string;
   category: Category;
   address: string;

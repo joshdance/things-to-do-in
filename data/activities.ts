@@ -14,6 +14,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "620 N Harvey Ave, Oklahoma City, OK 73102",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPa2xhaG9tYSUyMENpdHklMjBOYXRpb25hbCUyME1lbW9yaWFsJTIwYW5kJTIwTXVzZXVtJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzMyOTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -24,6 +25,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "oklahoma-city",
     address: "1700 NE 63rd St, Oklahoma City, OK 73111",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyMENvd2JveSUyMGFuZCUyMFdlc3Rlcm4lMjBIZXJpdGFnZSUyME11c2V1bSUyMG9rbGFob21hJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTMzMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -34,6 +36,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "oklahoma-city",
     address: "Bricktown, Oklahoma City, OK 73104",
+    imageUrl: "https://images.unsplash.com/photo-1642553722256-f10e2f7097f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCcmlja3Rvd24lMjBva2xhaG9tYSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzMzQ0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -44,6 +47,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "301 W Reno Ave, Oklahoma City, OK 73102",
+    imageUrl: "https://images.unsplash.com/photo-1704556601185-f0681abb127f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNeXJpYWQlMjBCb3RhbmljYWwlMjBHYXJkZW5zJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzM1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -54,6 +58,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "10301 S Sunnylane Rd, Oklahoma City, OK 73160",
+    imageUrl: "https://images.unsplash.com/photo-1571617823825-97f9edc7c12b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNdXNldW0lMjBvZiUyME9zdGVvbG9neXxlbnwwfDB8fHwxNzY3OTMzNTkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -64,6 +69,7 @@ export const activities: Activity[] = [
     category: "sports",
     city: "oklahoma-city",
     address: "100 W Reno Ave, Oklahoma City, OK 73102",
+    imageUrl: "https://images.unsplash.com/photo-1761346414766-30b9786bcbf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQYXljb20lMjBDZW50ZXIlMjBva2xhaG9tYSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzMzY2OXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -74,6 +80,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "2020 Remington Pl, Oklahoma City, OK 73111",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTY2llbmNlJTIwTXVzZXVtJTIwT2tsYWhvbWElMjBva2xhaG9tYSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzMzc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -84,6 +91,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "405 NW 15th St, Oklahoma City, OK 73103",
+    imageUrl: "https://images.unsplash.com/photo-1649281808638-4c340553a2b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIZW5yeSUyME92ZXJob2xzZXIlMjBNYW5zaW9ufGVufDB8MHx8fDE3Njc5MzM4MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -94,6 +102,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "5000 W Memorial Rd, Oklahoma City, OK 73142",
+    imageUrl: "https://images.unsplash.com/photo-1601301843658-7b29c9d7814d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzM5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -104,6 +113,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "8901 N Lake Hefner Dr, Oklahoma City, OK 73120",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIZWZuZXIlMjBMYWtlJTIwYW5kJTIwUGFyayUyMG9rbGFob21hJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTM0MDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -114,6 +124,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "oklahoma-city",
     address: "1701 S Western Ave, Oklahoma City, OK 73109",
+    imageUrl: "https://images.unsplash.com/photo-1634429436458-60b95e2e105a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXaGVlbGVyJTIwRmVycmlzJTIwV2hlZWwlMjBhdCUyMFdoZWVsZXIlMjBEaXN0cmljdHxlbnwwfDB8fHwxNzY3OTM0MTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -124,6 +135,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "2300 N Lincoln Blvd, Oklahoma City, OK 73105",
+    imageUrl: "https://images.unsplash.com/photo-1761346414766-30b9786bcbf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPa2xhaG9tYSUyMFN0YXRlJTIwQ2FwaXRvbCUyMG9rbGFob21hJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTM0MTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -134,6 +146,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "2300 N Lincoln Blvd, Oklahoma City, OK 73105",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPa2xhaG9tYSUyMFZldGVyYW5zJTIwTWVtb3JpYWwlMjBva2xhaG9tYSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzNDI3NHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -144,6 +157,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "oklahoma-city",
     address: "9 E Sheridan Ave, Oklahoma City, OK 73104",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBbWVyaWNhbiUyMEJhbmpvJTIwTXVzZXVtJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzQzNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -154,6 +168,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "3400 NW 36th St, Oklahoma City, OK 73112",
+    imageUrl: "https://images.unsplash.com/photo-1601301843658-7b29c9d7814d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzM5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -164,6 +179,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "400 W Reno Ave, Oklahoma City, OK 73102",
+    imageUrl: "https://images.unsplash.com/photo-1643404978043-233c6c56d422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTa3lkYW5jZSUyMEJyaWRnZSUyMG9rbGFob21hJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTM0NTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -174,6 +190,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "3400 NE Grand Blvd, Oklahoma City, OK 73111",
+    imageUrl: "https://images.unsplash.com/photo-1643463614117-b4fc3bd97932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPa2xhaG9tYSUyMFJhaWx3YXklMjBNdXNldW0lMjBva2xhaG9tYSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzNDY1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -184,6 +201,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "14400 S Western Ave, Oklahoma City, OK 73170",
+    imageUrl: "https://images.unsplash.com/photo-1651438034554-9d35cbec79ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPcnIlMjBGYW1pbHklMjBGYXJtJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzQ3Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -194,6 +212,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "1300 Exchange Ave, Oklahoma City, OK 73108",
+    imageUrl: "https://images.unsplash.com/photo-1585325855245-87f5de801936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyMFN0b2NreWFyZCUyMEV4Y2hhbmdlJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzQ4MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -204,6 +223,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "oklahoma-city",
     address: "7624 W Reno Ave, Oklahoma City, OK 73127",
+    imageUrl: "https://images.unsplash.com/photo-1585325855245-87f5de801936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPS0MlMjBPdXRsZXRzJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzQ4Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -214,6 +234,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "oklahoma-city",
     address: "5825 N Classen Blvd, Oklahoma City, OK 73118",
+    imageUrl: "https://images.unsplash.com/photo-1720729706252-40be12690f12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxLaWRzJTIwQ2l0eSUyMEluZG9vciUyMFBsYXlncm91bmR8ZW58MHwwfHx8MTc2NzkzNDk1NXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -224,6 +245,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "oklahoma-city",
     address: "3033 W Britton Rd, Oklahoma City, OK 73120",
+    imageUrl: "https://images.unsplash.com/photo-1597075958693-75173d1c837f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCcmVha2F3YXklMjBJbmRvb3IlMjBQbGF5Z3JvdW5kfGVufDB8MHx8fDE3Njc5MzUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -234,6 +256,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "oklahoma-city",
     address: "6464 N May Ave, Oklahoma City, OK 73116",
+    imageUrl: "https://images.unsplash.com/photo-1753589400259-11088279a01f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNb24lMjBBbWklMjBJbmRvb3IlMjBQbGF5Z3JvdW5kfGVufDB8MHx8fDE3Njc5MzUxMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -244,6 +267,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "oklahoma-city",
     address: "6464 N May Ave, Oklahoma City, OK 73116",
+    imageUrl: "https://images.unsplash.com/photo-1585325855245-87f5de801936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxVbnBsdWdnaXRzJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzUxODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -254,6 +278,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "oklahoma-city",
     address: "5200 W Grand Blvd, Oklahoma City, OK 73118",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPS0FOQSUyMEluZG9vciUyMFdhdGVycGFyayUyMG9rbGFob21hJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTM1MjU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -264,6 +289,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "301 W Reno Ave, Oklahoma City, OK 73102",
+    imageUrl: "https://images.unsplash.com/photo-1722167896259-a8c3897f736b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNeXJpYWQlMjBHYXJkZW5zJTIwQ2hpbGRyZW4lMjdzJTIwR2FyZGVuJTIwYW5kJTIwU3BsYXNoJTIwUGFya3xlbnwwfDB8fHwxNzY3OTM1MzM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -274,6 +300,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "2716 NE 50th St, Oklahoma City, OK 73111",
+    imageUrl: "https://images.unsplash.com/photo-1739308416371-3ee3014d1935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPa2xhaG9tYSUyMEZpcmVmaWdodGVycyUyME11c2V1bXxlbnwwfDB8fHwxNzY3OTM1NDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -284,6 +311,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "8901 N Lake Hefner Dr, Oklahoma City, OK 73120",
+    imageUrl: "https://images.unsplash.com/photo-1713725589664-84396d9bf8cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMaW9ucyUyMENoaWxkcmVuJTI3cyUyMFBsYXlncm91bmQlMjBhdCUyMExha2UlMjBIZWZuZXJ8ZW58MHwwfHx8MTc2NzkzNTQ4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -294,6 +322,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "12880 N Mustang Rd, Mustang, OK 73064",
+    imageUrl: "https://images.unsplash.com/photo-1613043399165-d6ae7327ae02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXaWxkJTIwSG9yc2UlMjBQYXJrfGVufDB8MHx8fDE3Njc5MzU1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -304,6 +333,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "2700 N Eastern Ave, Moore, OK 73160",
+    imageUrl: "https://images.unsplash.com/photo-1563317596-9f46b0d0d5cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMaXR0bGUlMjBSaXZlciUyMFBhcmt8ZW58MHwwfHx8MTc2NzkzNTYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -314,6 +344,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "1034 W Danforth Rd, Edmond, OK 73003",
+    imageUrl: "https://images.unsplash.com/photo-1601301843658-7b29c9d7814d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzM5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -324,6 +355,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "850 E 1st St, Edmond, OK 73034",
+    imageUrl: "https://images.unsplash.com/photo-1627819506701-d08684e1b849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUZWQlMjBBbmRlcnNvbiUyMFBhcmslMjBTcGxhc2glMjBQYWR8ZW58MHwwfHx8MTc2NzkzNTg2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -334,6 +366,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "2000 Remington Pl, Oklahoma City, OK 73111",
+    imageUrl: "https://images.unsplash.com/photo-1761346414766-30b9786bcbf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0aW9ucyUyMG9rbGFob21hJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTM2MDE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -344,6 +377,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "oklahoma-city",
     address: "Multiple Locations, Oklahoma City, OK",
+    imageUrl: "https://images.unsplash.com/photo-1585325855245-87f5de801936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNZXRyb3BvbGl0YW4lMjBMaWJyYXJ5JTIwU3lzdGVtJTIwU3RvcnklMjBUaW1lJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3Njc5MzYwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -354,6 +388,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "1701 S Western Ave, Oklahoma City, OK 73109",
+    imageUrl: "https://images.unsplash.com/photo-1694364196192-c749238fcca5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXaGVlbGVyJTIwRGlzdHJpY3QlMjBQbGF5Z3JvdW5kfGVufDB8MHx8fDE3Njc5MzYxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -364,6 +399,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "300 SW 7th St, Oklahoma City, OK 73109",
+    imageUrl: "https://images.unsplash.com/photo-1668561791354-b299b018abbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTY2lzc29ydGFpbCUyMFBhcmslMjBDaGlsZHJlbiUyN3MlMjBQbGF5Z3JvdW5kfGVufDB8MHx8fDE3Njc5MzYyNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -374,6 +410,7 @@ export const activities: Activity[] = [
     category: "sports",
     city: "oklahoma-city",
     address: "2 S Mickey Mantle Dr, Oklahoma City, OK 73104",
+    imageUrl: "https://images.unsplash.com/photo-1585325855245-87f5de801936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxzcG9ydHMlMjBva2xhaG9tYSUyMGNpdHl8ZW58MHwwfHx8MTc2ODAwMTY2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -384,6 +421,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "oklahoma-city",
     address: "2020 Remington Pl, Oklahoma City, OK 73111",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTY2llbmNlJTIwTXVzZXVtJTIwT2tsYWhvbWElMjBDdXJpb0NpdHklMjBva2xhaG9tYSUyMGNpdHl8ZW58MHwwfHx8MTc2ODAwMTc1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -394,6 +432,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "oklahoma-city",
     address: "415 Couch Dr, Oklahoma City, OK 73102",
+    imageUrl: "https://images.unsplash.com/photo-1583542570369-5d5394c101da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPa2xhaG9tYSUyMENpdHklMjBNdXNldW0lMjBvZiUyMEFydCUyMEZhbWlseSUyMFNwYWNlJTIwb2tsYWhvbWElMjBjaXR5fGVufDB8MHx8fDE3NjgwMDE4NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -404,6 +443,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "oklahoma-city",
     address: "Mustang, OK 73064",
+    imageUrl: "https://images.unsplash.com/photo-1673826461600-bdc40eccb65e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNdXN0YW5nJTIwUGFyayUyMGFuZCUyMFNwbGFzaCUyMFBhZCUyMG9rbGFob21hJTIwY2l0eXxlbnwwfDB8fHwxNzY4MDAxOTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -414,6 +454,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "salt-lake-city",
     address: "155 S Main St, Salt Lake City, UT 84111",
+    imageUrl: "https://images.unsplash.com/photo-1514163161321-f4f7c2a90296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxmb29kLWRyaW5rJTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3NjgwMDIxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -424,6 +465,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "salt-lake-city",
     address: "Salt Lake City, UT",
+    imageUrl: "https://images.unsplash.com/photo-1641002269354-1fa7f136b68c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHcmVhdCUyMFNhbHQlMjBMYWtlJTIwU2NlbmljJTIwRmxpZ2h0JTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3NjgwMDIyMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -434,6 +476,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "salt-lake-city",
     address: "Downtown Salt Lake City, UT",
+    imageUrl: "https://images.unsplash.com/photo-1587960623565-ead97bd04917?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxEb3dudG93biUyMFN0cmVldCUyMEFydCUyME11cmFscyUyMHNhbHQlMjBsYWtlJTIwY2l0eXxlbnwwfDB8fHwxNzY4MDAyMzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -444,6 +487,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "salt-lake-city",
     address: "301 Wakara Way, Salt Lake City, UT 84108",
+    imageUrl: "https://images.unsplash.com/photo-1754878207089-a86b00a9623e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXR1cmFsJTIwSGlzdG9yeSUyME11c2V1bSUyMG9mJTIwVXRhaCUyMHNhbHQlMjBsYWtlJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTM4NDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -454,6 +498,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "salt-lake-city",
     address: "50 N Temple, Salt Lake City, UT 84150",
+    imageUrl: "https://images.unsplash.com/photo-1533882651548-ae1f90991f30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUZW1wbGUlMjBTcXVhcmUlMjBzYWx0JTIwbGFrZSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzODUwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -464,6 +509,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "salt-lake-city",
     address: "Bonneville Salt Flats, UT",
+    imageUrl: "https://images.unsplash.com/photo-1654208532621-1f11493cd6f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCb25uZXZpbGxlJTIwU2FsdCUyMEZsYXRzJTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3Njc5Mzg1Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -474,6 +520,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "salt-lake-city",
     address: "Sugar House, Salt Lake City, UT",
+    imageUrl: "https://images.unsplash.com/photo-1605074652851-a624ed4d62bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTdWdhciUyMEhvdXNlJTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3Njc5Mzg2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -484,6 +531,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "salt-lake-city",
     address: "210 E 400 S, Salt Lake City, UT 84111",
+    imageUrl: "https://images.unsplash.com/photo-1732723417765-72d05fa0d8b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTYWx0JTIwTGFrZSUyMENpdHklMjBQdWJsaWMlMjBMaWJyYXJ5fGVufDB8MHx8fDE3Njc5Mzg3MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -494,6 +542,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "salt-lake-city",
     address: "736 W North Temple St, Salt Lake City, UT 84116",
+    imageUrl: "https://images.unsplash.com/photo-1713447312076-10e5c97e81b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSZWQlMjBJZ3VhbmElMjBzYWx0JTIwbGFrZSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzODgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -504,6 +553,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "salt-lake-city",
     address: "350 N State St, Salt Lake City, UT 84103",
+    imageUrl: "https://images.unsplash.com/photo-1754878207300-d8003dce8cc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxVdGFoJTIwU3RhdGUlMjBDYXBpdG9sJTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3Njc5Mzg4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -514,6 +564,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "salt-lake-city",
     address: "260 S 200 W, Salt Lake City, UT 84101",
+    imageUrl: "https://images.unsplash.com/photo-1699192676286-545f9e23ca25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZXR0ZWJlbGxvJTIwUGl6emVyaWElMjBOYXBvbGV0YW5hfGVufDB8MHx8fDE3Njc5Mzg5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -524,6 +575,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "salt-lake-city",
     address: "268 S 200 E, Salt Lake City, UT 84111",
+    imageUrl: "https://images.unsplash.com/photo-1647967523604-2eb319b01dc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxLZW4lMjBTYW5kZXJzJTIwUmFyZSUyMEJvb2tzfGVufDB8MHx8fDE3Njc5MzkwMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -534,6 +586,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "salt-lake-city",
     address: "33 E Broadway, Salt Lake City, UT 84111",
+    imageUrl: "https://images.unsplash.com/photo-1583347664435-7415436be899?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTd2VldCUyMExha2UlMjBCaXNjdWl0cyUyMGFuZCUyMExpbWVhZGUlMjBzYWx0JTIwbGFrZSUyMGNpdHl8ZW58MHwwfHx8MTc2NzkzOTEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -544,6 +597,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "salt-lake-city",
     address: "Ensign Vista Dr, Salt Lake City, UT 84103",
+    imageUrl: "https://images.unsplash.com/photo-1610391793022-e9d1ec4c4fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxFbnNpZ24lMjBQZWFrJTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3Njc5MzkxODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -554,6 +608,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "salt-lake-city",
     address: "300 Wakara Way, Salt Lake City, UT 84108",
+    imageUrl: "https://images.unsplash.com/photo-1754878207076-c1513d615752?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSZWQlMjBCdXR0ZSUyMEdhcmRlbiUyMHNhbHQlMjBsYWtlJTIwY2l0eXxlbnwwfDB8fHwxNzY3OTM5MjYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -564,6 +619,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "salt-lake-city",
     address: "Colorow Rd, Salt Lake City, UT 84108",
+    imageUrl: "https://images.unsplash.com/photo-1708994916126-10277fa96889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMaXZpbmclMjBSb29tJTIwTG9va291dCUyMFRyYWlsJTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3Njc5MzkzMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -574,6 +630,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "salt-lake-city",
     address: "1330 E 2100 S, Salt Lake City, UT 84106",
+    imageUrl: "https://images.unsplash.com/photo-1746931736015-9cbb975edc14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTdWdhciUyMEhvdXNlJTIwUGFya3xlbnwwfDB8fHwxNzY3OTM5NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -584,6 +641,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "salt-lake-city",
     address: "4160 Emigration Canyon Rd, Salt Lake City, UT 84108",
+    imageUrl: "https://images.unsplash.com/photo-1565116227590-34b100407a98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSdXRoJTI3cyUyMERpbmVyJTIwc2FsdCUyMGxha2UlMjBjaXR5fGVufDB8MHx8fDE3Njc5Mzk0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -594,6 +652,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "Multiple Locations, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1571515476350-64c004fab436?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwQ29mZmVlJTIwQ3VsdHVyZSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2NzkzOTU2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -604,6 +663,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "seattle",
     address: "85 Pike St, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1720073973740-ebe04bbfbd5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQaWtlJTIwUGxhY2UlMjBNYXJrZXQlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5Mzk2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -621,6 +681,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "1428 Post Alley, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1657571484146-167cdd1af556?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQb3N0JTIwQWxsZXklMjBHdW0lMjBXYWxsJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTM5NzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -631,6 +692,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1694384846052-58f1647603ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNb3VudCUyMFJhaW5pZXIlMjBIb3QlMjBBaXIlMjBCYWxsb29uJTIwUmlkZSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2NzkzOTc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -641,6 +703,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "N 36th St, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1766812735153-2a916af0335d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0aW9ucyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2NzkzOTk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -651,6 +714,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "211 W Highland Dr, Seattle, WA 98119",
+    imageUrl: "https://images.unsplash.com/photo-1671653347695-25206ce01853?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxLZXJyeSUyMFBhcmslMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDAwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -668,6 +732,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "2101 N Northlake Way, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1681528853817-8103188a4c0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHYXN3b3JrcyUyMFBhcmslMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDAwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -678,6 +743,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "1919 Post Alley, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1721754646298-f1f45589d417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBQaW5rJTIwRG9vciUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNDQ2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -688,6 +754,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "400 Broad St, Seattle, WA 98109",
+    imageUrl: "https://images.unsplash.com/photo-1694138103135-6f203788d879?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTcGFjZSUyME5lZWRsZSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNDU1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -698,6 +765,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "seattle",
     address: "305 Harrison St, Seattle, WA 98109",
+    imageUrl: "https://images.unsplash.com/photo-1642827588589-804867437e8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDaGlodWx5JTIwR2FyZGVuJTIwYW5kJTIwR2xhc3MlMjBzZWF0dGxlfGVufDB8MHx8fDE3NjgwMDQ2NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -708,6 +776,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "seattle",
     address: "325 5th Ave N, Seattle, WA 98109",
+    imageUrl: "https://images.unsplash.com/photo-1748720097828-7c36a2482275?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNdXNldW0lMjBvZiUyMFBvcCUyMEN1bHR1cmUlMjAlMjhNb1BPUCUyOSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNDczOHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -718,6 +787,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1912 Pike Pl, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1578575737417-7f4ca1df16cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPcmlnaW5hbCUyMFN0YXJidWNrcyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNDgyOHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -728,6 +798,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1124 Pike St, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1720074084831-984c0aa5f7f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTdGFyYnVja3MlMjBSZXNlcnZlJTIwUm9hc3RlcnklMjBzZWF0dGxlfGVufDB8MHx8fDE3NjgwMDQ5MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -738,6 +809,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "1702 Alki Ave SW, Seattle, WA 98116",
+    imageUrl: "https://images.unsplash.com/photo-1555817735-e10e494c7694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBbGtpJTIwQmVhY2glMjBzZWF0dGxlfGVufDB8MHx8fDE3NjgwMDUwMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -755,6 +827,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "Multiple Locations, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1691187589473-0f1efee9c1f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNb2xseSUyME1vb24lMjdzJTIwSWNlJTIwQ3JlYW0lMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDIxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -765,6 +838,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "Multiple Locations, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1753046232545-83ae92cb1fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxGcmFua2llJTIwYW5kJTIwSm8lMjdzJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQyMjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -775,6 +849,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1201 Alaskan Way, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1698254064365-172d5fe7841f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxFbGxpb3R0JTI3cyUyME95c3RlciUyMEhvdXNlJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQyMjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -785,6 +860,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "701 5th Ave, Seattle, WA 98104",
+    imageUrl: "https://images.unsplash.com/photo-1631388167556-93d1deb4c043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTa3klMjBWaWV3JTIwT2JzZXJ2YXRvcnklMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDIzNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -795,6 +871,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "8415 Paine Field Blvd, Mukilteo, WA 98275",
+    imageUrl: "https://images.unsplash.com/photo-1591409505932-69ac6b6f693f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCb2VpbmclMjBGYWN0b3J5JTIwVG91ciUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0MjQyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -805,6 +882,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "seattle",
     address: "2901 Western Ave, Seattle, WA 98121",
+    imageUrl: "https://images.unsplash.com/photo-1631896131637-b6efc8d90eff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPbHltcGljJTIwU2N1bHB0dXJlJTIwUGFyayUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0MjUwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -815,6 +893,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "1483 Alaskan Way, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1619452979188-30e63fb7d496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwQXF1YXJpdW0lMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDI1Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -825,6 +904,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "6501 Railroad Ave SE, Snoqualmie, WA 98065",
+    imageUrl: "https://images.unsplash.com/photo-1673987395804-a1e7fa736da2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTbm9xdWFsbWllJTIwRmFsbHMlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDI2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -835,6 +915,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "Twin Falls Trailhead, North Bend, WA",
+    imageUrl: "https://images.unsplash.com/photo-1632116934486-bcc57f88d649?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUd2luJTIwRmFsbHMlMjBIaWtlfGVufDB8MHx8fDE3Njc5NDI3MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -845,6 +926,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "508 Maynard Ave S, Seattle, WA 98104",
+    imageUrl: "https://images.unsplash.com/photo-1500022208086-96d009e788d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwUGluYmFsbCUyME11c2V1bSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0MjgwNXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -855,6 +937,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "7201 E Green Lake Dr N, Seattle, WA 98115",
+    imageUrl: "https://images.unsplash.com/photo-1546538490-058d85e0b00d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHcmVlbiUyMExha2UlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDI4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -865,6 +948,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "8498 Seaview Pl NW, Seattle, WA 98117",
+    imageUrl: "https://images.unsplash.com/photo-1699720889632-10e53c874821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHb2xkZW4lMjBHYXJkZW5zJTIwUGFyayUyMFRpZGUlMjBQb29scyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0Mjk1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -882,6 +966,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "1402 E Galer St, Seattle, WA 98112",
+    imageUrl: "https://images.unsplash.com/photo-1550894865-60b52e94d018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxWb2x1bnRlZXIlMjBQYXJrJTIwQ29uc2VydmF0b3J5fGVufDB8MHx8fDE3Njc5NDMwMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -899,6 +984,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "2550 Beacon Ave S, Seattle, WA 98144",
+    imageUrl: "https://images.unsplash.com/photo-1656136263308-9812f6039d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCZWFjb24lMjBGb29kJTIwRm9yZXN0JTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQzMTA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -909,6 +995,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "Lake Union, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1707903670271-a5a65f617631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMYWtlJTIwVW5pb24lMjBLYXlha2luZyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0MzE4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -926,6 +1013,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "2743 Westlake Ave N, Seattle, WA 98109",
+    imageUrl: "https://images.unsplash.com/photo-1659214317709-e3fc38c9b07a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIb3QlMjBUdWIlMjBCb2F0JTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQzMjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -943,6 +1031,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "3400 Phinney Ave N, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1741951677463-464d43b13622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGVvJTIwQ2hvY29sYXRlJTIwRmFjdG9yeSUyMFRvdXIlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDMzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -953,6 +1042,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "Multiple Locations, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1583443740110-5af31f905818?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMYWR5JTIwWXVtJTIwTWFjYXJvb25zJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQzNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -963,6 +1053,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "Fremont, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1630783337122-cd6a60504841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxlbnRlcnRhaW5tZW50JTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQzNTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -980,6 +1071,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "Rattlesnake Lake Trail, North Bend, WA",
+    imageUrl: "https://images.unsplash.com/photo-1554484779-c77713f0565f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSYXR0bGVzbmFrZSUyMExlZGdlJTIwSGlrZSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0MzYzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -990,6 +1082,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "Ballard, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1666318798231-8346edcbfec5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCYWxsYXJkJTIwTmVpZ2hib3Job29kfGVufDB8MHx8fDE3Njc5NDM3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -1007,6 +1100,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1050 N 34th St, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1737502005540-bc042e651dd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxGcmVtb250JTIwQnJld2luZ3xlbnwwfDB8fHwxNzY4MDA3MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -1024,6 +1118,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "5200 Denver Ave S, Seattle, WA 98108",
+    imageUrl: "https://images.unsplash.com/photo-1708166210414-10379843e2ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHZW9yZ2V0b3duJTIwQnJld2luZyUyMENvfGVufDB8MHx8fDE3NjgwMDcxNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -1034,6 +1129,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "3801 Discovery Park Blvd, Seattle, WA 98199",
+    imageUrl: "https://images.unsplash.com/photo-1675716603884-7be041ffe7b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxEaXNjb3ZlcnklMjBQYXJrJTIwTGlnaHRob3VzZSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNzI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -1051,6 +1147,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "seattle",
     address: "SODO Track, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1598624670128-262e7c83eee4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTT0RPJTIwVHJhY2slMjBTdHJlZXQlMjBBcnQlMjBzZWF0dGxlfGVufDB8MHx8fDE3NjgwMDczNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -1061,6 +1158,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "Multiple Locations, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1591409505932-69ac6b6f693f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUYWNvcyUyMENodWtpcyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNzQ0OHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -1071,6 +1169,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "Multiple Locations, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1699710420031-986cb394fe3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCYSUyMEJhciUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNzUzOXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -1081,6 +1180,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "4225 Fremont Ave N, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1594421714435-643e87fc3001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQYXNlbyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAwNzYyOXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -1091,6 +1191,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "Capitol Hill, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1657440070063-c85d33e91f00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYXBpdG9sJTIwSGlsbCUyME5pZ2h0bGlmZXxlbnwwfDB8fHwxNzY3OTQ1NzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -1108,6 +1209,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "1426 1st Ave, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1761197675001-795f287bb901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBTaG93Ym94JTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ1ODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -1118,6 +1220,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "300 N Northlake Way, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1724650021506-b8175ea70d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNY01lbmFtaW5zJTIwTm9ydGglMjBTaG9yZSUyMExhZ29vbiUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0NTg5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -1128,6 +1231,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "614 1st Ave, Seattle, WA 98104",
+    imageUrl: "https://images.unsplash.com/photo-1582181081466-aa54ce33062c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwVW5kZXJncm91bmQlMjBUb3VyJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ1OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -1138,6 +1242,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "seattle",
     address: "Pioneer Square, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1741953033958-549af986dda6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQaW9uZWVyJTIwU3F1YXJlJTIwQXJ0JTIwV2Fsa3xlbnwwfDB8fHwxNzY3OTQ2MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -1148,6 +1253,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "912 12th Ave, Seattle, WA 98122",
+    imageUrl: "https://images.unsplash.com/photo-1741951677463-464d43b13622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSaGVpbiUyMEhhdXMlMjBCZWVyJTIwSGFsbCUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0NjEyNHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -1158,6 +1264,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "Seattle Waterfront, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1692195120624-0df8d7e99f4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXaGFsZSUyMFdhdGNoaW5nJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ2MjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -1175,6 +1282,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "1101 Alaskan Way, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1763341982412-e249c8a988a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBcmdvc3klMjBIYXJib3IlMjBDcnVpc2UlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NDYyNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -1185,6 +1293,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "Woodinville, WA",
+    imageUrl: "https://images.unsplash.com/photo-1630342526483-8cf0a27dcac6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXb29kaW52aWxsZSUyMFdpbmUlMjBDb3VudHJ5JTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ2MzUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -1195,6 +1304,7 @@ export const activities: Activity[] = [
     category: "sports",
     city: "seattle",
     address: "Stevens Pass, WA 98826",
+    imageUrl: "https://images.unsplash.com/photo-1707873951299-08177e5ea02a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTdGV2ZW5zJTIwUGFzcyUyMFNraSUyMFJlc29ydHxlbnwwfDB8fHwxNzY3OTQ2NDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
   },
   {
@@ -1205,6 +1315,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "seattle",
     address: "1000 4th Ave, Seattle, WA 98104",
+    imageUrl: "https://images.unsplash.com/photo-1743228077788-8ee080bc358d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwUHVibGljJTIwTGlicmFyeSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0NjUwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
   },
   {
@@ -1215,6 +1326,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "500 2nd Ave, Seattle, WA 98104",
+    imageUrl: "https://images.unsplash.com/photo-1766812735153-2a916af0335d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0aW9ucyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2NzkzOTk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -1232,6 +1344,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "1301 Alaskan Way, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1525462832618-9c15e70b5305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZWF0dGxlJTIwR3JlYXQlMjBXaGVlbCUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk0NjczMHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
   },
   {
@@ -1242,6 +1355,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Tower of London, London EC3N 4AB, UK",
+    imageUrl: "https://images.unsplash.com/photo-1675754697172-4ae64dc97900?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUb3dlciUyMG9mJTIwTG9uZG9uJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NDY4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "stroller-friendly", "wheelchair-accessible", "rainy-day", "half-day"],
   },
@@ -1253,6 +1367,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Great Russell St, London WC1B 3DG, UK",
+    imageUrl: "https://images.unsplash.com/photo-1550573307-52a13140c7da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCcml0aXNoJTIwTXVzZXVtJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NDY4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "wheelchair-accessible", "free", "rainy-day", "half-day"],
   },
@@ -1264,7 +1379,26 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "london",
     address: "8 Southwark St, London SE1 1TL, UK",
+    imageUrl: "https://images.unsplash.com/photo-1662714194223-7afefe9417a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCb3JvdWdoJTIwTWFya2V0JTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NDY5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
+    videos: [
+      {
+        url: "https://www.youtube.com/shorts/VwZ1Lgl7_ck",
+        platform: "youtube",
+      },
+      {
+        url: "https://www.instagram.com/reels/DPzJlZACFCU/",
+        platform: "instagram",
+      },
+      {
+        url: "https://www.facebook.com/watch/?v=1127772372652541",
+        platform: "facebook",
+      },
+      {
+        url: "https://www.youtube.com/watch?v=w3TuFQyaOTA",
+        platform: "youtube",
+      },
+    ],
   },
   {
     id: "117",
@@ -1274,6 +1408,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Hyde Park, London W2 2UH, UK",
+    imageUrl: "https://images.unsplash.com/photo-1660233869035-a49693af0c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIeWRlJTIwUGFyayUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ3MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "dog-friendly", "free", "half-day"],
   },
@@ -1285,6 +1420,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "london",
     address: "West End, London, UK",
+    imageUrl: "https://images.unsplash.com/photo-1698132979615-c673ec327bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXZXN0JTIwRW5kJTIwVGhlYXRyZSUyMERpc3RyaWN0fGVufDB8MHx8fDE3Njc5NDcxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["half-day"],
   },
@@ -1296,6 +1432,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Buckingham Palace Rd, London SW1W 1QH, UK",
+    imageUrl: "https://images.unsplash.com/photo-1652286957792-3dc0e68fae83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0aW9ucyUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ3MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1314,6 +1451,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Riverside Building, County Hall, London SE1 7PB, UK",
+    imageUrl: "https://images.unsplash.com/photo-1602785160829-acc75cd79ae9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBFeWUlMjBsb25kb258ZW58MHwwfHx8MTc2Nzk0NzMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "wheelchair-accessible", "quick-stop"],
     recommendedBy: [
@@ -1332,6 +1470,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Marylebone Rd, London NW1 5LR, UK",
+    imageUrl: "https://images.unsplash.com/photo-1643113232611-8cbc1683cfc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNYWRhbWUlMjBUdXNzYXVkcyUyMExvbmRvbiUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ3NDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1350,6 +1489,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "County Hall, Westminster Bridge Rd, London SE1 7PB, UK",
+    imageUrl: "https://images.unsplash.com/photo-1591202031392-f12ce583e489?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTRUElMjBMSUZFJTIwTG9uZG9uJTIwQXF1YXJpdW0lMjBsb25kb258ZW58MHwwfHx8MTc2ODAwOTc5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1373,6 +1513,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "london",
     address: "Multiple departure points, London, UK",
+    imageUrl: "https://images.unsplash.com/photo-1481328101413-1eef25cc76c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxlbnRlcnRhaW5tZW50JTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTMyODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1391,6 +1532,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "london",
     address: "55 York Rd, London SE1 7NJ, UK",
+    imageUrl: "https://images.unsplash.com/photo-1660233865893-0c361536420d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBEdWNrJTIwVG91cnMlMjBsb25kb258ZW58MHwwfHx8MTc2ODAxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1409,6 +1551,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "london",
     address: "Multiple departure points, London, UK",
+    imageUrl: "https://images.unsplash.com/photo-1579372785655-a81b19e99b8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBZnRlcm5vb24lMjBUZWElMjBCdXMlMjBUb3VyJTIwbG9uZG9ufGVufDB8MHx8fDE3NjgwMTAxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1427,6 +1570,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Studio Tour Dr, Leavesden, Watford WD25 7LR, UK",
+    imageUrl: "https://images.unsplash.com/photo-1692736230185-00535ef68909?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXYXJuZXIlMjBCcm9zLiUyMFN0dWRpbyUyMFRvdXIlMjAtJTIwVGhlJTIwTWFraW5nJTIwb2YlMjBIYXJyeSUyMFBvdHRlciUyMGxvbmRvbnxlbnwwfDB8fHwxNzY4MDEwMjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1445,6 +1589,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Tower Bridge Rd, London SE1 2UP, UK",
+    imageUrl: "https://images.unsplash.com/photo-1652286957792-3dc0e68fae83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0aW9ucyUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ3MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1463,6 +1608,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "London SW1A 1AA, UK",
+    imageUrl: "https://images.unsplash.com/photo-1566328162078-8bbc10daf6b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCdWNraW5naGFtJTIwUGFsYWNlJTIwU3RhdGUlMjBSb29tcyUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ5MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1481,6 +1627,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "london",
     address: "3 Swiss Ct, London W1D 6AP, UK",
+    imageUrl: "https://images.unsplash.com/photo-1679389858333-685a155c3f40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ5NDQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1499,6 +1646,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "london",
     address: "1 Swiss Ct, London W1D 6AP, UK",
+    imageUrl: "https://images.unsplash.com/photo-1635230853699-26438152f4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNYW5kTSUyN3MlMjBXb3JsZCUyMExvbmRvbiUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ5NTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "quick-stop"],
     recommendedBy: [
@@ -1517,6 +1665,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "london",
     address: "87-135 Brompton Rd, London SW1X 7XL, UK",
+    imageUrl: "https://images.unsplash.com/photo-1660233868899-f800885dca59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIYXJyb2RzJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NDk1OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1535,6 +1684,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "london",
     address: "188-196 Regent St., London W1B 5BT, UK",
+    imageUrl: "https://images.unsplash.com/photo-1758061072261-02ed3a09641c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIYW1sZXlzJTIwVG95JTIwU3RvcmUlMjBsb25kb258ZW58MHwwfHx8MTc2Nzk0OTY3MHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1558,6 +1708,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Belvedere Rd, London SE1 7PB, UK",
+    imageUrl: "https://images.unsplash.com/photo-1473895908536-7cbe5466790f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxKdWJpbGVlJTIwR2FyZGVucyUyMFBsYXlncm91bmQlMjBsb25kb258ZW58MHwwfHx8MTc2Nzk0OTc0NXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "free", "quick-stop"],
     recommendedBy: [
@@ -1576,6 +1727,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "London SW1A 2BJ, UK",
+    imageUrl: "https://images.unsplash.com/photo-1647876761805-422beec62cb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTdCUyMEphbWVzJTI3cyUyMFBhcmslMjBsb25kb258ZW58MHwwfHx8MTc2Nzk0OTgyMHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "dog-friendly", "free", "half-day"],
     recommendedBy: [
@@ -1594,6 +1746,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Lyceum Theatre, 21 Wellington St, London WC2E 7RQ, UK",
+    imageUrl: "https://images.unsplash.com/photo-1752501189987-35fe5a7fd301?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBMaW9uJTIwS2luZyUyME11c2ljYWwlMjBsb25kb258ZW58MHwwfHx8MTc2Nzk0OTg5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1612,6 +1765,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Cromwell Rd, London SW7 5BD, UK",
+    imageUrl: "https://images.unsplash.com/photo-1657623876124-e4755969a428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXR1cmFsJTIwSGlzdG9yeSUyME11c2V1bSUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ5OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1635,6 +1789,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "london",
     address: "Buckingham Palace, London SW1A 1AA, UK",
+    imageUrl: "https://images.unsplash.com/photo-1597053923926-0f725f4ea881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDaGFuZ2luZyUyMG9mJTIwdGhlJTIwR3VhcmQlMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "free", "quick-stop"],
     recommendedBy: [
@@ -1653,6 +1808,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Hampton Court Way, Molesey, East Molesey KT8 9AU, UK",
+    imageUrl: "https://images.unsplash.com/photo-1565976287065-de785542ed26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIYW1wdG9uJTIwQ291cnQlMjBQYWxhY2UlMjAtJTIwVGhlJTIwTWFnaWMlMjBHYXJkZW58ZW58MHwwfHx8MTc2Nzk1MDEyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "stroller-friendly", "half-day"],
     recommendedBy: [
@@ -1671,6 +1827,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "london",
     address: "Multiple departure points, London, UK",
+    imageUrl: "https://images.unsplash.com/photo-1648116419089-e785412768f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCcmlnaXQlMjdzJTIwQmFrZXJ5JTIwUGVwcGElMjBQaWclMjBBZnRlcm5vb24lMjBUZWElMjBCdXMlMjBUb3VyJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTAxOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     tags: ["kid-friendly", "half-day"],
     recommendedBy: [
@@ -1689,6 +1846,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "383-387 High St, London E15 4QZ, UK",
+    imageUrl: "https://images.unsplash.com/photo-1598618137719-356137a39a55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxEaXNjb3ZlciUyMENoaWxkcmVuJTI3cyUyMFN0b3J5JTIwQ2VudHJlJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTAyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1707,6 +1865,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Covent Garden Piazza, London WC2E 7BB, UK",
+    imageUrl: "https://images.unsplash.com/photo-1487097820412-ccf87ecaf245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBUcmFuc3BvcnQlMjBNdXNldW0lMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MDM0OXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1725,6 +1884,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "No. 1 Warehouse, West India Quay, London E14 4AL, UK",
+    imageUrl: "https://images.unsplash.com/photo-1640013531179-b70c0f80d0c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNdXNldW0lMjBvZiUyMExvbmRvbiUyMERvY2tsYW5kcyUyMC0lMjBNdWRsYXJrcyUyMEdhbGxlcnklMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MDQyNXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1743,6 +1903,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Regent's Park, London NW1 4RY, UK",
+    imageUrl: "https://images.unsplash.com/photo-1564766195680-72ff30d1b367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBab28lMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MDUwMHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "stroller-friendly", "half-day"],
     recommendedBy: [
@@ -1761,6 +1922,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Romney Rd, London SE10 9NF, UK",
+    imageUrl: "https://images.unsplash.com/photo-1529682668343-870962b235a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyME1hcml0aW1lJTIwTXVzZXVtJTIwLSUyMEFIT1klMjBHYWxsZXJ5JTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTA1NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1779,6 +1941,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Randolph Ave, London W9 1PD, UK",
+    imageUrl: "https://images.unsplash.com/photo-1725069625011-bde91dc663af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQYWRkaW5ndG9uJTIwUmVjcmVhdGlvbiUyMFBsYXlncm91bmQlMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MDY1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1797,6 +1960,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Kensington Gardens, London W2 2UH, UK",
+    imageUrl: "https://images.unsplash.com/photo-1586589079612-433fa43c879f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxEaWFuYSUyMFByaW5jZXNzJTIwb2YlMjBXYWxlcyUyME1lbW9yaWFsJTIwUGxheWdyb3VuZCUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTUwNzI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1815,6 +1979,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Royal Botanic Gardens, Kew, Richmond TW9 3AE, UK",
+    imageUrl: "https://images.unsplash.com/photo-1750802919398-809f0bad8c70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxLZXclMjBHYXJkZW5zJTIwLSUyMFRoZSUyMENoaWxkcmVuJTI3cyUyMEdhcmRlbiUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTUwODAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["kid-friendly", "stroller-friendly", "rainy-day", "full-day"],
     recommendedBy: [
@@ -1833,6 +1998,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Exhibition Rd, South Kensington, London SW7 2DD, UK",
+    imageUrl: "https://images.unsplash.com/photo-1650237375592-e71c57146403?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTY2llbmNlJTIwTXVzZXVtJTIwLSUyMFRoZSUyMEdhcmRlbiUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTUwODc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "stroller-friendly", "free", "rainy-day", "half-day"],
     recommendedBy: [
@@ -1851,6 +2017,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Unit 12, Ravenswood Industrial Estate, Shernhall St, Walthamstow, London E17 9HQ, UK",
+    imageUrl: "https://images.unsplash.com/photo-1529417908041-f2c7fb1cd6ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHb2RzJTIwT3duJTIwSnVua3lhcmQlMjBsb25kb258ZW58MHwwfHx8MTc2ODAxMjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -1868,6 +2035,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Swain's Ln, London N6 6PJ, UK",
+    imageUrl: "https://images.unsplash.com/photo-1721667052293-9e701d722196?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIaWdoZ2F0ZSUyMENlbWV0ZXJ5JTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTEwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     tags: ["half-day"],
     recommendedBy: [
@@ -1886,6 +2054,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "26 Greek St, London W1D 5DE, UK",
+    imageUrl: "https://images.unsplash.com/photo-1767522249371-5993a36fd9d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIb3VzZSUyMG9mJTIwTWluYUxpbWElMjBsb25kb258ZW58MHwwfHx8MTc2ODAxMjY4OHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     tags: ["kid-friendly", "free", "rainy-day", "quick-stop"],
     recommendedBy: [
@@ -1904,6 +2073,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "london",
     address: "Brick Ln, London E1 6QL, UK",
+    imageUrl: "https://images.unsplash.com/photo-1648501910342-5332f255c12b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCcmljayUyMExhbmUlMjBNYXJrZXRzfGVufDB8MHx8fDE3NjgwMTI3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -1921,6 +2091,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Thames River, London, UK",
+    imageUrl: "https://images.unsplash.com/photo-1689174966375-f2b7cfa2bdba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxLYXlhayUyMFRvdXIlMjBvZiUyMHRoZSUyMFRoYW1lcyUyMGxvbmRvbnxlbnwwfDB8fHwxNzY4MDEyODcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -1938,6 +2109,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Little Venice, London W2, UK",
+    imageUrl: "https://images.unsplash.com/photo-1603419257157-e0499408b7f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMaXR0bGUlMjBWZW5pY2UlMjBsb25kb258ZW58MHwwfHx8MTc2ODAxMjk2MHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -1955,6 +2127,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "london",
     address: "Gracechurch St, London EC3V 1LT, UK",
+    imageUrl: "https://images.unsplash.com/photo-1679389858333-685a155c3f40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ5NDQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -1972,6 +2145,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "london",
     address: "87 Tower Bridge Rd, London SE1 4TW, UK",
+    imageUrl: "https://images.unsplash.com/photo-1635445323630-405bb073b4da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNYW56ZSUyN3MlMjBQaWUlMjBTaG9wJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTI4MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -1989,6 +2163,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Byward St, London EC3R 5BJ, UK",
+    imageUrl: "https://images.unsplash.com/photo-1639189905898-6431e367accb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBbGwlMjBIYWxsb3dzJTIwYnklMjB0aGUlMjBUb3dlciUyMENodXJjaCUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTUyOTExfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2006,6 +2181,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "9a St Thomas St, London SE1 9RY, UK",
+    imageUrl: "https://images.unsplash.com/photo-1652286957792-3dc0e68fae83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0aW9ucyUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTQ3MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2023,6 +2199,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Richmond Park, London TW10 5HS, UK",
+    imageUrl: "https://images.unsplash.com/photo-1579891883949-c50dc4303cbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSaWNobW9uZCUyMFBhcmslMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MzEzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2040,6 +2217,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "london",
     address: "Walworth, London SE17, UK",
+    imageUrl: "https://images.unsplash.com/photo-1481328101413-1eef25cc76c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxlbnRlcnRhaW5tZW50JTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTMyODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2057,6 +2235,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Pancras Rd, London NW1 1UL, UK",
+    imageUrl: "https://images.unsplash.com/photo-1761655263398-d4e5bb0a6c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBIYXJkeSUyMFRyZWV8ZW58MHwwfHx8MTc2Nzk1MzM2NXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2074,6 +2253,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "london",
     address: "Tower Pier, London EC3N 4DT, UK",
+    imageUrl: "https://images.unsplash.com/photo-1682255801597-29fd5c2e54c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQYWRkbGUlMjBTdGVhbWVyJTIwV2F2ZXJsZXklMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MzQ0MXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2091,6 +2271,7 @@ export const activities: Activity[] = [
     category: "arts-culture",
     city: "london",
     address: "Millennium Bridge, London SE1 9JE, UK",
+    imageUrl: "https://images.unsplash.com/photo-1631124872778-a51771e0da8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaW55JTIwUGFpbnRpbmdzJTIwb24lMjBNaWxsZW5uaXVtJTIwQnJpZGdlJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTM1MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2108,6 +2289,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "St Dunstan's Hill, London EC3R 5DD, UK",
+    imageUrl: "https://images.unsplash.com/photo-1644480052677-a24f9cbe5cae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTdCUyMER1bnN0YW4lMjdzJTIwaW4lMjB0aGUlMjBFYXN0fGVufDB8MHx8fDE3Njc5NTM1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2125,6 +2307,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Whitehall, London SW1A 2ER, UK",
+    imageUrl: "https://images.unsplash.com/photo-1763302631678-75ee4480328b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBCYW5xdWV0aW5nJTIwSG91c2UlMjBsb25kb258ZW58MHwwfHx8MTc2Nzk1MzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2142,6 +2325,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Silk St, London EC2Y 8DS, UK",
+    imageUrl: "https://images.unsplash.com/photo-1605173105171-a8b91a4d065c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCYXJiaWNhbiUyMENvbnNlcnZhdG9yeSUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTUzNzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2159,6 +2343,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Inverforth Cl, London NW3 7EX, UK",
+    imageUrl: "https://images.unsplash.com/photo-1676278889733-e5e599b2cfae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIYW1wc3RlYWQlMjBIZWF0aCUyMFBlcmdvbGElMjBhbmQlMjBIaWxsJTIwR2FyZGVuJTIwbG9uZG9ufGVufDB8MHx8fDE3Njc5NTM4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2176,6 +2361,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "london",
     address: "Romney Rd, London SE10 9NF, UK",
+    imageUrl: "https://images.unsplash.com/photo-1705943791138-e215b04f3d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxRdWVlbiUyN3MlMjBIb3VzZSUyMEdyZWVud2ljaCUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTUzODk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2193,6 +2379,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "london",
     address: "Southeast London, UK",
+    imageUrl: "https://images.unsplash.com/photo-1761216061829-99e551648dd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBHcmVlbiUyMENoYWluJTIwV2FsayUyMGxvbmRvbnxlbnwwfDB8fHwxNzY3OTUzOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2210,6 +2397,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "4743 Ballard Ave NW, Seattle, WA 98107",
+    imageUrl: "https://images.unsplash.com/photo-1722226540174-9bc2cd0c49f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBXYWxydXMlMjBhbmQlMjB0aGUlMjBDYXJwZW50ZXIlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NTQwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2227,6 +2415,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "6049 Seaview Ave NW, Seattle, WA 98107",
+    imageUrl: "https://images.unsplash.com/photo-1698254064365-172d5fe7841f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSYXklMjdzJTIwQ2FmJUMzJUE5JTIwYW5kJTIwQm9hdGhvdXNlJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTU0MTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2244,6 +2433,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "5010 14th Ave NW, Seattle, WA 98107",
+    imageUrl: "https://images.unsplash.com/photo-1585435247026-1d8560423d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxmb29kLWRyaW5rJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ1NjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2261,6 +2451,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "5233 Ballard Ave NW, Seattle, WA 98107",
+    imageUrl: "https://images.unsplash.com/photo-1586164036888-552346d6d2e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQZXJjeSUyN3MlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NTQzNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2278,6 +2469,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1936 Harbor Ave SW, Seattle, WA 98126",
+    imageUrl: "https://images.unsplash.com/photo-1724650226836-ef259c335577?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTYWx0eSUyN3MlMjBvbiUyMEFsa2klMjBCZWFjaCUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk1NDQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2295,6 +2487,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "513 N 36th St, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1656136263308-9812f6039d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSZXZlbCUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk1NDQ5OXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2312,6 +2505,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1525 10th Ave, Seattle, WA 98122",
+    imageUrl: "https://images.unsplash.com/photo-1571515476350-64c004fab436?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPZGRmZWxsb3dzJTIwQ2FmJUMzJUE5JTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTU0NTc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2329,6 +2523,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1809 Minor Ave, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1737074432908-a57d9ae0a2d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOZWVkbGUlMjBhbmQlMjBUaHJlYWQlMjBTcGVha2Vhc3klMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NTQ2NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2346,6 +2541,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "1356 E Olive Way, Seattle, WA 98122",
+    imageUrl: "https://images.unsplash.com/photo-1585435247026-1d8560423d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxmb29kLWRyaW5rJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ1NjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2363,6 +2559,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "515 Westlake Ave N, Seattle, WA 98109",
+    imageUrl: "https://images.unsplash.com/photo-1585435247026-1d8560423d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxmb29kLWRyaW5rJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ1NjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2380,6 +2577,7 @@ export const activities: Activity[] = [
     category: "food-drink",
     city: "seattle",
     address: "110 Stewart St, Seattle, WA 98101",
+    imageUrl: "https://images.unsplash.com/photo-1585435247026-1d8560423d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxmb29kLWRyaW5rJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTQ1NjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2397,6 +2595,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "seattle",
     address: "1521 10th Ave, Seattle, WA 98122",
+    imageUrl: "https://images.unsplash.com/photo-1741951677463-464d43b13622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxFbGxpb3R0JTIwQmF5JTIwQm9vayUyMENvbXBhbnklMjBzZWF0dGxlfGVufDB8MHx8fDE3NjgwMTMwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2414,6 +2613,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "3015 NW 54th St, Seattle, WA 98107",
+    imageUrl: "https://images.unsplash.com/photo-1766812735153-2a916af0335d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0aW9ucyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2NzkzOTk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2431,6 +2631,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "seattle",
     address: "5300 Ballard Ave NW, Seattle, WA 98107",
+    imageUrl: "https://images.unsplash.com/photo-1683875416264-c3c00849b2bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCYWxsYXJkJTIwRmFybWVycyUyME1hcmtldCUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2ODAxMzE0MXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2448,6 +2649,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "seattle",
     address: "California Ave SW & SW Alaska St, Seattle, WA 98116",
+    imageUrl: "https://images.unsplash.com/photo-1534990752323-06669b09880a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXZXN0JTIwU2VhdHRsZSUyMEZhcm1lcnMlMjBNYXJrZXQlMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NTY1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2465,6 +2667,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "seattle",
     address: "3401 Evanston Ave N, Seattle, WA 98103",
+    imageUrl: "https://images.unsplash.com/photo-1528952686551-542043782ab9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk1NjY4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2482,6 +2685,7 @@ export const activities: Activity[] = [
     category: "entertainment",
     city: "seattle",
     address: "Lake Union, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1743286159555-ea765c1bc5e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxWb24lMjBTYXVuYXxlbnwwfDB8fHwxNzY3OTU2NzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2499,6 +2703,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "Seattle Waterfront, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1709303341358-b10022e99d6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTZWFwbGFuZSUyMFRvdXJzJTIwc2VhdHRsZXxlbnwwfDB8fHwxNzY3OTU2ODM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$$",
     recommendedBy: [
       {
@@ -2516,6 +2721,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "801 Alaskan Way, Seattle, WA 98104",
+    imageUrl: "https://images.unsplash.com/photo-1725759678556-4c51396789f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCYWluYnJpZGdlJTIwSXNsYW5kJTIwRmVycnklMjBzZWF0dGxlfGVufDB8MHx8fDE3Njc5NTY5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2533,6 +2739,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "Seattle Waterfront, Seattle, WA",
+    imageUrl: "https://images.unsplash.com/photo-1595871060800-dd80cf24201a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxWYXNob24lMjBJc2xhbmQlMjBGZXJyeSUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk1Njk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2550,6 +2757,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "7571 NE Dolphin Dr, Bainbridge Island, WA 98110",
+    imageUrl: "https://images.unsplash.com/photo-1594671555566-5332ba48ce76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCbG9lZGVsJTIwUmVzZXJ2ZXxlbnwwfDB8fHwxNzY3OTU3MDY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2567,6 +2775,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "15446 Sunrise Dr NE, Bainbridge Island, WA 98110",
+    imageUrl: "https://images.unsplash.com/photo-1601356379577-ef20bf92619c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxGYXklMjBCYWluYnJpZGdlJTIwUGFyayUyMHNlYXR0bGV8ZW58MHwwfHx8MTc2Nzk1NzE0MXww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2584,6 +2793,7 @@ export const activities: Activity[] = [
     category: "shopping",
     city: "seattle",
     address: "Winslow Way, Bainbridge Island, WA 98110",
+    imageUrl: "https://images.unsplash.com/photo-1667318023606-ca9a47613870?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXaW5zbG93fGVufDB8MHx8fDE3Njc5NTcyMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$$",
     recommendedBy: [
       {
@@ -2601,6 +2811,7 @@ export const activities: Activity[] = [
     category: "attractions",
     city: "seattle",
     address: "3705 SW Point Robinson Rd, Vashon, WA 98070",
+    imageUrl: "https://images.unsplash.com/photo-1759063858691-b9a04ab047b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQb2ludCUyMFJvYmluc29uJTIwTGlnaHRob3VzZXxlbnwwfDB8fHwxNzY3OTU3MjkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2618,6 +2829,7 @@ export const activities: Activity[] = [
     category: "outdoor",
     city: "seattle",
     address: "59th Ave SW, Vashon, WA 98070",
+    imageUrl: "https://images.unsplash.com/photo-1640073681184-71ed3b05993f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNYXVyeSUyMElzbGFuZCUyME1hcmluZSUyMFBhcmt8ZW58MHwwfHx8MTc2Nzk1NzM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
     priceRange: "$",
     recommendedBy: [
       {
@@ -2626,6 +2838,1191 @@ export const activities: Activity[] = [
         articleUrl: "https://seekingthenow.com/destinations/washington/locals-guide-to-seattle/",
       },
     ],
+  },
+  {
+    id: "195",
+    name: "Techniquest",
+    slug: "techniquest",
+    description: "One of the UK's oldest science centers with interactive exhibits exploring science and Welsh culture. Indoor, weather-proof facility featuring hands-on learning through water areas, slides, and shadow rooms with staff emphasizing experiential education.",
+    category: "attractions",
+    city: "wales",
+    address: "Cardiff, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1618172775375-054dc107af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUZWNobmlxdWVzdCUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NTc0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.techniquest.org/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "rainy-day", "half-day", "wheelchair-accessible"],
+  },
+  {
+    id: "196",
+    name: "Centre for Alternative Technology (CAT)",
+    slug: "centre-for-alternative-technology",
+    description: "Educational charity researching environmental sustainability and zero-emission living. Features outdoor exploration via Quarry Trail, Adventure Playground, and nature-connection workshops for children.",
+    category: "attractions",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1623292867420-65f47ca27398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDZW50cmUlMjBmb3IlMjBBbHRlcm5hdGl2ZSUyMFRlY2hub2xvZ3klMjAlMjhDQVQlMjklMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTU3NTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://cat.org.uk/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "197",
+    name: "Big Pit National Coal Museum",
+    slug: "big-pit-national-coal-museum",
+    description: "Authentic coal mine converted to family-friendly museum with 300+ feet underground tours led by actual miners. Features original mining infrastructure preserved, including miners' baths and machinery exhibits.",
+    category: "arts-culture",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1732528687460-d932c7394543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCaWclMjBQaXQlMjBOYXRpb25hbCUyMENvYWwlMjBNdXNldW0lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTU3NTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://museum.wales/bigpit/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "rainy-day", "half-day"],
+  },
+  {
+    id: "198",
+    name: "King Arthur's Labyrinth",
+    slug: "king-arthurs-labyrinth",
+    description: "Award-winning immersive underground attraction combining interactive theatre, cave exploration, and boat tour. Features dramatic theatrics with Dragons and Knights of Roundtable themes. Best Visitor Attraction Mid Wales 2018.",
+    category: "entertainment",
+    city: "wales",
+    address: "Mid Wales",
+    imageUrl: "https://images.unsplash.com/photo-1636843651345-d59cc9ceef53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxLaW5nJTIwQXJ0aHVyJTI3cyUyMExhYnlyaW50aCUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NTc2NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.kingarthurslabyrinth.co.uk/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "rainy-day", "half-day"],
+    videos: [
+      {
+        url: "https://www.youtube.com/watch?v=hHlunTcaAfU",
+        platform: "youtube",
+        title: "King Arthur's Labyrinth",
+      },
+    ],
+  },
+  {
+    id: "199",
+    name: "Llechwedd Slate Caverns",
+    slug: "llechwedd-slate-caverns",
+    description: "Historic slate mine featuring Europe's steepest cable railways and walking tours (61 steps). Authentic mine experience that hosts Wild Thoughts Festival in autumn with music and performance.",
+    category: "attractions",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1696868488318-bc14900200cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMbGVjaHdlZGQlMjBTbGF0ZSUyMENhdmVybnMlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTU3NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.llechwedd.wales/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "200",
+    name: "National Botanical Garden",
+    slug: "national-botanical-garden-wales",
+    description: "Botanical garden with seasonal living exhibits and ecology education. Features monthly rotating attractions, day courses in Aqualab, and exotic specimens like Dragon Tree.",
+    category: "outdoor",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1740784878412-e44facafd920?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyMEJvdGFuaWNhbCUyMEdhcmRlbiUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NTc4MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://botanicgarden.wales/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day", "wheelchair-accessible"],
+  },
+  {
+    id: "201",
+    name: "Cardigan Bay",
+    slug: "cardigan-bay",
+    description: "Coastal destination offering boat trips for marine wildlife viewing with peak dolphin activity in summer months. Opportunities to spot humpback whales, harbour porpoises, and orcas. Nearby Devil's Bridge waterfall and Tresaith beach.",
+    category: "outdoor",
+    city: "wales",
+    address: "Mid Wales/Ceredigion",
+    imageUrl: "https://images.unsplash.com/photo-1660914234776-591a38094a1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYXJkaWdhbiUyMEJheSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NTc4OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day", "full-day"],
+  },
+  {
+    id: "202",
+    name: "Cantref Adventure Farm",
+    slug: "cantref-adventure-farm",
+    description: "Multi-activity farm with animal sections (Pet Barn and Big Animal Barn) plus rides and shows. Features Super Sledge, paddle boats, Role Play Zone for aspiring vets, comedy shows, and soft play for toddlers.",
+    category: "entertainment",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1715341762948-a3b3fdd9b352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYW50cmVmJTIwQWR2ZW50dXJlJTIwRmFybSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NTc5NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "full-day"],
+  },
+  {
+    id: "203",
+    name: "Wales Ape and Monkey Sanctuary",
+    slug: "wales-ape-monkey-sanctuary",
+    description: "Rescue sanctuary housing primates and other species from labs and neglectful situations. Offers 'Follow a keeper for a day' option with behind-the-scenes animal care experience. Admission supports facility maintenance.",
+    category: "attractions",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1634477383315-7657c384009b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXYWxlcyUyMEFwZSUyMGFuZCUyME1vbmtleSUyMFNhbmN0dWFyeSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NTgwNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.walesapemonkeysanctuary.co.uk/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "204",
+    name: "Falconry Experience Centre",
+    slug: "falconry-experience-centre",
+    description: "Educational facility offering junior and family programs in falconry and raptor handling. 90-minute sessions include hands-on raptor flying, educational information, Q&A, and souvenir photos. Suitable for children 10+.",
+    category: "attractions",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1628334704186-9486b795cdfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxGYWxjb25yeSUyMEV4cGVyaWVuY2UlMjBDZW50cmUlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTU4MTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "205",
+    name: "Folly Farm",
+    slug: "folly-farm-wales",
+    description: "Comprehensive entertainment complex combining zoo, farm, fairground, and play facilities. Features Giraffe Heights walkway for eye-level encounters, Cwtch petting area (Welsh for 'cuddle'), vintage indoor funfair with 17 rides, tractor-train rides, and Carousel Woods soft play. Pre-booking required online.",
+    category: "entertainment",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1715341762948-a3b3fdd9b352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxGb2xseSUyMEZhcm0lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTU4MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.folly-farm.co.uk/",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "stroller-friendly", "rainy-day", "full-day"],
+  },
+  {
+    id: "206",
+    name: "Oakwood Theme Park",
+    slug: "oakwood-theme-park",
+    description: "Mixed thrill and family-friendly amusement park. Features Neverland area with Peter Pan-themed attractions, Hook's House of Havoc soft play, and rides suitable for preschoolers through teens.",
+    category: "entertainment",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1638045386127-80aea6ba7b98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxPYWt3b29kJTIwVGhlbWUlMjBQYXJrJTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxMzIzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.oakwoodthemepark.co.uk/",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "rainy-day", "full-day"],
+  },
+  {
+    id: "207",
+    name: "Dan Yr Ogof National Showcaves of Wales",
+    slug: "dan-yr-ogof-showcaves",
+    description: "Multi-attraction complex featuring caves, dinosaur exhibits, farm, playground, and museum. Cathedral Cave famous for waterfalls and geological formations. Includes fossil centre, Shire horse centre, and on-site campgrounds.",
+    category: "attractions",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1618172775375-054dc107af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxEYW4lMjBZciUyME9nb2YlMjBOYXRpb25hbCUyMFNob3djYXZlcyUyMG9mJTIwV2FsZXMlMjB3YWxlc3xlbnwwfDB8fHwxNzY4MDEzMzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.showcaves.co.uk/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "full-day"],
+  },
+  {
+    id: "208",
+    name: "Smugglers Cove Adventure Golf",
+    slug: "smugglers-cove-adventure-golf",
+    description: "12-hole pirate-themed mini golf course with water features. Suitable for toddlers upward with life-sized pirate theming, mini clubs for young players, and waterfall features.",
+    category: "entertainment",
+    city: "wales",
+    address: "Coastal Wales",
+    imageUrl: "https://images.unsplash.com/photo-1665219840062-97de44f9d961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTbXVnZ2xlcnMlMjBDb3ZlJTIwQWR2ZW50dXJlJTIwR29sZiUyMHdhbGVzfGVufDB8MHx8fDE3NjgwMTM0MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.facebook.com/SmugglersCoveBarryIsland/",
+    priceRange: "$",
+    tags: ["kid-friendly", "stroller-friendly", "quick-stop"],
+  },
+  {
+    id: "209",
+    name: "Hetherton World of Activities",
+    slug: "hetherton-world-activities",
+    description: "Year-round indoor/outdoor activity complex with multiple themed zones. Features Play Zone with medieval playground and driving school, Family Fun Zone, dog-friendly play area, and accessibility features including free wheelchairs and complimentary caregiver admission.",
+    category: "entertainment",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1675855547526-c24d4b60d268?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIZXRoZXJ0b24lMjBXb3JsZCUyMG9mJTIwQWN0aXZpdGllcyUyMHdhbGVzfGVufDB8MHx8fDE3NjgwMTM1MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "wheelchair-accessible", "dog-friendly", "rainy-day", "full-day"],
+  },
+  {
+    id: "210",
+    name: "Barafundle Bay",
+    slug: "barafundle-bay",
+    description: "Green Beach award-winning beach with blonde sand and crystalline waters. Cliff access via steps. Beautiful secluded beach with no facilities nearby.",
+    category: "outdoor",
+    city: "wales",
+    address: "Stackpole, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1721205224584-867f4565c0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCYXJhZnVuZGxlJTIwQmF5JTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxMzU5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["half-day"],
+  },
+  {
+    id: "211",
+    name: "Three Cliffs Bay",
+    slug: "three-cliffs-bay",
+    description: "Named for three limestone cliffs, features sand dunes and salt marsh. Photogenic landscape with historical ruins accessible for exploration.",
+    category: "outdoor",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1517348678194-ca7addd87931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaHJlZSUyMENsaWZmcyUyMEJheSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjAwMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["half-day"],
+  },
+  {
+    id: "212",
+    name: "Porth Iago",
+    slug: "porth-iago",
+    description: "Private beach with seclusion and nearby food truck. Parking and beach access via hill descent with clear waters.",
+    category: "outdoor",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1715341762948-a3b3fdd9b352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQb3J0aCUyMElhZ28lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYwMDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["half-day"],
+  },
+  {
+    id: "213",
+    name: "Rhossili Bay",
+    slug: "rhossili-bay",
+    description: "Dog-friendly soft sand beach surrounded by cliffs and hills. Close to amenities including cafes and toilets. Opportunities for bird watching and water sports.",
+    category: "outdoor",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1721205224584-867f4565c0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSaG9zc2lsaSUyMEJheSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjAxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["kid-friendly", "dog-friendly", "half-day"],
+  },
+  {
+    id: "214",
+    name: "Snowdonia National Park",
+    slug: "snowdonia-national-park",
+    description: "Vast national park with breathtaking views and glacial valleys. Activities include hiking, mountain climbing, cycling, abseiling, inland surfing, zip-lining, castle tours, and narrow-gauge railways. Perfect for stargazing.",
+    category: "outdoor",
+    city: "wales",
+    address: "Snowdonia, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1695692159322-779b567da27b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTbm93ZG9uaWElMjBOYXRpb25hbCUyMFBhcmslMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYwMjMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://eryri.gov.wales/",
+    priceRange: "$$",
+    tags: ["full-day", "dog-friendly"],
+    articles: [
+      {
+        title: "7 of the Best Things to Do in Snowdonia (That Aren't Hiking)",
+        url: "https://www.muchbetteradventures.com/magazine/things-to-do-snowdonia/",
+        source: "Much Better Adventures",
+        description: "Adventure activities guide highlighting wild swimming, stand-up paddleboarding, camping, kayaking, cycling, white water rafting, and scrambling on rocky terrain in Snowdonia National Park.",
+      },
+    ],
+  },
+  {
+    id: "215",
+    name: "Anglesey Outdoors Centre",
+    slug: "anglesey-outdoors-centre",
+    description: "Outdoor adventure centre offering paddle boarding, snorkeling, coasteering, abseiling, kayaking, rock climbing, gorge walking, and bushcraft. Nearby attractions include working windmill, sea zoo, and 14th-century castle. Better suited for older children.",
+    category: "outdoor",
+    city: "wales",
+    address: "Isle of Anglesey, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1650658357423-cd6a58b86c40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBbmdsZXNleSUyME91dGRvb3JzJTIwQ2VudHJlJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2MDMwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$$",
+    tags: ["full-day"],
+  },
+  {
+    id: "216",
+    name: "Cilgerran Castle",
+    slug: "cilgerran-castle",
+    description: "Medieval castle in the Teifi Valley offering exploration and stunning views. Nearby boat tours provide opportunities to see porpoises, dolphins, and seals. Artisan riverside pizza dining and theatrical productions available.",
+    category: "attractions",
+    city: "wales",
+    address: "Cardigan/Teifi Valley, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1660750125594-111f76d72387?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDaWxnZXJyYW4lMjBDYXN0bGUlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "217",
+    name: "Cardiff Bay",
+    slug: "cardiff-bay",
+    description: "Compact capital city area with tours, filming locations from Doctor Who, historic castle, board game cafes, and Central Market. Heart of a metropolis with connections to Roald Dahl.",
+    category: "attractions",
+    city: "wales",
+    address: "Cardiff, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1694605212678-ee090f94c9b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYXJkaWZmJTIwQmF5JTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2MDQ1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "218",
+    name: "St David's Cathedral",
+    slug: "st-davids-cathedral",
+    description: "Historic cathedral in Pembrokeshire near multiple beaches including Whitesands and Blue Lagoon. Nearby activities include surfing, rock-pooling, coasteering, and art galleries. Boating tours available for viewing puffins, porpoises, gannets, and dolphins.",
+    category: "arts-culture",
+    city: "wales",
+    address: "St David's, Pembrokeshire, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1683296211977-334b71cd25bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTdCUyMERhdmlkJTI3cyUyMENhdGhlZHJhbCUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjA1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "219",
+    name: "Bluestone National Park Resort",
+    slug: "bluestone-national-park-resort",
+    description: "Luxury resort spanning 200+ hectares featuring indoor pool, subtropical Blue Lagoon, and Serendome covered activity space. Activities include water sports, kayaking, nature walks, spa services, and workshops. Lodge and cottage options with on-site dining and shopping.",
+    category: "entertainment",
+    city: "wales",
+    address: "Pembrokeshire, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1648145645786-98bcba555149?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCbHVlc3RvbmUlMjBOYXRpb25hbCUyMFBhcmslMjBSZXNvcnQlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYwNjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.bluestonewales.com/",
+    priceRange: "$$$$",
+    tags: ["kid-friendly", "stroller-friendly", "wheelchair-accessible", "rainy-day", "full-day"],
+  },
+  {
+    id: "220",
+    name: "Conwy Castle",
+    slug: "conwy-castle",
+    description: "Magnificent medieval fortress that has towered over Conwy for over 700 years. Walk a complete circuit around the battlements via restored spiral staircases for breathtaking views of Snowdonia mountains and the harbour below. Built by King Edward I and Master James of St George in just four years (1283-1287), this World Heritage Site features exceptionally well-preserved curtain walls, eight lofty towers, and the most intact set of medieval royal apartments in Wales. Protected by an unbroken 1,400-yard ring of town walls.",
+    category: "attractions",
+    city: "wales",
+    address: "Rose Hill St, Conwy, LL32 8AY, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1648672968377-87bda783b576?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDb253eSUyMENhc3RsZSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjA2ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://cadw.gov.wales/visit/places-to-visit/castell-conwy",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "221",
+    name: "Caernarfon Castle",
+    slug: "caernarfon-castle",
+    description: "Grand fortress with dragons and a 'Game of Crowns' exhibition. Most expensive castle built by an English king, with construction beginning in 1283. Eagle Tower offers panoramic views of the surrounding area.",
+    category: "attractions",
+    city: "wales",
+    address: "Caernarfon, North Wales",
+    imageUrl: "https://images.unsplash.com/photo-1649953287319-7dbb5c6a90ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYWVybmFyZm9uJTIwQ2FzdGxlJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2MDc2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://cadw.gov.wales/visit/places-to-visit/caernarfon-castle",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "222",
+    name: "Dolbadarn Castle",
+    slug: "dolbadarn-castle",
+    description: "Three-story tower with complex series of chambers accessed via enchanting moss-covered pathways. Captured by Edward I's forces in 1283, praised for simplicity contrasting intricate interior design.",
+    category: "attractions",
+    city: "wales",
+    address: "Snowdonia, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1695688548418-4f6271993427?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxEb2xiYWRhcm4lMjBDYXN0bGUlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYwODM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["kid-friendly", "quick-stop"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "223",
+    name: "Cardiff Castle",
+    slug: "cardiff-castle",
+    description: "Gothic fantasy palace featuring elaborate interiors with gold ceilings, murals, and intricate wood carvings. Most ornate castle interiors in Wales.",
+    category: "attractions",
+    city: "wales",
+    address: "Cardiff, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1546403072-d1881511179d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYXJkaWZmJTIwQ2FzdGxlJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2MDkxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.cardiffcastle.com/",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "half-day", "rainy-day"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "224",
+    name: "Brecon Beacons National Park",
+    slug: "brecon-beacons-national-park",
+    description: "Spanning 520 square miles of stunning countryside with pastoral landscapes. Activities include hiking, mountain biking, horseback riding, and cave exploring in Central and South Wales.",
+    category: "outdoor",
+    city: "wales",
+    address: "Central/South Wales",
+    imageUrl: "https://images.unsplash.com/photo-1653933146904-bb8be2ab4865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCcmVjb24lMjBCZWFjb25zJTIwTmF0aW9uYWwlMjBQYXJrJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2MDk4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.beacons-npa.gov.uk/",
+    priceRange: "$$",
+    tags: ["full-day", "dog-friendly"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "225",
+    name: "Portmeirion",
+    slug: "portmeirion",
+    description: "Colorful fantasy village created by Clough Williams-Ellis in 1926. Notable guests include George Harrison and Frank Lloyd Wright. Day passes or overnight stays available.",
+    category: "attractions",
+    city: "wales",
+    address: "Near Snowdonia National Park, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1648672966308-9594563fa316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQb3J0bWVpcmlvbiUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjEwNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://portmeirion.wales/",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "half-day"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "226",
+    name: "Skirrid Mountain Inn",
+    slug: "skirrid-mountain-inn",
+    description: "Nearly 1,000 years old, this is the oldest pub in Wales. Reportedly haunted with historic atmosphere and traditional Welsh hospitality.",
+    category: "food-drink",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1486022329722-6ba896d5f70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTa2lycmlkJTIwTW91bnRhaW4lMjBJbm4lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxMTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["half-day"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "227",
+    name: "Llanfairfechan Seaside Houses",
+    slug: "llanfairfechan-seaside-houses",
+    description: "Colorful seaside homes including the famous Instagram-worthy yellow house. Charming coastal area perfect for photos and seaside strolls.",
+    category: "attractions",
+    city: "wales",
+    address: "Llanfairfechan, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1717704573796-f18a8e679c2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMbGFuZmFpcmZlY2hhbiUyMFNlYXNpZGUlMjBIb3VzZXMlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxMjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["kid-friendly", "quick-stop", "free"],
+    recommendedBy: [
+      {
+        source: "theroadlestraveled",
+        articleTitle: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        articleUrl: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+      },
+    ],
+  },
+  {
+    id: "228",
+    name: "Beaumaris Castle",
+    slug: "beaumaris-castle",
+    description: "Historic medieval castle with stunning architecture and heritage significance. One of Wales' many soulful castles that inspired poets and artists.",
+    category: "attractions",
+    city: "wales",
+    address: "Beaumaris, Isle of Anglesey, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1618224897352-d2ed949c860f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCZWF1bWFyaXMlMjBDYXN0bGUlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxMjkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "229",
+    name: "Worm's Head",
+    slug: "worms-head",
+    description: "Dramatic coastal landmark on the Gower Peninsula featuring natural rock formations and scenic vistas. Spectacular coastal views of South Wales.",
+    category: "outdoor",
+    city: "wales",
+    address: "Gower Peninsula, South Wales",
+    imageUrl: "https://images.unsplash.com/photo-1740822556631-a7ae8aa42183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXb3JtJTI3cyUyMEhlYWQlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["half-day", "free"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "230",
+    name: "Wales Coast Path",
+    slug: "wales-coast-path",
+    description: "Extensive coastal walking route providing accessibility to the entire Welsh coastline. Perfect for hikers and nature lovers seeking dramatic coastal scenery.",
+    category: "outdoor",
+    city: "wales",
+    address: "Welsh Coastline",
+    imageUrl: "https://images.unsplash.com/photo-1676550761659-9e6d4c0a8989?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXYWxlcyUyMENvYXN0JTIwUGF0aCUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjE0NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["full-day", "free", "dog-friendly"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "231",
+    name: "Halen Môn Sea Salt Factory",
+    slug: "halen-mon-sea-salt-factory",
+    description: "World-famous Halen Môn sea salt production facility offering guided factory tours with product demonstrations. Learn about traditional Welsh sea salt harvesting.",
+    category: "attractions",
+    city: "wales",
+    address: "Isle of Anglesey, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1732528786316-4283bf316b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIYWxlbiUyME0lQzMlQjRuJTIwU2VhJTIwU2FsdCUyMEZhY3RvcnklMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxNTE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://halenmon.com/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "rainy-day", "quick-stop"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "232",
+    name: "Penrhyn Slate Quarry Zip Line",
+    slug: "penrhyn-slate-quarry-zip-line",
+    description: "Industrial heritage site transformed into adventure sports venue. Experience thrilling zip-wire experiences in a historic slate quarry setting in North Wales.",
+    category: "entertainment",
+    city: "wales",
+    address: "Penrhyn Slate Quarry, North Wales",
+    imageUrl: "https://images.unsplash.com/photo-1631860568773-2b89a22da399?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQZW5yaHluJTIwU2xhdGUlMjBRdWFycnklMjBaaXAlMjBMaW5lJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2MTU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$$",
+    tags: ["full-day"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "233",
+    name: "Hafren Forest",
+    slug: "hafren-forest",
+    description: "Walking trails of Hafren Forest with nearby attractions focused on health and wellness. Beautiful forest setting in Powys with diverse walking routes.",
+    category: "outdoor",
+    city: "wales",
+    address: "Llanidloes, Powys, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1763584201952-18449f883a89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIYWZyZW4lMjBGb3Jlc3QlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxNjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["half-day", "free", "dog-friendly"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "234",
+    name: "Welsh Caves Exploration",
+    slug: "welsh-caves-exploration",
+    description: "Unique subterranean adventure exploring underground caves across Wales. Guided tours available for safe cave exploration experiences.",
+    category: "outdoor",
+    city: "wales",
+    address: "Multiple sites across Wales",
+    imageUrl: "https://images.unsplash.com/photo-1639406076176-7b1335516170?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXZWxzaCUyMENhdmVzJTIwRXhwbG9yYXRpb24lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxNzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "235",
+    name: "Coasteering Adventures",
+    slug: "coasteering-adventures-wales",
+    description: "Thrilling adventure sport combining climbing, swimming, and exploration along the Welsh coast. Jump off rocks into the sea with professional guides for an unforgettable experience.",
+    category: "outdoor",
+    city: "wales",
+    address: "Coastal Wales",
+    imageUrl: "https://images.unsplash.com/photo-1648145645786-98bcba555149?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDb2FzdGVlcmluZyUyMEFkdmVudHVyZXMlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYxODE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$$",
+    tags: ["full-day"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "236",
+    name: "Welsh Narrow Gauge Railways",
+    slug: "welsh-narrow-gauge-railways",
+    description: "Famous narrow gauge and miniature gauge heritage railways across Wales. Historic railway experiences offering scenic journeys through Welsh countryside.",
+    category: "attractions",
+    city: "wales",
+    address: "Multiple locations across Wales",
+    imageUrl: "https://images.unsplash.com/photo-1615561348104-6b4d722273ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXZWxzaCUyME5hcnJvdyUyMEdhdWdlJTIwUmFpbHdheXMlMjB3YWxlc3xlbnwwfDB8fHwxNzY4MDEzNjg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "half-day"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "Things to Do in Wales",
+        articleUrl: "https://www.visitwales.com/things-do",
+      },
+    ],
+  },
+  {
+    id: "237",
+    name: "National White Water Centre",
+    slug: "national-white-water-centre",
+    description: "The UK's original white water rafting venue with almost 40 years of experience in Snowdonia National Park. Dam-controlled River Tryweryn features world-class grade 3-4 rapids with year-round consistent water flow. Activities include ultimate rafting, kayaking, canyoning adventure, and gorge walking. Facilities include riverside café, hot showers, and accessibility accommodations.",
+    category: "outdoor",
+    city: "wales",
+    address: "Frongoch, Bala, Gwynedd, LL23 7NU, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1623292867420-65f47ca27398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyMFdoaXRlJTIwV2F0ZXIlMjBDZW50cmUlMjB3YWxlc3xlbnwwfDB8fHwxNzY4MDIxMjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.nationalwhitewatercentre.co.uk/",
+    priceRange: "$$$",
+    tags: ["full-day", "dog-friendly"],
+    recommendedBy: [
+      {
+        source: "visitwales",
+        articleTitle: "National White Water Centre Canolfan Tryweryn",
+        articleUrl: "https://www.visitwales.com/activity/activity/national-white-water-centre-canolfan-tryweryn-551161",
+      },
+    ],
+  },
+  {
+    id: "238",
+    name: "Bodnant Garden",
+    slug: "bodnant-garden",
+    description: "One of Britain's best gardens, a world-class National Trust property with 80 acres of formal gardens, woodland, meadows, and botanical collections from around the globe. Set against a craggy mountain backdrop just inland from Conwy, featuring stunning seasonal displays and historic garden architecture.",
+    category: "outdoor",
+    city: "wales",
+    address: "Tal-y-Cafn, Colwyn Bay, Conwy, LL28 5RE, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1622403808919-b422113f535c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCb2RuYW50JTIwR2FyZGVuJTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxNDEzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.nationaltrust.org.uk/visit/wales/bodnant-garden",
+    priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "wheelchair-accessible", "half-day", "dog-friendly"],
+  },
+  {
+    id: "239",
+    name: "Conwy Town",
+    slug: "conwy-town",
+    description: "Strollable coastal town surrounded by the best medieval walls in Britain. Home to Wales' oldest house and Britain's smallest house, crowned by Wales' best castle. One of the most purely delightful British towns of its size, perfect for exploring medieval history and charming streets.",
+    category: "attractions",
+    city: "wales",
+    address: "Conwy, North Wales",
+    imageUrl: "https://images.unsplash.com/photo-1566733144086-fdd649fdaf22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDb253eSUyMFRvd24lMjB3YWxlc3xlbnwwfDB8fHwxNzY4MDE0MjI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.visitconwy.org.uk/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "half-day", "full-day"],
+  },
+  {
+    id: "240",
+    name: "Isle of Anglesey",
+    slug: "isle-of-anglesey",
+    description: "Described as 'a mini Wales in Wales', the Isle of Anglesey (Ynys Môn) is a small island with a big, boundless personality. A place of unparalleled beauty offering amazing adventures across 125 miles of varied and spectacular coastline. Features historic castles, beautiful beaches, coastal paths, charming villages, and world-class attractions. Explore over 50 different trails and tours throughout the island, from ancient burial chambers to modern adventure sports.",
+    category: "outdoor",
+    city: "wales",
+    address: "Isle of Anglesey, North Wales",
+    imageUrl: "https://images.unsplash.com/photo-1650658357423-cd6a58b86c40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxJc2xlJTIwb2YlMjBBbmdsZXNleSUyMHdhbGVzfGVufDB8MHx8fDE3NjgwMTQzMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.visitanglesey.co.uk/",
+    priceRange: "$$",
+    tags: ["full-day", "kid-friendly", "dog-friendly"],
+  },
+  {
+    id: "241",
+    name: "Pontcysyllte Aqueduct and Canal",
+    slug: "pontcysyllte-aqueduct-and-canal",
+    description: "A UNESCO World Heritage Site and masterpiece of creative genius from the Industrial Revolution. This spectacular 11-mile stretch features innovative engineering including the iconic Pontcysyllte Aqueduct, which towers 126 feet above the River Dee. The site showcases aqueducts, tunnels, viaducts, and embankments harmoniously integrated with the natural scenery of the Dee Valley. Visitors can enjoy boat trips across the aqueduct, walk along the towpath, or explore the 31 additional listed structures. Also features Chirk Aqueduct, Horseshoe Falls, and Cefn Viaduct in an Area of Outstanding Natural Beauty.",
+    category: "outdoor",
+    city: "wales",
+    address: "Trevor Basin, Off Station Road, Trevor, Wrexham LL20 7TY, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1715284445994-e71928594533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQb250Y3lzeWxsdGUlMjBBcXVlZHVjdCUyMGFuZCUyMENhbmFsJTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxNDQwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.pontcysyllte-aqueduct.co.uk/",
+    priceRange: "$",
+    tags: ["full-day", "kid-friendly"],
+  },
+  {
+    id: "242",
+    name: "Tenby",
+    slug: "tenby",
+    description: "A premier Welsh seaside town in Pembrokeshire that was awarded bronze for best UK coastal resort at the British Travel Awards. Famous for its 2.5 miles of Blue Flag beaches, including the Sunday Times' best beach in the UK (Castle Beach). The town features iconic pastel-colored houses lining the harbour, 13th-century medieval town walls with the Five Arches barbican gatehouse, and the 15th-century St. Mary's Church. Visit the Tudor Merchant's House, Wales' oldest independent museum, or take a boat to the offshore monastic Caldey Island. Walk the Pembrokeshire Coast Path for spectacular views. Four distinct beaches: North Beach with rock pools, South Beach's two kilometers of golden sand, sheltered Harbour Beach perfect for families, and the award-winning Castle Beach.",
+    category: "outdoor",
+    city: "wales",
+    address: "Tenby, Pembrokeshire, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1523906947658-bb93228a9c82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUZW5ieSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjM2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.visitwales.com/destinations/west-wales/pembrokeshire/things-do-tenby",
+    priceRange: "$$",
+    tags: ["full-day", "kid-friendly", "stroller-friendly"],
+  },
+  {
+    id: "243",
+    name: "Gower Peninsula and Rhossili Bay",
+    slug: "gower-peninsula-rhossili-bay",
+    description: "The Gower Peninsula features Rhossili Bay, voted Wales' best beach and described by The Independent as 'the supermodel of British beaches'. This three-mile sweep of golden sand is backed by the peninsula's highest point, Rhossili Downs (193 meters), and dramatic coastal cliffs. The beach features the spectacular Worm's Head, a sea-serpent shaped island at the westerly tip, accessible via rocky causeway at low tide. Discover the Helvetia shipwreck from 1887 visible on the beach, explore prehistoric remains on Rhossili Down, or enjoy surfing at Gower's most consistent surf spot. Perfect for coastal walks, water sports, wildlife watching, kite flying, and family beach days. Dogs allowed year-round.",
+    category: "outdoor",
+    city: "wales",
+    address: "Rhossili, Gower Peninsula, Swansea, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1698069873529-3f4f80a13396?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHb3dlciUyMFBlbmluc3VsYSUyMGFuZCUyMFJob3NzaWxpJTIwQmF5JTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2Mzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.visitwales.com/destinations/west-wales/swansea-bay/exploring-gower-peninsula",
+    priceRange: "$",
+    tags: ["full-day", "kid-friendly", "dog-friendly"],
+  },
+  {
+    id: "244",
+    name: "Principality Stadium",
+    slug: "principality-stadium",
+    description: "The beating heart of Welsh rugby and one of Cardiff's most iconic landmarks. This impressive 70,000-seater stadium is home to Welsh rugby and major sporting events. Fans gather here to cheer, chant, and witness some of the most passionate sporting atmospheres in the UK. The stadium also hosts concerts and major events throughout the year. Located in the heart of Cardiff city centre, it's an architectural marvel with a retractable roof.",
+    category: "sports",
+    city: "wales",
+    address: "Westgate Street, Cardiff CF10 1NS, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1707778241436-418ee57e5b96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQcmluY2lwYWxpdHklMjBTdGFkaXVtJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.principalitystadium.wales/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "245",
+    name: "National Museum Cardiff",
+    slug: "national-museum-cardiff",
+    description: "An impressive museum offering world-class collections of art and natural history exhibits. The perfect place to explore Welsh culture, history, and art while avoiding the rain. Features extensive galleries showcasing everything from dinosaur skeletons to impressionist paintings. Free admission makes it accessible to all visitors.",
+    category: "arts-culture",
+    city: "wales",
+    address: "Cathays Park, Cardiff CF10 3NP, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1575822955589-d7054f995bab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxOYXRpb25hbCUyME11c2V1bSUyMENhcmRpZmYlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTYzOTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://museum.wales/cardiff/",
+    priceRange: "$",
+    tags: ["free", "rainy-day", "kid-friendly", "half-day"],
+  },
+  {
+    id: "246",
+    name: "Menai Suspension Bridge",
+    slug: "menai-suspension-bridge",
+    description: "A historic engineering marvel built by Thomas Telford in 1826, the world's first iron suspension bridge. This iconic bridge connects mainland Wales to the Isle of Anglesey across the Menai Strait. The attention to detail in the stonework, primarily built using local limestone, makes it a masterpiece of 19th-century engineering. Walk or drive across to admire the views and appreciate this UNESCO World Heritage site.",
+    category: "attractions",
+    city: "wales",
+    address: "Menai Bridge, Anglesey, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1712226400798-69808f768099?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNZW5haSUyMFN1c3BlbnNpb24lMjBCcmlkZ2UlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY0MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "quick-stop"],
+  },
+  {
+    id: "247",
+    name: "The Copper Kingdom Centre",
+    slug: "copper-kingdom-centre",
+    description: "Explore the site of what was once the world's biggest copper mine in Amlwch. The Copper Kingdom Centre tells the fascinating story of Parys Mountain's copper mining heritage and its global significance during the Industrial Revolution. Visitors can learn about the mining techniques and see the unique landscape shaped by centuries of copper extraction. Stick to marked paths when exploring the old mines.",
+    category: "arts-culture",
+    city: "wales",
+    address: "Amlwch, Anglesey, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1594722085233-88427605f348?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxUaGUlMjBDb3BwZXIlMjBLaW5nZG9tJTIwQ2VudHJlJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2NDA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.visitanglesey.co.uk/",
+    priceRange: "$",
+    tags: ["half-day", "kid-friendly"],
+  },
+  {
+    id: "248",
+    name: "South Stack Lighthouse",
+    slug: "south-stack-lighthouse",
+    description: "A dramatic lighthouse standing on a rocky, windy island off the coast of Holyhead. To reach the lighthouse, you'll need to descend 400 steps and cross a slightly thrilling bridge - don't look down unless you enjoy the adrenaline rush. The lighthouse offers breathtaking views of the cliffs and seabirds, including puffins and guillemots. The RSPB Ellin's Tower visitor centre provides information about the local wildlife.",
+    category: "outdoor",
+    city: "wales",
+    address: "Holyhead, Anglesey LL65 1YH, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1717704573796-1af6155548d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMFN0YWNrJTIwTGlnaHRob3VzZSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjQxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.southstacklighthouse.co.uk/",
+    priceRange: "$$",
+    tags: ["half-day", "kid-friendly"],
+  },
+  {
+    id: "249",
+    name: "Dylan Thomas Centre",
+    slug: "dylan-thomas-centre",
+    description: "A museum and cultural center dedicated to Wales' most famous poet, Dylan Thomas, who described Swansea as an 'ugly, lovely town'. The centre serves as both a museum celebrating his life and work, and an educational resource. It hosts the annual Dylan Thomas Festival, attracting literary enthusiasts from around the world. Explore exhibitions about his poetry, life, and legacy.",
+    category: "arts-culture",
+    city: "wales",
+    address: "Somerset Place, Swansea SA1 1RR, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1735417762638-5230a7cfe28a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxEeWxhbiUyMFRob21hcyUyMENlbnRyZSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjQyMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.dylanthomascentre.com/",
+    priceRange: "$",
+    tags: ["rainy-day", "half-day"],
+  },
+  {
+    id: "250",
+    name: "Powis Castle and Garden",
+    slug: "powis-castle-garden",
+    description: "A fortress-turned-stately-home near Welshpool that has stayed relevant for over 800 years. Originally built in the 13th century for the Princes of Powys, it evolved into a luxurious residence filled with art and artifacts. The Italianate gardens are among the finest in Wales, maintained to look wild but in a very organized way. The castle houses a collection of treasures including exotic artifacts from India acquired during British colonial rule.",
+    category: "arts-culture",
+    city: "wales",
+    address: "Welshpool, Powys SY21 8RF, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1615891958102-b6d2088ba57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQb3dpcyUyMENhc3RsZSUyMGFuZCUyMEdhcmRlbiUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjQzMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.nationaltrust.org.uk/visit/wales/powis-castle-and-garden",
+    priceRange: "$$",
+    tags: ["full-day", "kid-friendly"],
+  },
+  {
+    id: "251",
+    name: "Llandudno",
+    slug: "llandudno",
+    description: "The Queen of Welsh Resorts, a charming Victorian seaside town sitting between the Great Orme and Little Orme headlands. This model Victorian town features grand hotels, wide promenades, and strict planning rules that preserve its 19th-century character. Enjoy two beaches: the North Shore with its famous Victorian promenade for tourists, and the quieter West Shore for peace seekers. The town remains one of the best-preserved Victorian resorts in the UK.",
+    category: "outdoor",
+    city: "wales",
+    address: "Llandudno, Conwy, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1648672967189-1ead89a74bc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxMbGFuZHVkbm8lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY0Mzc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.visitllandudno.org.uk/",
+    priceRange: "$$",
+    tags: ["full-day", "kid-friendly", "stroller-friendly"],
+  },
+  {
+    id: "252",
+    name: "Great Orme",
+    slug: "great-orme",
+    description: "A dramatic headland rising above Llandudno with hiking trails, ancient copper mines, and an army of wild Kashmiri goats. Reach the summit via the vintage Great Orme Tramway built in 1902, or hike the trails for spectacular coastal views. The Great Orme features Bronze Age copper mines, the longest cable car system in Britain, and diverse wildlife including rare butterflies and seabirds.",
+    category: "outdoor",
+    city: "wales",
+    address: "Great Orme, Llandudno, Conwy, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1737682837339-22d297a3f64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHcmVhdCUyME9ybWUlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY0NDU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.greatormetramway.co.uk/",
+    priceRange: "$",
+    tags: ["half-day", "kid-friendly"],
+  },
+  {
+    id: "253",
+    name: "Pen y Fan",
+    slug: "pen-y-fan",
+    description: "The highest peak in South Wales at 886 meters, located in the Brecon Beacons National Park. This iconic mountain attracts hikers from around the world, with primary trails beginning at the Storey Arms Outdoor Centre. Though manageable, the trails test visitors with steep sections and variable weather. Reaching the summit rewards you with panoramic views across the Brecon Beacons and beyond. The mountain is also a symbol of Welsh natural beauty and conservation.",
+    category: "outdoor",
+    city: "wales",
+    address: "Brecon Beacons, Powys, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1667735472983-28a50ea3d2f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQZW4lMjB5JTIwRmFuJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2NDUzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "full-day"],
+  },
+  {
+    id: "254",
+    name: "Waterfall Country - Four Falls Trail",
+    slug: "waterfall-country-four-falls",
+    description: "A woodland area in the southwestern Brecon Beacons crisscrossed by rivers creating an impressive series of waterfalls. The Four Falls Trail is roughly a 5-mile loop that takes you past four spectacular waterfalls in this Area of Outstanding Natural Beauty. The trail is moderately difficult due to slippery rocks and muddy paths, but the stunning cascades make it worthwhile. Perfect for nature lovers and photographers.",
+    category: "outdoor",
+    city: "wales",
+    address: "Ystradfellte, Brecon Beacons, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1627735410064-b8ffd0adb155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXYXRlcmZhbGwlMjBDb3VudHJ5JTIwLSUyMEZvdXIlMjBGYWxscyUyMFRyYWlsJTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2NDYwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "half-day", "dog-friendly"],
+  },
+  {
+    id: "255",
+    name: "Brecon Mountain Railway",
+    slug: "brecon-mountain-railway",
+    description: "A scenic narrow-gauge steam railway offering stunning views through the Brecon Beacons National Park. Perfect for families, photography enthusiasts, and anyone looking to enjoy mountain views without climbing. The heritage railway runs through beautiful Welsh countryside, providing a relaxing way to experience the park's natural beauty. An excellent alternative for those less keen on vigorous hiking.",
+    category: "attractions",
+    city: "wales",
+    address: "Pant Station, Merthyr Tydfil CF48 2UP, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1737682837339-22d297a3f64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCcmVjb24lMjBNb3VudGFpbiUyMFJhaWx3YXklMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY0NjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.breconmountainrailway.co.uk/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "half-day"],
+  },
+  {
+    id: "256",
+    name: "Skomer Island",
+    slug: "skomer-island",
+    description: "A protected wildlife reserve off the Pembrokeshire coast, famous for its puffin colonies, grey seals, and diverse seabird populations. The island is a key site for ecotourism and nature conservation. Access is limited to boat transport, and visitor numbers are controlled to protect the fragile ecosystem. Best visited during puffin season (April to July) when these charismatic birds return to breed.",
+    category: "outdoor",
+    city: "wales",
+    address: "Pembrokeshire Coast, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1752833545447-330722fdcf06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTa29tZXIlMjBJc2xhbmQlMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY0NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.welshwildlife.org/skomer-and-skokholm/",
+    priceRange: "$$",
+    tags: ["full-day"],
+  },
+  {
+    id: "257",
+    name: "Pembroke Castle",
+    slug: "pembroke-castle",
+    description: "A strategically vital medieval fortress with deep roots in Welsh and English history. Originally built in 1093 by Roger of Montgomery, the castle passed through numerous noble families including the Marshal and Herbert families. Its most famous resident was Henry VII, who was born within these walls. The castle played a crucial role throughout the Wars of the Roses and the Tudor reign. Explore its towers, walls, and underground passages.",
+    category: "attractions",
+    city: "wales",
+    address: "Pembroke SA71 4LA, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1695838779521-863692b37133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQZW1icm9rZSUyMENhc3RsZSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjQ4MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.pembroke-castle.co.uk/",
+    priceRange: "$$",
+    tags: ["half-day", "kid-friendly"],
+  },
+  {
+    id: "258",
+    name: "Smallest House in Great Britain",
+    slug: "smallest-house-great-britain",
+    description: "One of Conwy's most famous attractions, measuring just 6 feet wide and 10 feet tall. A fisherman supposedly lived here, proving that minimalism isn't a new trend. Tourists queue to take selfies inside this tiny red house on the quay, though anyone over 5 feet tall should avoid sudden movements. Remarkably, it still offers more space than some London flats. A quirky and uniquely British attraction.",
+    category: "attractions",
+    city: "wales",
+    address: "The Quay, Conwy LL32 8BB, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1727788658193-85989220c15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxTbWFsbGVzdCUyMEhvdXNlJTIwaW4lMjBHcmVhdCUyMEJyaXRhaW4lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY0OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["quick-stop", "kid-friendly"],
+  },
+  {
+    id: "259",
+    name: "Zip World Llechwedd",
+    slug: "zip-world-llechwedd",
+    description: "An extraordinary adventure destination in North Wales within a UNESCO World Heritage Site, featuring weather-proof experiences in the historic slate caverns of Blaenau Ffestiniog. Experience seven unique adventures including Bounce Below (bouncing in a cave twice the size of St Paul's Cathedral), Titan (a 50mph zip line across slate caverns), underground adventure golf, the Deep Mine Tour exploring quarry history, and the Llechwedd Quarry Tour. The site combines thrilling activities with rich industrial heritage in a spectacular underground setting. Year-round operation thanks to weather-proof underground activities.",
+    category: "entertainment",
+    city: "wales",
+    address: "Blaenau Ffestiniog, Gwynedd LL41 3NB, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1722660197231-f8f19684e717?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxaaXAlMjBXb3JsZCUyMExsZWNod2VkZCUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjQ5ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.zipworld.co.uk/locations/llechwedd",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "rainy-day", "full-day"],
+  },
+  {
+    id: "260",
+    name: "Black Mountains",
+    slug: "black-mountains",
+    description: "A stunning mountain range in the eastern Brecon Beacons, offering exceptional hiking and breathtaking scenery. The Black Mountains are less crowded than other parts of the Brecon Beacons, making them perfect for those seeking peaceful trails and unspoiled Welsh wilderness. The area features distinctive ridges, hidden valleys, and panoramic views across South Wales and the English border. Popular trails include the ridge walk from Hay Bluff to Pen y Gadair Fawr.",
+    category: "outdoor",
+    city: "wales",
+    address: "Black Mountains, Brecon Beacons, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1700665407638-bfc9b68e2d99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxCbGFjayUyME1vdW50YWlucyUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjUwNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "full-day", "dog-friendly"],
+  },
+  {
+    id: "261",
+    name: "Abergavenny",
+    slug: "abergavenny",
+    description: "A charming market town known as the 'Gateway to Wales', nestled at the edge of the Black Mountains and Brecon Beacons. Abergavenny offers a perfect blend of outdoor adventure and market town charm, with excellent restaurants, independent shops, and a famous food festival. The town serves as an ideal base for exploring the surrounding mountains and countryside, with easy access from London via Great Western Railway.",
+    category: "outdoor",
+    city: "wales",
+    address: "Abergavenny, Monmouthshire, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1464858597059-e1ba14409edc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBYmVyZ2F2ZW5ueSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjUxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.visitabergavenny.co.uk/",
+    priceRange: "$$",
+    tags: ["full-day", "kid-friendly", "dog-friendly"],
+  },
+  {
+    id: "262",
+    name: "Penmaen Beach",
+    slug: "penmaen-beach",
+    description: "A beautiful and relatively quiet beach on the Gower Peninsula, accessible via a scenic walk through sand dunes. Penmaen offers golden sands, rock pools perfect for exploring, and stunning coastal views. The beach is less crowded than some of Gower's more famous beaches, making it ideal for families seeking a peaceful day by the sea. Accessible by bus from Swansea.",
+    category: "outdoor",
+    city: "wales",
+    address: "Penmaen, Gower Peninsula, Swansea, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1658406602187-35db3f457045?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQZW5tYWVuJTIwQmVhY2glMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY1MjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "full-day", "kid-friendly", "dog-friendly"],
+  },
+  {
+    id: "263",
+    name: "Aberfan Memorial Garden",
+    slug: "aberfan-memorial-garden",
+    description: "A poignant memorial honoring the 144 victims, including 116 children, of the tragic Aberfan disaster of October 21, 1966, when a colliery spoil tip collapsed onto the village. The memorial garden provides a peaceful place for reflection and remembrance. The disaster was prominently featured in Netflix's 'The Crown'. Located north of Cardiff and accessible from the railway station.",
+    category: "arts-culture",
+    city: "wales",
+    address: "Aberfan, Merthyr Tydfil, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1730212161898-8a58f3d27390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxBYmVyZmFuJTIwTWVtb3JpYWwlMjBHYXJkZW4lMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY1Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "quick-stop"],
+  },
+  {
+    id: "264",
+    name: "Caswell Bay",
+    slug: "caswell-bay",
+    description: "A family-friendly sandy beach on the Gower Peninsula, perfect for swimming, surfing, and building sandcastles. Caswell Bay features soft golden sands, a gently sloping beach ideal for young children, and facilities including cafes, toilets, and lifeguard services in summer. The beach has been awarded Blue Flag status for its cleanliness and water quality. Popular with families for picnics and beach days.",
+    category: "outdoor",
+    city: "wales",
+    address: "Caswell Bay, Gower Peninsula, Swansea SA3 4RU, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1721205224584-867f4565c0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYXN3ZWxsJTIwQmF5JTIwd2FsZXN8ZW58MHwwfHx8MTc2Nzk2NTM2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "full-day", "kid-friendly", "stroller-friendly"],
+  },
+  {
+    id: "265",
+    name: "Rhos-on-Sea",
+    slug: "rhos-on-sea",
+    description: "A classic Welsh seaside town offering traditional seaside fun including crabbing from the pier, beach walks, and fish and chips. Rhos-on-Sea features a pleasant promenade, sandy beach at low tide, and the famous Chapel Street with its colorful houses. Perfect for families with young children who enjoy simple seaside activities like crabbing with buckets and lines. Located near Colwyn Bay on the North Wales coast.",
+    category: "outdoor",
+    city: "wales",
+    address: "Rhos-on-Sea, Conwy LL28, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1721205224584-867f4565c0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxSaG9zLW9uLVNlYSUyMHdhbGVzfGVufDB8MHx8fDE3Njc5NjU0Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "half-day", "kid-friendly"],
+  },
+  {
+    id: "266",
+    name: "Conwy Quay",
+    slug: "conwy-quay",
+    description: "A picturesque harbor area in the heart of historic Conwy, perfect for traditional seaside activities like crabbing, watching boats, and enjoying fresh seafood. The quay offers charming views of boats bobbing on the water, with the magnificent Conwy Castle as a backdrop. Bring crabbing lines and buckets for classic seaside fun that children love. The harbor area features cafes, fish and chip shops, and the famous Smallest House in Great Britain.",
+    category: "outdoor",
+    city: "wales",
+    address: "Conwy Quay, Conwy LL32, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1562141981-decdd07a360e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDb253eSUyMFF1YXklMjB3YWxlc3xlbnwwfDB8fHwxNzY3OTY1NTEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["free", "half-day", "kid-friendly"],
+  },
+  {
+    id: "267",
+    name: "Caerphilly Castle",
+    slug: "caerphilly-castle",
+    description: "The largest castle in Wales and second-largest in Britain, featuring extensive water defenses with lakes and moats surrounding its concentric walls. This medieval fortress is famous for its leaning tower, which tilts at a greater angle than the Tower of Pisa. Caerphilly Castle is one of the greatest medieval fortresses in Western Europe, showcasing impressive defensive architecture. Explore the towers, battlements, and medieval great hall.",
+    category: "attractions",
+    city: "wales",
+    address: "Castle Street, Caerphilly CF83 1JD, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1639406077769-45682fda1676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDYWVycGhpbGx5JTIwQ2FzdGxlJTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxNDQ5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://cadw.gov.wales/visit/places-to-visit/caerphilly-castle",
+    priceRange: "$$",
+    tags: ["half-day", "kid-friendly", "dog-friendly"],
+  },
+  {
+    id: "268",
+    name: "Chepstow Castle",
+    slug: "chepstow-castle",
+    description: "One of the oldest surviving post-Roman stone fortifications in Britain, built in 1067. Perched dramatically on cliffs above the River Wye, this Norman stronghold controlled the Welsh-English border for centuries. The castle witnessed centuries of conflict and played a significant role in the English Civil War. As the first stone castle built in Britain after the Norman Conquest, it represents a crucial piece of Welsh and British history.",
+    category: "attractions",
+    city: "wales",
+    address: "Bridge Street, Chepstow, Monmouthshire NP16 5EY, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1560536246-7759ea902771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxDaGVwc3RvdyUyMENhc3RsZSUyMHdhbGVzfGVufDB8MHx8fDE3NjgwMTQ1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://cadw.gov.wales/visit/places-to-visit/chepstow-castle",
+    priceRange: "$$",
+    tags: ["half-day", "kid-friendly", "dog-friendly"],
+  },
+  {
+    id: "269",
+    name: "Harlech Castle",
+    slug: "harlech-castle",
+    description: "A stunning 13th-century fortress sitting dramatically atop a rocky crag with breathtaking views over Cardigan Bay and Snowdonia. Built by Edward I as part of his 'iron ring' of castles, Harlech's concentric design and strategic position made it nearly impregnable. Part of the UNESCO World Heritage Site 'Castles and Town Walls of King Edward in Gwynedd', this architectural masterpiece represents medieval military engineering at its finest.",
+    category: "attractions",
+    city: "wales",
+    address: "Castle Square, Harlech, Gwynedd LL46 2YH, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1713817130291-8f5db36b407a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIYXJsZWNoJTIwQ2FzdGxlJTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxNDY4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://cadw.gov.wales/visit/places-to-visit/harlech-castle",
+    priceRange: "$$",
+    tags: ["half-day", "kid-friendly", "dog-friendly"],
+  },
+  {
+    id: "270",
+    name: "GreenWood Family Park",
+    slug: "greenwood-family-park",
+    description: "Wales' award-winning, eco-friendly adventure park featuring human-powered rides and attractions set in beautiful woodland near Caernarfon. Activities include the Green Dragon roller coaster, giant slides, treetop towers, archery, barefoot trail, and a solar-powered boat ride. This sustainable theme park offers jungle boat adventures, pedal go-karts, and outdoor play perfect for families seeking an environmentally-conscious day out.",
+    category: "entertainment",
+    city: "wales",
+    address: "Y Felinheli, Gwynedd LL56 4QN, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1752516428467-24a8b5790f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxHcmVlbldvb2QlMjBGYW1pbHklMjBQYXJrJTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxNDc3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.greenwoodforestpark.co.uk/",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "full-day"],
+  },
+  {
+    id: "271",
+    name: "Heatherton World of Activities",
+    slug: "heatherton-world-activities",
+    description: "An adventure activity center near Tenby offering over 20 different activities suitable for all ages. Set in beautiful Pembrokeshire countryside, it provides a full day of outdoor entertainment including go-karting, mini golf, archery, laser combat, paintball, bumper boats, pitch and putt, horse riding, and extensive play areas. Perfect for families looking for action-packed outdoor fun.",
+    category: "entertainment",
+    city: "wales",
+    address: "St Florence, Tenby, Pembrokeshire SA70 8RJ, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1752516428467-24a8b5790f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxIZWF0aGVydG9uJTIwV29ybGQlMjBvZiUyMEFjdGl2aXRpZXMlMjB3YWxlc3xlbnwwfDB8fHwxNzY4MDE0ODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.heathertonpark.co.uk/",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "full-day"],
+  },
+  {
+    id: "272",
+    name: "Pili Palas Nature World",
+    slug: "pili-palas-nature-world",
+    description: "A butterfly house and exotic animal center on Anglesey featuring tropical butterflies flying freely in a heated glasshouse environment. Home to meerkats, snakes, lizards, tropical birds, parrots, stick insects, tarantulas, and farm animals. The attraction includes beautiful gardens and play areas, making it a colorful, calm place for little animal lovers to explore nature up close.",
+    category: "attractions",
+    city: "wales",
+    address: "Menai Bridge, Anglesey LL59 5RP, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1634477383315-7657c384009b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQaWxpJTIwUGFsYXMlMjBOYXR1cmUlMjBXb3JsZCUyMHdhbGVzfGVufDB8MHx8fDE3NjgwMTQ5NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.pilipalas.co.uk/",
+    priceRange: "$$",
+    tags: ["kid-friendly", "rainy-day", "half-day"],
+  },
+  {
+    id: "273",
+    name: "Plantasia",
+    slug: "plantasia-swansea",
+    description: "A tropical hothouse in Swansea featuring three distinct climatic zones housing exotic plants, butterflies, and animals. This pyramid-shaped glasshouse contains over 5,000 plants from around the world including rainforest species, carnivorous plants, and cacti. An indoor tropical paradise perfect for rainy days, offering gentle animal encounters and interactive exhibits in a lush botanical setting.",
+    category: "attractions",
+    city: "wales",
+    address: "Parc Tawe, Swansea SA1 2AL, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1750832444464-7c812670e4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxQbGFudGFzaWElMjB3YWxlc3xlbnwwfDB8fHwxNzY4MDE1MDQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$",
+    tags: ["rainy-day", "kid-friendly", "half-day"],
+  },
+  {
+    id: "274",
+    name: "Wiggleys Fun Farm",
+    slug: "wiggleys-fun-farm",
+    description: "A friendly petting farm perfect for young children, featuring hands-on animal encounters and play areas. Kids can meet and interact with farm animals in a safe, welcoming environment. The farm offers a gentle introduction to agriculture and animal care, with activities designed specifically for little ones.",
+    category: "entertainment",
+    city: "wales",
+    address: "Wales",
+    imageUrl: "https://images.unsplash.com/photo-1715341762948-a3b3fdd9b352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXaWdnbGV5cyUyMEZ1biUyMEZhcm0lMjB3YWxlc3xlbnwwfDB8fHwxNzY4MDE1MTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    priceRange: "$$",
+    tags: ["kid-friendly", "stroller-friendly", "half-day"],
+  },
+  {
+    id: "275",
+    name: "Kidwelly Castle",
+    slug: "kidwelly-castle",
+    description: "A well-preserved Norman castle with impressive semicircular towers and gatehouse, set above the River Gwendraeth. This castle features interactive exhibits, dress-up opportunities, and excellent views from the battlements. Particularly good for kids with castle trails and activities during school holidays. The castle was famously featured in Monty Python films, adding to its appeal for families.",
+    category: "attractions",
+    city: "wales",
+    address: "Castle Street, Kidwelly, Carmarthenshire SA17 5BQ, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1644353766672-297c51276524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxLaWR3ZWxseSUyMENhc3RsZSUyMHdhbGVzfGVufDB8MHx8fDE3NjgwMTUyMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://cadw.gov.wales/visit/places-to-visit/kidwelly-castle",
+    priceRange: "$",
+    tags: ["kid-friendly", "half-day", "dog-friendly"],
+  },
+  {
+    id: "276",
+    name: "Manor Wildlife Park",
+    slug: "manor-wildlife-park",
+    description: "A 52-acre wildlife park near Tenby, home to exotic and endangered animals from around the world. The park focuses on conservation and education while providing close encounters with lemurs, meerkats, wallabies, otters, giraffes, zebras, tapirs, capybaras, birds of prey, and more. Features include a reptile house, tropical house, and farm animals in naturalistic habitats designed to inspire wildlife appreciation.",
+    category: "attractions",
+    city: "wales",
+    address: "St Florence, Tenby, Pembrokeshire SA70 8RJ, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1653490061161-ea2a428fb4c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxNYW5vciUyMFdpbGRsaWZlJTIwUGFya3xlbnwwfDB8fHwxNzY4MDE1MzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.manorwildlifepark.co.uk/",
+    priceRange: "$$$",
+    tags: ["kid-friendly", "full-day"],
+  },
+  {
+    id: "277",
+    name: "Welsh Wildlife Centre",
+    slug: "welsh-wildlife-centre",
+    description: "A nature reserve and visitor center set in the beautiful Teifi Marshes near Cardigan, operated by the Wildlife Trust of South and West Wales. The center offers wildlife watching opportunities for otters, badgers, and birds, along with walking trails through wetlands and woodlands, wildlife hides, pond dipping, children's play area, and educational events. Free entry with small parking charge makes it accessible for all.",
+    category: "outdoor",
+    city: "wales",
+    address: "Cilgerran, Cardigan, Pembrokeshire SA43 2TB, Wales",
+    imageUrl: "https://images.unsplash.com/photo-1602712684367-94f137eb49df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQ2Njd8MHwxfHNlYXJjaHwxfHxXZWxzaCUyMFdpbGRsaWZlJTIwQ2VudHJlJTIwd2FsZXN8ZW58MHwwfHx8MTc2ODAxNTQwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    website: "https://www.welshwildlife.org/",
+    priceRange: "$",
+    tags: ["free", "kid-friendly", "dog-friendly", "half-day"],
   },
 ];
 

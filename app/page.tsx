@@ -7,6 +7,7 @@ import { cities } from "@/data/cities";
 import { ActivityCard } from "@/components/ActivityCard";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { TagFilter } from "@/components/TagFilter";
+import { SearchBar } from "@/components/SearchBar";
 import { ArticlesSection } from "@/components/ArticlesSection";
 import { CreatorsSection } from "@/components/CreatorsSection";
 import { ListSidebar } from "@/components/ListSidebar";
@@ -19,6 +20,7 @@ function HomeContent() {
   const cityParam = searchParams.get("city") as City | null;
   const categoryParam = searchParams.get("category");
   const tagsParam = searchParams.get("tags");
+  const searchParam = searchParams.get("search");
 
   const {
     favorites,
@@ -36,6 +38,7 @@ function HomeContent() {
   const [selectedTags, setSelectedTags] = useState<Tag[]>(
     tagsParam ? (tagsParam.split(",") as Tag[]) : []
   );
+  const [searchQuery, setSearchQuery] = useState(searchParam || "");
   const cityActivities = getActivitiesByCity(selectedCity);
 
   // Update URL when filters change
@@ -48,6 +51,9 @@ function HomeContent() {
     if (selectedTags.length > 0) {
       params.set("tags", selectedTags.join(","));
     }
+    if (searchQuery) {
+      params.set("search", searchQuery);
+    }
 
     const newUrl = `/?${params.toString()}`;
     const currentUrl = `/?${searchParams.toString()}`;
@@ -55,12 +61,13 @@ function HomeContent() {
     if (newUrl !== currentUrl) {
       router.push(newUrl, { scroll: false });
     }
-  }, [selectedCity, selectedCategory, selectedTags, router, searchParams]);
+  }, [selectedCity, selectedCategory, selectedTags, searchQuery, router, searchParams]);
 
   const handleCityChange = (newCity: City) => {
     setSelectedCity(newCity);
     setSelectedCategory("all");
     setSelectedTags([]);
+    setSearchQuery("");
   };
 
   const handleTagToggle = (tag: Tag) => {
@@ -77,7 +84,12 @@ function HomeContent() {
       selectedTags.length === 0 ||
       selectedTags.every((tag) => activity.tags?.includes(tag));
 
-    return categoryMatch && tagMatch;
+    const searchMatch =
+      !searchQuery ||
+      activity.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      activity.description.toLowerCase().includes(searchQuery.toLowerCase());
+
+    return categoryMatch && tagMatch && searchMatch;
   });
 
   const currentCity = cities[selectedCity];
@@ -120,6 +132,12 @@ function HomeContent() {
       </header>
 
       <main className="max-w-6xl mx-auto px-4 py-8">
+        <SearchBar
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
+          resultsCount={filteredActivities.length}
+        />
+
         <div className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Filter by Category</h2>
           <CategoryFilter

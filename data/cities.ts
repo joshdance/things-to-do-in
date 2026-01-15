@@ -1,3 +1,5 @@
+import { Video } from "@/types/activity";
+
 export interface CityArticle {
   title: string;
   url: string;
@@ -17,6 +19,7 @@ export interface CityInfo {
   state: string;
   articles?: CityArticle[];
   creators?: CityCreator[];
+  videos?: Video[];
 }
 
 export const cities: Record<string, CityInfo> = {
@@ -91,6 +94,60 @@ export const cities: Record<string, CityInfo> = {
         url: "https://secretldn.com/",
         description: "Discover hidden gems, unique experiences, and off-the-beaten-path adventures in London.",
         platform: "Website",
+      },
+    ],
+  },
+  "wales": {
+    name: "Wales",
+    state: "Wales",
+    articles: [
+      {
+        title: "Things to Do with Kids in Wales",
+        url: "https://www.vrbo.com/en-gb/holiday-homes/family/destinations/inspiration/things-to-do-with-kids-in-wales",
+        source: "VRBO",
+        description: "Family-friendly guide to activities, attractions, and adventures for kids in Wales, from science centers to underground caverns.",
+      },
+      {
+        title: "Wales Family Holiday",
+        url: "https://www.vrbo.com/en-gb/holiday-homes/family/destinations/inspiration/wales-family-holiday",
+        source: "VRBO",
+        description: "Comprehensive guide to planning the perfect family holiday in Wales, featuring holiday parks, outdoor adventures, and toddler-friendly accommodations.",
+      },
+      {
+        title: "A Welsh Bucket List: What to Do in Wales, United Kingdom",
+        url: "https://theroadlestraveled.com/a-welsh-bucket-list-what-to-do-in-wales-united-kingdom/",
+        source: "The Road Les Traveled",
+        description: "Comprehensive bucket list featuring Wales' most iconic castles, national parks, charming villages, and traditional Welsh experiences.",
+      },
+      {
+        title: "Best Things to Do in Wales – Ultimate Road Trip Itinerary",
+        url: "https://thewildlylife.com/things-to-do-in-wales/",
+        source: "The Wildly Life",
+        description: "Ultimate road trip itinerary covering the best things to do across North and South Wales, featuring coastal scenery and hidden gems.",
+      },
+      {
+        title: "Things to Do in Wales",
+        url: "https://www.visitwales.com/things-do",
+        source: "Visit Wales",
+        description: "Official tourism guide featuring adventure sports, heritage sites, natural attractions, family activities, and cultural experiences across Wales.",
+      },
+      {
+        title: "The Most Beautiful Places to Visit in Wales",
+        url: "https://readysetjetset.net/wales-beautiful-places/",
+        source: "Ready Set Jetset",
+        description: "Photography guide to Wales' most Instagram-worthy locations, featuring coastal towns, scenic photo spots, and picturesque destinations.",
+      },
+    ],
+    videos: [
+      {
+        url: "https://www.youtube.com/watch?v=0sIkFJU0HLo",
+        platform: "youtube",
+        title: "Wales",
+      },
+      {
+        url: "https://www.youtube.com/watch?v=DBmQwQco5H4",
+        platform: "youtube",
+        title: "Wales",
       },
     ],
   },
